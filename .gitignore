@@ -1,7 +1,7 @@
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore
 
 # Logs
-removed-unwanted-words/
+removed-unwanted-words/*
 output.mp4
 outputWantedWordsVideo.mp4
 transcription-unwantedWords.json

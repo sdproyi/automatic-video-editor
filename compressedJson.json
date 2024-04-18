@@ -1,0 +1,4052 @@
+[
+  {
+    "words": "Hello",
+    "id": 34,
+    "keepORdelete": true
+  },
+  {
+    "words": "guys.",
+    "id": 35,
+    "keepORdelete": true
+  },
+  {
+    "words": "I",
+    "id": 46,
+    "keepORdelete": true
+  },
+  {
+    "words": "heard",
+    "id": 47,
+    "keepORdelete": true
+  },
+  {
+    "words": "that",
+    "id": 48,
+    "keepORdelete": true
+  },
+  {
+    "words": "there",
+    "id": 49,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 50,
+    "keepORdelete": true
+  },
+  {
+    "words": "an",
+    "id": 51,
+    "keepORdelete": true
+  },
+  {
+    "words": "AI",
+    "id": 52,
+    "keepORdelete": true
+  },
+  {
+    "words": "tool",
+    "id": 53,
+    "keepORdelete": true
+  },
+  {
+    "words": "called",
+    "id": 54,
+    "keepORdelete": true
+  },
+  {
+    "words": "Devin",
+    "id": 55,
+    "keepORdelete": true
+  },
+  {
+    "words": "which",
+    "id": 56,
+    "keepORdelete": true
+  },
+  {
+    "words": "should",
+    "id": 57,
+    "keepORdelete": true
+  },
+  {
+    "words": "replace",
+    "id": 58,
+    "keepORdelete": true
+  },
+  {
+    "words": "us.",
+    "id": 59,
+    "keepORdelete": true
+  },
+  {
+    "words": "And",
+    "id": 65,
+    "keepORdelete": true
+  },
+  {
+    "words": "yeah,",
+    "id": 66,
+    "keepORdelete": true
+  },
+  {
+    "words": "we",
+    "id": 67,
+    "keepORdelete": true
+  },
+  {
+    "words": "should",
+    "id": 68,
+    "keepORdelete": true
+  },
+  {
+    "words": "trust",
+    "id": 69,
+    "keepORdelete": true
+  },
+  {
+    "words": "everybody",
+    "id": 70,
+    "keepORdelete": true
+  },
+  {
+    "words": "who",
+    "id": 71,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 72,
+    "keepORdelete": true
+  },
+  {
+    "words": "online.",
+    "id": 73,
+    "keepORdelete": true
+  },
+  {
+    "words": "Right?",
+    "id": 74,
+    "keepORdelete": true
+  },
+  {
+    "words": "Now,",
+    "id": 75,
+    "keepORdelete": true
+  },
+  {
+    "words": "if",
+    "id": 76,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 77,
+    "keepORdelete": true
+  },
+  {
+    "words": "have",
+    "id": 78,
+    "keepORdelete": true
+  },
+  {
+    "words": "experience,",
+    "id": 79,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 80,
+    "keepORdelete": true
+  },
+  {
+    "words": "already",
+    "id": 81,
+    "keepORdelete": true
+  },
+  {
+    "words": "know",
+    "id": 82,
+    "keepORdelete": true
+  },
+  {
+    "words": "that",
+    "id": 83,
+    "keepORdelete": true
+  },
+  {
+    "words": "Devin",
+    "id": 84,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 85,
+    "keepORdelete": true
+  },
+  {
+    "words": "not",
+    "id": 86,
+    "keepORdelete": true
+  },
+  {
+    "words": "going",
+    "id": 87,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 88,
+    "keepORdelete": true
+  },
+  {
+    "words": "replace",
+    "id": 89,
+    "keepORdelete": true
+  },
+  {
+    "words": "you.",
+    "id": 90,
+    "keepORdelete": true
+  },
+  {
+    "words": "And",
+    "id": 91,
+    "keepORdelete": true
+  },
+  {
+    "words": "those",
+    "id": 92,
+    "keepORdelete": true
+  },
+  {
+    "words": "who",
+    "id": 93,
+    "keepORdelete": true
+  },
+  {
+    "words": "are",
+    "id": 94,
+    "keepORdelete": true
+  },
+  {
+    "words": "saying",
+    "id": 95,
+    "keepORdelete": true
+  },
+  {
+    "words": "it",
+    "id": 96,
+    "keepORdelete": true
+  },
+  {
+    "words": "will,",
+    "id": 97,
+    "keepORdelete": true
+  },
+  {
+    "words": "those",
+    "id": 98,
+    "keepORdelete": true
+  },
+  {
+    "words": "don't",
+    "id": 99,
+    "keepORdelete": true
+  },
+  {
+    "words": "have",
+    "id": 100,
+    "keepORdelete": true
+  },
+  {
+    "words": "really",
+    "id": 101,
+    "keepORdelete": true
+  },
+  {
+    "words": "much",
+    "id": 102,
+    "keepORdelete": true
+  },
+  {
+    "words": "of",
+    "id": 103,
+    "keepORdelete": true
+  },
+  {
+    "words": "experience",
+    "id": 104,
+    "keepORdelete": true
+  },
+  {
+    "words": "in",
+    "id": 105,
+    "keepORdelete": true
+  },
+  {
+    "words": "programming.",
+    "id": 106,
+    "keepORdelete": true
+  },
+  {
+    "words": "And",
+    "id": 107,
+    "keepORdelete": true
+  },
+  {
+    "words": "that's",
+    "id": 108,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 109,
+    "keepORdelete": true
+  },
+  {
+    "words": "truth.",
+    "id": 110,
+    "keepORdelete": true
+  },
+  {
+    "words": "To",
+    "id": 111,
+    "keepORdelete": true
+  },
+  {
+    "words": "demonstrate",
+    "id": 112,
+    "keepORdelete": true
+  },
+  {
+    "words": "it,",
+    "id": 113,
+    "keepORdelete": true
+  },
+  {
+    "words": "actually",
+    "id": 114,
+    "keepORdelete": true
+  },
+  {
+    "words": "I",
+    "id": 115,
+    "keepORdelete": true
+  },
+  {
+    "words": "have",
+    "id": 116,
+    "keepORdelete": true
+  },
+  {
+    "words": "gone",
+    "id": 117,
+    "keepORdelete": true
+  },
+  {
+    "words": "on",
+    "id": 118,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 119,
+    "keepORdelete": true
+  },
+  {
+    "words": "website",
+    "id": 120,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 121,
+    "keepORdelete": true
+  },
+  {
+    "words": "prove",
+    "id": 122,
+    "keepORdelete": true
+  },
+  {
+    "words": "how",
+    "id": 123,
+    "keepORdelete": true
+  },
+  {
+    "words": "bad",
+    "id": 124,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 125,
+    "keepORdelete": true
+  },
+  {
+    "words": "actually",
+    "id": 126,
+    "keepORdelete": true
+  },
+  {
+    "words": "Devin.",
+    "id": 127,
+    "keepORdelete": true
+  },
+  {
+    "words": "It's",
+    "id": 128,
+    "keepORdelete": true
+  },
+  {
+    "words": "only",
+    "id": 129,
+    "keepORdelete": true
+  },
+  {
+    "words": "good",
+    "id": 130,
+    "keepORdelete": true
+  },
+  {
+    "words": "at",
+    "id": 131,
+    "keepORdelete": true
+  },
+  {
+    "words": "creating",
+    "id": 132,
+    "keepORdelete": true
+  },
+  {
+    "words": "very",
+    "id": 133,
+    "keepORdelete": true
+  },
+  {
+    "words": "small",
+    "id": 134,
+    "keepORdelete": true
+  },
+  {
+    "words": "demos",
+    "id": 135,
+    "keepORdelete": true
+  },
+  {
+    "words": "which",
+    "id": 136,
+    "keepORdelete": true
+  },
+  {
+    "words": "take",
+    "id": 137,
+    "keepORdelete": true
+  },
+  {
+    "words": "an",
+    "id": 138,
+    "keepORdelete": true
+  },
+  {
+    "words": "unnecessary",
+    "id": 139,
+    "keepORdelete": true
+  },
+  {
+    "words": "amount",
+    "id": 140,
+    "keepORdelete": true
+  },
+  {
+    "words": "of",
+    "id": 141,
+    "keepORdelete": true
+  },
+  {
+    "words": "time",
+    "id": 142,
+    "keepORdelete": true
+  },
+  {
+    "words": "for",
+    "id": 143,
+    "keepORdelete": true
+  },
+  {
+    "words": "a",
+    "id": 144,
+    "keepORdelete": true
+  },
+  {
+    "words": "developer.",
+    "id": 145,
+    "keepORdelete": true
+  },
+  {
+    "words": "No.",
+    "id": 146,
+    "keepORdelete": true
+  },
+  {
+    "words": "It",
+    "id": 147,
+    "keepORdelete": true
+  },
+  {
+    "words": "can",
+    "id": 148,
+    "keepORdelete": true
+  },
+  {
+    "words": "only",
+    "id": 149,
+    "keepORdelete": true
+  },
+  {
+    "words": "build",
+    "id": 150,
+    "keepORdelete": true
+  },
+  {
+    "words": "demos",
+    "id": 151,
+    "keepORdelete": true
+  },
+  {
+    "words": "which",
+    "id": 152,
+    "keepORdelete": true
+  },
+  {
+    "words": "take",
+    "id": 153,
+    "keepORdelete": true
+  },
+  {
+    "words": "a",
+    "id": 154,
+    "keepORdelete": true
+  },
+  {
+    "words": "lot",
+    "id": 155,
+    "keepORdelete": true
+  },
+  {
+    "words": "of",
+    "id": 156,
+    "keepORdelete": true
+  },
+  {
+    "words": "time",
+    "id": 157,
+    "keepORdelete": true
+  },
+  {
+    "words": "compared",
+    "id": 158,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 159,
+    "keepORdelete": true
+  },
+  {
+    "words": "what",
+    "id": 160,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 161,
+    "keepORdelete": true
+  },
+  {
+    "words": "actually",
+    "id": 162,
+    "keepORdelete": true
+  },
+  {
+    "words": "need.",
+    "id": 163,
+    "keepORdelete": true
+  },
+  {
+    "words": "But...",
+    "id": 164,
+    "keepORdelete": true
+  },
+  {
+    "words": "So",
+    "id": 165,
+    "keepORdelete": true
+  },
+  {
+    "words": "let's",
+    "id": 166,
+    "keepORdelete": true
+  },
+  {
+    "words": "go",
+    "id": 167,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 168,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 169,
+    "keepORdelete": true
+  },
+  {
+    "words": "website.",
+    "id": 170,
+    "keepORdelete": true
+  },
+  {
+    "words": "So",
+    "id": 171,
+    "keepORdelete": true
+  },
+  {
+    "words": "here",
+    "id": 172,
+    "keepORdelete": true
+  },
+  {
+    "words": "we",
+    "id": 173,
+    "keepORdelete": true
+  },
+  {
+    "words": "are",
+    "id": 174,
+    "keepORdelete": true
+  },
+  {
+    "words": "on",
+    "id": 175,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 176,
+    "keepORdelete": true
+  },
+  {
+    "words": "website.",
+    "id": 177,
+    "keepORdelete": true
+  },
+  {
+    "words": "The",
+    "id": 178,
+    "keepORdelete": true
+  },
+  {
+    "words": "first",
+    "id": 179,
+    "keepORdelete": true
+  },
+  {
+    "words": "video",
+    "id": 180,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 181,
+    "keepORdelete": true
+  },
+  {
+    "words": "about",
+    "id": 182,
+    "keepORdelete": true
+  },
+  {
+    "words": "creating",
+    "id": 183,
+    "keepORdelete": true
+  },
+  {
+    "words": "Guess",
+    "id": 184,
+    "keepORdelete": true
+  },
+  {
+    "words": "what?",
+    "id": 185,
+    "keepORdelete": true
+  },
+  {
+    "words": "So",
+    "id": 186,
+    "keepORdelete": true
+  },
+  {
+    "words": "they",
+    "id": 187,
+    "keepORdelete": true
+  },
+  {
+    "words": "are",
+    "id": 188,
+    "keepORdelete": true
+  },
+  {
+    "words": "pointing",
+    "id": 189,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 190,
+    "keepORdelete": true
+  },
+  {
+    "words": "a",
+    "id": 191,
+    "keepORdelete": true
+  },
+  {
+    "words": "website",
+    "id": 192,
+    "keepORdelete": true
+  },
+  {
+    "words": "which",
+    "id": 193,
+    "keepORdelete": true
+  },
+  {
+    "words": "supposed",
+    "id": 194,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 195,
+    "keepORdelete": true
+  },
+  {
+    "words": "help",
+    "id": 196,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 197,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 198,
+    "keepORdelete": true
+  },
+  {
+    "words": "create",
+    "id": 199,
+    "keepORdelete": true
+  },
+  {
+    "words": "a",
+    "id": 200,
+    "keepORdelete": true
+  },
+  {
+    "words": "thing.",
+    "id": 201,
+    "keepORdelete": true
+  },
+  {
+    "words": "And",
+    "id": 202,
+    "keepORdelete": true
+  },
+  {
+    "words": "it",
+    "id": 203,
+    "keepORdelete": true
+  },
+  {
+    "words": "actually",
+    "id": 204,
+    "keepORdelete": true
+  },
+  {
+    "words": "doesn't",
+    "id": 205,
+    "keepORdelete": true
+  },
+  {
+    "words": "just",
+    "id": 206,
+    "keepORdelete": true
+  },
+  {
+    "words": "tell",
+    "id": 207,
+    "keepORdelete": true
+  },
+  {
+    "words": "you.",
+    "id": 208,
+    "keepORdelete": true
+  },
+  {
+    "words": "It",
+    "id": 209,
+    "keepORdelete": true
+  },
+  {
+    "words": "doesn't",
+    "id": 210,
+    "keepORdelete": true
+  },
+  {
+    "words": "tell",
+    "id": 211,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 212,
+    "keepORdelete": true
+  },
+  {
+    "words": "how",
+    "id": 213,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 214,
+    "keepORdelete": true
+  },
+  {
+    "words": "create",
+    "id": 215,
+    "keepORdelete": true
+  },
+  {
+    "words": "a",
+    "id": 216,
+    "keepORdelete": true
+  },
+  {
+    "words": "thing.",
+    "id": 217,
+    "keepORdelete": true
+  },
+  {
+    "words": "It",
+    "id": 218,
+    "keepORdelete": true
+  },
+  {
+    "words": "actually",
+    "id": 219,
+    "keepORdelete": true
+  },
+  {
+    "words": "shows",
+    "id": 220,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 221,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 222,
+    "keepORdelete": true
+  },
+  {
+    "words": "code.",
+    "id": 223,
+    "keepORdelete": true
+  },
+  {
+    "words": "So",
+    "id": 224,
+    "keepORdelete": true
+  },
+  {
+    "words": "if",
+    "id": 225,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 226,
+    "keepORdelete": true
+  },
+  {
+    "words": "see",
+    "id": 227,
+    "keepORdelete": true
+  },
+  {
+    "words": "this",
+    "id": 228,
+    "keepORdelete": true
+  },
+  {
+    "words": "article,",
+    "id": 229,
+    "keepORdelete": true
+  },
+  {
+    "words": "then",
+    "id": 230,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 231,
+    "keepORdelete": true
+  },
+  {
+    "words": "can",
+    "id": 232,
+    "keepORdelete": true
+  },
+  {
+    "words": "see",
+    "id": 233,
+    "keepORdelete": true
+  },
+  {
+    "words": "what",
+    "id": 234,
+    "keepORdelete": true
+  },
+  {
+    "words": "they",
+    "id": 235,
+    "keepORdelete": true
+  },
+  {
+    "words": "have",
+    "id": 236,
+    "keepORdelete": true
+  },
+  {
+    "words": "created.",
+    "id": 237,
+    "keepORdelete": true
+  },
+  {
+    "words": "It's",
+    "id": 238,
+    "keepORdelete": true
+  },
+  {
+    "words": "actually",
+    "id": 239,
+    "keepORdelete": true
+  },
+  {
+    "words": "pretty",
+    "id": 240,
+    "keepORdelete": true
+  },
+  {
+    "words": "interesting.",
+    "id": 241,
+    "keepORdelete": true
+  },
+  {
+    "words": "But",
+    "id": 242,
+    "keepORdelete": true
+  },
+  {
+    "words": "it's",
+    "id": 243,
+    "keepORdelete": true
+  },
+  {
+    "words": "not",
+    "id": 244,
+    "keepORdelete": true
+  },
+  {
+    "words": "that",
+    "id": 245,
+    "keepORdelete": true
+  },
+  {
+    "words": "hard.",
+    "id": 246,
+    "keepORdelete": true
+  },
+  {
+    "words": "It's",
+    "id": 247,
+    "keepORdelete": true
+  },
+  {
+    "words": "not",
+    "id": 248,
+    "keepORdelete": true
+  },
+  {
+    "words": "that",
+    "id": 249,
+    "keepORdelete": true
+  },
+  {
+    "words": "hard",
+    "id": 250,
+    "keepORdelete": true
+  },
+  {
+    "words": "when",
+    "id": 251,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 252,
+    "keepORdelete": true
+  },
+  {
+    "words": "have",
+    "id": 253,
+    "keepORdelete": true
+  },
+  {
+    "words": "already",
+    "id": 254,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 255,
+    "keepORdelete": true
+  },
+  {
+    "words": "scripts",
+    "id": 256,
+    "keepORdelete": true
+  },
+  {
+    "words": "on",
+    "id": 257,
+    "keepORdelete": true
+  },
+  {
+    "words": "GitHub.",
+    "id": 258,
+    "keepORdelete": true
+  },
+  {
+    "words": "And",
+    "id": 259,
+    "keepORdelete": true
+  },
+  {
+    "words": "all",
+    "id": 260,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 261,
+    "keepORdelete": true
+  },
+  {
+    "words": "need",
+    "id": 262,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 263,
+    "keepORdelete": true
+  },
+  {
+    "words": "just",
+    "id": 264,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 265,
+    "keepORdelete": true
+  },
+  {
+    "words": "image",
+    "id": 266,
+    "keepORdelete": true
+  },
+  {
+    "words": "which",
+    "id": 267,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 268,
+    "keepORdelete": true
+  },
+  {
+    "words": "can",
+    "id": 269,
+    "keepORdelete": true
+  },
+  {
+    "words": "very",
+    "id": 270,
+    "keepORdelete": true
+  },
+  {
+    "words": "easily",
+    "id": 271,
+    "keepORdelete": true
+  },
+  {
+    "words": "create",
+    "id": 272,
+    "keepORdelete": true
+  },
+  {
+    "words": "using...",
+    "id": 273,
+    "keepORdelete": true
+  },
+  {
+    "words": "So",
+    "id": 274,
+    "keepORdelete": true
+  },
+  {
+    "words": "here",
+    "id": 275,
+    "keepORdelete": true
+  },
+  {
+    "words": "we",
+    "id": 276,
+    "keepORdelete": true
+  },
+  {
+    "words": "are",
+    "id": 277,
+    "keepORdelete": true
+  },
+  {
+    "words": "on",
+    "id": 278,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 279,
+    "keepORdelete": true
+  },
+  {
+    "words": "GitHub",
+    "id": 280,
+    "keepORdelete": true
+  },
+  {
+    "words": "page.",
+    "id": 281,
+    "keepORdelete": true
+  },
+  {
+    "words": "How",
+    "id": 282,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 283,
+    "keepORdelete": true
+  },
+  {
+    "words": "create",
+    "id": 284,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 285,
+    "keepORdelete": true
+  },
+  {
+    "words": "AI",
+    "id": 286,
+    "keepORdelete": true
+  },
+  {
+    "words": "images.",
+    "id": 287,
+    "keepORdelete": true
+  },
+  {
+    "words": "Which",
+    "id": 288,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 289,
+    "keepORdelete": true
+  },
+  {
+    "words": "actually",
+    "id": 290,
+    "keepORdelete": true
+  },
+  {
+    "words": "cool",
+    "id": 291,
+    "keepORdelete": true
+  },
+  {
+    "words": "and",
+    "id": 292,
+    "keepORdelete": true
+  },
+  {
+    "words": "all.",
+    "id": 293,
+    "keepORdelete": true
+  },
+  {
+    "words": "But",
+    "id": 294,
+    "keepORdelete": true
+  },
+  {
+    "words": "it",
+    "id": 295,
+    "keepORdelete": true
+  },
+  {
+    "words": "looks",
+    "id": 296,
+    "keepORdelete": true
+  },
+  {
+    "words": "like",
+    "id": 297,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 298,
+    "keepORdelete": true
+  },
+  {
+    "words": "have",
+    "id": 299,
+    "keepORdelete": true
+  },
+  {
+    "words": "already",
+    "id": 300,
+    "keepORdelete": true
+  },
+  {
+    "words": "have",
+    "id": 301,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 302,
+    "keepORdelete": true
+  },
+  {
+    "words": "code.",
+    "id": 303,
+    "keepORdelete": true
+  },
+  {
+    "words": "So",
+    "id": 304,
+    "keepORdelete": true
+  },
+  {
+    "words": "question",
+    "id": 305,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 306,
+    "keepORdelete": true
+  },
+  {
+    "words": "what",
+    "id": 307,
+    "keepORdelete": true
+  },
+  {
+    "words": "takes",
+    "id": 308,
+    "keepORdelete": true
+  },
+  {
+    "words": "45",
+    "id": 309,
+    "keepORdelete": true
+  },
+  {
+    "words": "minutes",
+    "id": 310,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 311,
+    "keepORdelete": true
+  },
+  {
+    "words": "create",
+    "id": 312,
+    "keepORdelete": true
+  },
+  {
+    "words": "this",
+    "id": 313,
+    "keepORdelete": true
+  },
+  {
+    "words": "video?",
+    "id": 314,
+    "keepORdelete": true
+  },
+  {
+    "words": "Because",
+    "id": 315,
+    "keepORdelete": true
+  },
+  {
+    "words": "if",
+    "id": 316,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 317,
+    "keepORdelete": true
+  },
+  {
+    "words": "didn't",
+    "id": 318,
+    "keepORdelete": true
+  },
+  {
+    "words": "know",
+    "id": 319,
+    "keepORdelete": true
+  },
+  {
+    "words": "this",
+    "id": 320,
+    "keepORdelete": true
+  },
+  {
+    "words": "video",
+    "id": 321,
+    "keepORdelete": true
+  },
+  {
+    "words": "took",
+    "id": 322,
+    "keepORdelete": true
+  },
+  {
+    "words": "45",
+    "id": 323,
+    "keepORdelete": true
+  },
+  {
+    "words": "minutes",
+    "id": 324,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 325,
+    "keepORdelete": true
+  },
+  {
+    "words": "make",
+    "id": 326,
+    "keepORdelete": true
+  },
+  {
+    "words": "for",
+    "id": 327,
+    "keepORdelete": true
+  },
+  {
+    "words": "them.",
+    "id": 328,
+    "keepORdelete": true
+  },
+  {
+    "words": "For",
+    "id": 329,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 330,
+    "keepORdelete": true
+  },
+  {
+    "words": "AI.",
+    "id": 331,
+    "keepORdelete": true
+  },
+  {
+    "words": "My",
+    "id": 332,
+    "keepORdelete": true
+  },
+  {
+    "words": "bad.",
+    "id": 333,
+    "keepORdelete": true
+  },
+  {
+    "words": "I",
+    "id": 334,
+    "keepORdelete": true
+  },
+  {
+    "words": "cannot",
+    "id": 335,
+    "keepORdelete": true
+  },
+  {
+    "words": "imagine",
+    "id": 336,
+    "keepORdelete": true
+  },
+  {
+    "words": "how",
+    "id": 337,
+    "keepORdelete": true
+  },
+  {
+    "words": "can",
+    "id": 338,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 339,
+    "keepORdelete": true
+  },
+  {
+    "words": "even",
+    "id": 340,
+    "keepORdelete": true
+  },
+  {
+    "words": "get",
+    "id": 341,
+    "keepORdelete": true
+  },
+  {
+    "words": "bugs",
+    "id": 342,
+    "keepORdelete": true
+  },
+  {
+    "words": "while",
+    "id": 343,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 344,
+    "keepORdelete": true
+  },
+  {
+    "words": "are",
+    "id": 345,
+    "keepORdelete": true
+  },
+  {
+    "words": "doing",
+    "id": 346,
+    "keepORdelete": true
+  },
+  {
+    "words": "this",
+    "id": 347,
+    "keepORdelete": true
+  },
+  {
+    "words": "code.",
+    "id": 348,
+    "keepORdelete": true
+  },
+  {
+    "words": "Also",
+    "id": 349,
+    "keepORdelete": true
+  },
+  {
+    "words": "in",
+    "id": 350,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 351,
+    "keepORdelete": true
+  },
+  {
+    "words": "video",
+    "id": 352,
+    "keepORdelete": true
+  },
+  {
+    "words": "it",
+    "id": 353,
+    "keepORdelete": true
+  },
+  {
+    "words": "uses",
+    "id": 354,
+    "keepORdelete": true
+  },
+  {
+    "words": "Python",
+    "id": 355,
+    "keepORdelete": true
+  },
+  {
+    "words": "below.",
+    "id": 356,
+    "keepORdelete": true
+  },
+  {
+    "words": "And",
+    "id": 357,
+    "keepORdelete": true
+  },
+  {
+    "words": "if",
+    "id": 358,
+    "keepORdelete": true
+  },
+  {
+    "words": "I",
+    "id": 359,
+    "keepORdelete": true
+  },
+  {
+    "words": "just",
+    "id": 360,
+    "keepORdelete": true
+  },
+  {
+    "words": "search",
+    "id": 361,
+    "keepORdelete": true
+  },
+  {
+    "words": "that",
+    "id": 362,
+    "keepORdelete": true
+  },
+  {
+    "words": "up.",
+    "id": 363,
+    "keepORdelete": true
+  },
+  {
+    "words": "Go",
+    "id": 364,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 365,
+    "keepORdelete": true
+  },
+  {
+    "words": "copilot.",
+    "id": 366,
+    "keepORdelete": true
+  },
+  {
+    "words": "Then",
+    "id": 367,
+    "keepORdelete": true
+  },
+  {
+    "words": "it",
+    "id": 368,
+    "keepORdelete": true
+  },
+  {
+    "words": "will",
+    "id": 369,
+    "keepORdelete": true
+  },
+  {
+    "words": "give",
+    "id": 370,
+    "keepORdelete": true
+  },
+  {
+    "words": "me",
+    "id": 371,
+    "keepORdelete": true
+  },
+  {
+    "words": "step",
+    "id": 372,
+    "keepORdelete": true
+  },
+  {
+    "words": "by",
+    "id": 373,
+    "keepORdelete": true
+  },
+  {
+    "words": "step",
+    "id": 374,
+    "keepORdelete": true
+  },
+  {
+    "words": "how",
+    "id": 375,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 376,
+    "keepORdelete": true
+  },
+  {
+    "words": "do",
+    "id": 377,
+    "keepORdelete": true
+  },
+  {
+    "words": "it.",
+    "id": 378,
+    "keepORdelete": true
+  },
+  {
+    "words": "So",
+    "id": 379,
+    "keepORdelete": true
+  },
+  {
+    "words": "this",
+    "id": 380,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 381,
+    "keepORdelete": true
+  },
+  {
+    "words": "a",
+    "id": 382,
+    "keepORdelete": true
+  },
+  {
+    "words": "basic",
+    "id": 383,
+    "keepORdelete": true
+  },
+  {
+    "words": "usage",
+    "id": 384,
+    "keepORdelete": true
+  },
+  {
+    "words": "of",
+    "id": 385,
+    "keepORdelete": true
+  },
+  {
+    "words": "below.",
+    "id": 386,
+    "keepORdelete": true
+  },
+  {
+    "words": "But",
+    "id": 387,
+    "keepORdelete": true
+  },
+  {
+    "words": "if",
+    "id": 388,
+    "keepORdelete": true
+  },
+  {
+    "words": "I",
+    "id": 389,
+    "keepORdelete": true
+  },
+  {
+    "words": "ask",
+    "id": 390,
+    "keepORdelete": true
+  },
+  {
+    "words": "for",
+    "id": 391,
+    "keepORdelete": true
+  },
+  {
+    "words": "example",
+    "id": 392,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 393,
+    "keepORdelete": true
+  },
+  {
+    "words": "add",
+    "id": 394,
+    "keepORdelete": true
+  },
+  {
+    "words": "a",
+    "id": 395,
+    "keepORdelete": true
+  },
+  {
+    "words": "text",
+    "id": 396,
+    "keepORdelete": true
+  },
+  {
+    "words": "which",
+    "id": 397,
+    "keepORdelete": true
+  },
+  {
+    "words": "we",
+    "id": 398,
+    "keepORdelete": true
+  },
+  {
+    "words": "saw",
+    "id": 399,
+    "keepORdelete": true
+  },
+  {
+    "words": "it",
+    "id": 400,
+    "keepORdelete": true
+  },
+  {
+    "words": "was",
+    "id": 401,
+    "keepORdelete": true
+  },
+  {
+    "words": "a",
+    "id": 402,
+    "keepORdelete": true
+  },
+  {
+    "words": "black",
+    "id": 403,
+    "keepORdelete": true
+  },
+  {
+    "words": "background",
+    "id": 404,
+    "keepORdelete": true
+  },
+  {
+    "words": "with",
+    "id": 405,
+    "keepORdelete": true
+  },
+  {
+    "words": "white",
+    "id": 406,
+    "keepORdelete": true
+  },
+  {
+    "words": "text.",
+    "id": 407,
+    "keepORdelete": true
+  },
+  {
+    "words": "I",
+    "id": 408,
+    "keepORdelete": true
+  },
+  {
+    "words": "will",
+    "id": 409,
+    "keepORdelete": true
+  },
+  {
+    "words": "ask",
+    "id": 410,
+    "keepORdelete": true
+  },
+  {
+    "words": "for",
+    "id": 411,
+    "keepORdelete": true
+  },
+  {
+    "words": "a",
+    "id": 412,
+    "keepORdelete": true
+  },
+  {
+    "words": "big",
+    "id": 413,
+    "keepORdelete": true
+  },
+  {
+    "words": "white",
+    "id": 414,
+    "keepORdelete": true
+  },
+  {
+    "words": "text.",
+    "id": 415,
+    "keepORdelete": true
+  },
+  {
+    "words": "And",
+    "id": 416,
+    "keepORdelete": true
+  },
+  {
+    "words": "middle.",
+    "id": 417,
+    "keepORdelete": true
+  },
+  {
+    "words": "No",
+    "id": 418,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 419,
+    "keepORdelete": true
+  },
+  {
+    "words": "stupid.",
+    "id": 420,
+    "keepORdelete": true
+  },
+  {
+    "words": "Copilot",
+    "id": 421,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 422,
+    "keepORdelete": true
+  },
+  {
+    "words": "stupid",
+    "id": 423,
+    "keepORdelete": true
+  },
+  {
+    "words": "too.",
+    "id": 424,
+    "keepORdelete": true
+  },
+  {
+    "words": "It's",
+    "id": 425,
+    "keepORdelete": true
+  },
+  {
+    "words": "trying",
+    "id": 426,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 427,
+    "keepORdelete": true
+  },
+  {
+    "words": "literally",
+    "id": 428,
+    "keepORdelete": true
+  },
+  {
+    "words": "generate",
+    "id": 429,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 430,
+    "keepORdelete": true
+  },
+  {
+    "words": "image.",
+    "id": 431,
+    "keepORdelete": true
+  },
+  {
+    "words": "You",
+    "id": 432,
+    "keepORdelete": true
+  },
+  {
+    "words": "got",
+    "id": 433,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 434,
+    "keepORdelete": true
+  },
+  {
+    "words": "be",
+    "id": 435,
+    "keepORdelete": true
+  },
+  {
+    "words": "sometimes",
+    "id": 436,
+    "keepORdelete": true
+  },
+  {
+    "words": "more",
+    "id": 437,
+    "keepORdelete": true
+  },
+  {
+    "words": "specific",
+    "id": 438,
+    "keepORdelete": true
+  },
+  {
+    "words": "that",
+    "id": 439,
+    "keepORdelete": true
+  },
+  {
+    "words": "it",
+    "id": 440,
+    "keepORdelete": true
+  },
+  {
+    "words": "should",
+    "id": 441,
+    "keepORdelete": true
+  },
+  {
+    "words": "use",
+    "id": 442,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 443,
+    "keepORdelete": true
+  },
+  {
+    "words": "pillow.",
+    "id": 444,
+    "keepORdelete": true
+  },
+  {
+    "words": "There",
+    "id": 445,
+    "keepORdelete": true
+  },
+  {
+    "words": "we",
+    "id": 446,
+    "keepORdelete": true
+  },
+  {
+    "words": "go.",
+    "id": 447,
+    "keepORdelete": true
+  },
+  {
+    "words": "800",
+    "id": 448,
+    "keepORdelete": true
+  },
+  {
+    "words": "by",
+    "id": 449,
+    "keepORdelete": true
+  },
+  {
+    "words": "600",
+    "id": 450,
+    "keepORdelete": true
+  },
+  {
+    "words": "pixels.",
+    "id": 451,
+    "keepORdelete": true
+  },
+  {
+    "words": "Black",
+    "id": 452,
+    "keepORdelete": true
+  },
+  {
+    "words": "background.",
+    "id": 453,
+    "keepORdelete": true
+  },
+  {
+    "words": "Text.",
+    "id": 454,
+    "keepORdelete": true
+  },
+  {
+    "words": "Hello",
+    "id": 455,
+    "keepORdelete": true
+  },
+  {
+    "words": "world.",
+    "id": 456,
+    "keepORdelete": true
+  },
+  {
+    "words": "Classic.",
+    "id": 457,
+    "keepORdelete": true
+  },
+  {
+    "words": "Which",
+    "id": 458,
+    "keepORdelete": true
+  },
+  {
+    "words": "font",
+    "id": 459,
+    "keepORdelete": true
+  },
+  {
+    "words": "we",
+    "id": 460,
+    "keepORdelete": true
+  },
+  {
+    "words": "should",
+    "id": 461,
+    "keepORdelete": true
+  },
+  {
+    "words": "use",
+    "id": 462,
+    "keepORdelete": true
+  },
+  {
+    "words": "40",
+    "id": 463,
+    "keepORdelete": true
+  },
+  {
+    "words": "size.",
+    "id": 464,
+    "keepORdelete": true
+  },
+  {
+    "words": "Where",
+    "id": 465,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 466,
+    "keepORdelete": true
+  },
+  {
+    "words": "position",
+    "id": 467,
+    "keepORdelete": true
+  },
+  {
+    "words": "should",
+    "id": 468,
+    "keepORdelete": true
+  },
+  {
+    "words": "be.",
+    "id": 469,
+    "keepORdelete": true
+  },
+  {
+    "words": "And",
+    "id": 470,
+    "keepORdelete": true
+  },
+  {
+    "words": "text",
+    "id": 471,
+    "keepORdelete": true
+  },
+  {
+    "words": "white.",
+    "id": 472,
+    "keepORdelete": true
+  },
+  {
+    "words": "So",
+    "id": 473,
+    "keepORdelete": true
+  },
+  {
+    "words": "in",
+    "id": 474,
+    "keepORdelete": true
+  },
+  {
+    "words": "theory",
+    "id": 475,
+    "keepORdelete": true
+  },
+  {
+    "words": "this",
+    "id": 476,
+    "keepORdelete": true
+  },
+  {
+    "words": "took",
+    "id": 477,
+    "keepORdelete": true
+  },
+  {
+    "words": "20",
+    "id": 478,
+    "keepORdelete": true
+  },
+  {
+    "words": "seconds",
+    "id": 479,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 480,
+    "keepORdelete": true
+  },
+  {
+    "words": "make.",
+    "id": 481,
+    "keepORdelete": true
+  },
+  {
+    "words": "Then",
+    "id": 482,
+    "keepORdelete": true
+  },
+  {
+    "words": "copying",
+    "id": 483,
+    "keepORdelete": true
+  },
+  {
+    "words": "it",
+    "id": 484,
+    "keepORdelete": true
+  },
+  {
+    "words": "from",
+    "id": 485,
+    "keepORdelete": true
+  },
+  {
+    "words": "git",
+    "id": 486,
+    "keepORdelete": true
+  },
+  {
+    "words": "plus",
+    "id": 487,
+    "keepORdelete": true
+  },
+  {
+    "words": "combining",
+    "id": 488,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 489,
+    "keepORdelete": true
+  },
+  {
+    "words": "code",
+    "id": 490,
+    "keepORdelete": true
+  },
+  {
+    "words": "can",
+    "id": 491,
+    "keepORdelete": true
+  },
+  {
+    "words": "take",
+    "id": 492,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 493,
+    "keepORdelete": true
+  },
+  {
+    "words": "5",
+    "id": 494,
+    "keepORdelete": true
+  },
+  {
+    "words": "minutes",
+    "id": 495,
+    "keepORdelete": true
+  },
+  {
+    "words": "if",
+    "id": 496,
+    "keepORdelete": true
+  },
+  {
+    "words": "not",
+    "id": 497,
+    "keepORdelete": true
+  },
+  {
+    "words": "less.",
+    "id": 498,
+    "keepORdelete": true
+  },
+  {
+    "words": "And",
+    "id": 499,
+    "keepORdelete": true
+  },
+  {
+    "words": "heck",
+    "id": 500,
+    "keepORdelete": true
+  },
+  {
+    "words": "I",
+    "id": 501,
+    "keepORdelete": true
+  },
+  {
+    "words": "don't",
+    "id": 502,
+    "keepORdelete": true
+  },
+  {
+    "words": "even",
+    "id": 503,
+    "keepORdelete": true
+  },
+  {
+    "words": "do",
+    "id": 504,
+    "keepORdelete": true
+  },
+  {
+    "words": "Python",
+    "id": 505,
+    "keepORdelete": true
+  },
+  {
+    "words": "I",
+    "id": 506,
+    "keepORdelete": true
+  },
+  {
+    "words": "do",
+    "id": 507,
+    "keepORdelete": true
+  },
+  {
+    "words": "JavaScript.",
+    "id": 508,
+    "keepORdelete": true
+  },
+  {
+    "words": "TypeScript.",
+    "id": 509,
+    "keepORdelete": true
+  },
+  {
+    "words": "And",
+    "id": 510,
+    "keepORdelete": true
+  },
+  {
+    "words": "I",
+    "id": 511,
+    "keepORdelete": true
+  },
+  {
+    "words": "found",
+    "id": 512,
+    "keepORdelete": true
+  },
+  {
+    "words": "it",
+    "id": 513,
+    "keepORdelete": true
+  },
+  {
+    "words": "actually",
+    "id": 514,
+    "keepORdelete": true
+  },
+  {
+    "words": "this",
+    "id": 515,
+    "keepORdelete": true
+  },
+  {
+    "words": "very",
+    "id": 516,
+    "keepORdelete": true
+  },
+  {
+    "words": "easy.",
+    "id": 517,
+    "keepORdelete": true
+  },
+  {
+    "words": "So",
+    "id": 518,
+    "keepORdelete": true
+  },
+  {
+    "words": "if",
+    "id": 519,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 520,
+    "keepORdelete": true
+  },
+  {
+    "words": "think",
+    "id": 521,
+    "keepORdelete": true
+  },
+  {
+    "words": "and",
+    "id": 522,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 523,
+    "keepORdelete": true
+  },
+  {
+    "words": "other",
+    "id": 524,
+    "keepORdelete": true
+  },
+  {
+    "words": "demos",
+    "id": 525,
+    "keepORdelete": true
+  },
+  {
+    "words": "are",
+    "id": 526,
+    "keepORdelete": true
+  },
+  {
+    "words": "same.",
+    "id": 527,
+    "keepORdelete": true
+  },
+  {
+    "words": "And",
+    "id": 528,
+    "keepORdelete": true
+  },
+  {
+    "words": "if",
+    "id": 529,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 530,
+    "keepORdelete": true
+  },
+  {
+    "words": "think",
+    "id": 531,
+    "keepORdelete": true
+  },
+  {
+    "words": "that",
+    "id": 532,
+    "keepORdelete": true
+  },
+  {
+    "words": "Devin",
+    "id": 533,
+    "keepORdelete": true
+  },
+  {
+    "words": "will",
+    "id": 534,
+    "keepORdelete": true
+  },
+  {
+    "words": "replace.",
+    "id": 535,
+    "keepORdelete": true
+  },
+  {
+    "words": "No.",
+    "id": 536,
+    "keepORdelete": true
+  },
+  {
+    "words": "And",
+    "id": 537,
+    "keepORdelete": true
+  },
+  {
+    "words": "also",
+    "id": 538,
+    "keepORdelete": true
+  },
+  {
+    "words": "about",
+    "id": 539,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 540,
+    "keepORdelete": true
+  },
+  {
+    "words": "other",
+    "id": 541,
+    "keepORdelete": true
+  },
+  {
+    "words": "demos.",
+    "id": 542,
+    "keepORdelete": true
+  },
+  {
+    "words": "They",
+    "id": 543,
+    "keepORdelete": true
+  },
+  {
+    "words": "are",
+    "id": 544,
+    "keepORdelete": true
+  },
+  {
+    "words": "something",
+    "id": 545,
+    "keepORdelete": true
+  },
+  {
+    "words": "like",
+    "id": 546,
+    "keepORdelete": true
+  },
+  {
+    "words": "this",
+    "id": 547,
+    "keepORdelete": true
+  },
+  {
+    "words": "too.",
+    "id": 548,
+    "keepORdelete": true
+  },
+  {
+    "words": "They",
+    "id": 549,
+    "keepORdelete": true
+  },
+  {
+    "words": "are",
+    "id": 550,
+    "keepORdelete": true
+  },
+  {
+    "words": "not",
+    "id": 551,
+    "keepORdelete": true
+  },
+  {
+    "words": "very",
+    "id": 552,
+    "keepORdelete": true
+  },
+  {
+    "words": "hard",
+    "id": 553,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 554,
+    "keepORdelete": true
+  },
+  {
+    "words": "make.",
+    "id": 555,
+    "keepORdelete": true
+  },
+  {
+    "words": "And",
+    "id": 556,
+    "keepORdelete": true
+  },
+  {
+    "words": "if",
+    "id": 557,
+    "keepORdelete": true
+  },
+  {
+    "words": "they",
+    "id": 558,
+    "keepORdelete": true
+  },
+  {
+    "words": "are",
+    "id": 559,
+    "keepORdelete": true
+  },
+  {
+    "words": "a",
+    "id": 560,
+    "keepORdelete": true
+  },
+  {
+    "words": "bit",
+    "id": 561,
+    "keepORdelete": true
+  },
+  {
+    "words": "difficult",
+    "id": 562,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 563,
+    "keepORdelete": true
+  },
+  {
+    "words": "make",
+    "id": 564,
+    "keepORdelete": true
+  },
+  {
+    "words": "it's",
+    "id": 565,
+    "keepORdelete": true
+  },
+  {
+    "words": "probably",
+    "id": 566,
+    "keepORdelete": true
+  },
+  {
+    "words": "because.",
+    "id": 567,
+    "keepORdelete": true
+  },
+  {
+    "words": "If",
+    "id": 568,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 569,
+    "keepORdelete": true
+  },
+  {
+    "words": "find",
+    "id": 570,
+    "keepORdelete": true
+  },
+  {
+    "words": "something",
+    "id": 571,
+    "keepORdelete": true
+  },
+  {
+    "words": "difficult",
+    "id": 572,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 573,
+    "keepORdelete": true
+  },
+  {
+    "words": "make",
+    "id": 574,
+    "keepORdelete": true
+  },
+  {
+    "words": "on",
+    "id": 575,
+    "keepORdelete": true
+  },
+  {
+    "words": "day.",
+    "id": 576,
+    "keepORdelete": true
+  },
+  {
+    "words": "No.",
+    "id": 577,
+    "keepORdelete": true
+  },
+  {
+    "words": "And",
+    "id": 578,
+    "keepORdelete": true
+  },
+  {
+    "words": "there",
+    "id": 579,
+    "keepORdelete": true
+  },
+  {
+    "words": "are",
+    "id": 580,
+    "keepORdelete": true
+  },
+  {
+    "words": "also",
+    "id": 581,
+    "keepORdelete": true
+  },
+  {
+    "words": "other",
+    "id": 582,
+    "keepORdelete": true
+  },
+  {
+    "words": "demos",
+    "id": 583,
+    "keepORdelete": true
+  },
+  {
+    "words": "on",
+    "id": 584,
+    "keepORdelete": true
+  },
+  {
+    "words": "their",
+    "id": 585,
+    "keepORdelete": true
+  },
+  {
+    "words": "website",
+    "id": 586,
+    "keepORdelete": true
+  },
+  {
+    "words": "of",
+    "id": 587,
+    "keepORdelete": true
+  },
+  {
+    "words": "course.",
+    "id": 588,
+    "keepORdelete": true
+  },
+  {
+    "words": "For",
+    "id": 589,
+    "keepORdelete": true
+  },
+  {
+    "words": "example.",
+    "id": 590,
+    "keepORdelete": true
+  },
+  {
+    "words": "The",
+    "id": 591,
+    "keepORdelete": true
+  },
+  {
+    "words": "game",
+    "id": 592,
+    "keepORdelete": true
+  },
+  {
+    "words": "of",
+    "id": 593,
+    "keepORdelete": true
+  },
+  {
+    "words": "life.",
+    "id": 594,
+    "keepORdelete": true
+  },
+  {
+    "words": "Which",
+    "id": 595,
+    "keepORdelete": true
+  },
+  {
+    "words": "been",
+    "id": 596,
+    "keepORdelete": true
+  },
+  {
+    "words": "like.",
+    "id": 597,
+    "keepORdelete": true
+  },
+  {
+    "words": "Which",
+    "id": 598,
+    "keepORdelete": true
+  },
+  {
+    "words": "been",
+    "id": 599,
+    "keepORdelete": true
+  },
+  {
+    "words": "made",
+    "id": 600,
+    "keepORdelete": true
+  },
+  {
+    "words": "like",
+    "id": 601,
+    "keepORdelete": true
+  },
+  {
+    "words": "a",
+    "id": 602,
+    "keepORdelete": true
+  },
+  {
+    "words": "bajillion",
+    "id": 603,
+    "keepORdelete": true
+  },
+  {
+    "words": "times.",
+    "id": 604,
+    "keepORdelete": true
+  },
+  {
+    "words": "So",
+    "id": 605,
+    "keepORdelete": true
+  },
+  {
+    "words": "it's",
+    "id": 606,
+    "keepORdelete": true
+  },
+  {
+    "words": "not",
+    "id": 607,
+    "keepORdelete": true
+  },
+  {
+    "words": "new.",
+    "id": 608,
+    "keepORdelete": true
+  },
+  {
+    "words": "Also",
+    "id": 609,
+    "keepORdelete": true
+  },
+  {
+    "words": "about",
+    "id": 610,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 611,
+    "keepORdelete": true
+  },
+  {
+    "words": "bug",
+    "id": 612,
+    "keepORdelete": true
+  },
+  {
+    "words": "fixes.",
+    "id": 613,
+    "keepORdelete": true
+  },
+  {
+    "words": "It",
+    "id": 614,
+    "keepORdelete": true
+  },
+  {
+    "words": "was",
+    "id": 615,
+    "keepORdelete": true
+  },
+  {
+    "words": "trained",
+    "id": 616,
+    "keepORdelete": true
+  },
+  {
+    "words": "on.",
+    "id": 617,
+    "keepORdelete": true
+  },
+  {
+    "words": "It",
+    "id": 618,
+    "keepORdelete": true
+  },
+  {
+    "words": "was",
+    "id": 619,
+    "keepORdelete": true
+  },
+  {
+    "words": "tested",
+    "id": 620,
+    "keepORdelete": true
+  },
+  {
+    "words": "by",
+    "id": 621,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 622,
+    "keepORdelete": true
+  },
+  {
+    "words": "SVE.",
+    "id": 623,
+    "keepORdelete": true
+  },
+  {
+    "words": "Also",
+    "id": 624,
+    "keepORdelete": true
+  },
+  {
+    "words": "about",
+    "id": 625,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 626,
+    "keepORdelete": true
+  },
+  {
+    "words": "bug",
+    "id": 627,
+    "keepORdelete": true
+  },
+  {
+    "words": "fixes.",
+    "id": 628,
+    "keepORdelete": true
+  },
+  {
+    "words": "It",
+    "id": 629,
+    "keepORdelete": true
+  },
+  {
+    "words": "was",
+    "id": 630,
+    "keepORdelete": true
+  },
+  {
+    "words": "trained.",
+    "id": 631,
+    "keepORdelete": true
+  },
+  {
+    "words": "It",
+    "id": 632,
+    "keepORdelete": true
+  },
+  {
+    "words": "was",
+    "id": 633,
+    "keepORdelete": true
+  },
+  {
+    "words": "tested",
+    "id": 634,
+    "keepORdelete": true
+  },
+  {
+    "words": "on",
+    "id": 635,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 636,
+    "keepORdelete": true
+  },
+  {
+    "words": "different",
+    "id": 637,
+    "keepORdelete": true
+  },
+  {
+    "words": "github",
+    "id": 638,
+    "keepORdelete": true
+  },
+  {
+    "words": "problems.",
+    "id": 639,
+    "keepORdelete": true
+  },
+  {
+    "words": "Real",
+    "id": 640,
+    "keepORdelete": true
+  },
+  {
+    "words": "world",
+    "id": 641,
+    "keepORdelete": true
+  },
+  {
+    "words": "apparently.",
+    "id": 642,
+    "keepORdelete": true
+  },
+  {
+    "words": "But",
+    "id": 643,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 644,
+    "keepORdelete": true
+  },
+  {
+    "words": "fact",
+    "id": 645,
+    "keepORdelete": true
+  },
+  {
+    "words": "is.",
+    "id": 646,
+    "keepORdelete": true
+  },
+  {
+    "words": "It's",
+    "id": 647,
+    "keepORdelete": true
+  },
+  {
+    "words": "a",
+    "id": 648,
+    "keepORdelete": true
+  },
+  {
+    "words": "special",
+    "id": 649,
+    "keepORdelete": true
+  },
+  {
+    "words": "limit",
+    "id": 650,
+    "keepORdelete": true
+  },
+  {
+    "words": "for",
+    "id": 651,
+    "keepORdelete": true
+  },
+  {
+    "words": "AI.",
+    "id": 652,
+    "keepORdelete": true
+  },
+  {
+    "words": "Those",
+    "id": 653,
+    "keepORdelete": true
+  },
+  {
+    "words": "questions",
+    "id": 654,
+    "keepORdelete": true
+  },
+  {
+    "words": "are",
+    "id": 655,
+    "keepORdelete": true
+  },
+  {
+    "words": "very",
+    "id": 656,
+    "keepORdelete": true
+  },
+  {
+    "words": "specific.",
+    "id": 657,
+    "keepORdelete": true
+  },
+  {
+    "words": "There",
+    "id": 658,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 659,
+    "keepORdelete": true
+  },
+  {
+    "words": "a",
+    "id": 660,
+    "keepORdelete": true
+  },
+  {
+    "words": "funny",
+    "id": 661,
+    "keepORdelete": true
+  },
+  {
+    "words": "one.",
+    "id": 662,
+    "keepORdelete": true
+  },
+  {
+    "words": "AI",
+    "id": 663,
+    "keepORdelete": true
+  },
+  {
+    "words": "trains",
+    "id": 664,
+    "keepORdelete": true
+  },
+  {
+    "words": "AI.",
+    "id": 665,
+    "keepORdelete": true
+  },
+  {
+    "words": "I",
+    "id": 666,
+    "keepORdelete": true
+  },
+  {
+    "words": "mean.",
+    "id": 667,
+    "keepORdelete": true
+  },
+  {
+    "words": "AI",
+    "id": 668,
+    "keepORdelete": true
+  },
+  {
+    "words": "can",
+    "id": 669,
+    "keepORdelete": true
+  },
+  {
+    "words": "be",
+    "id": 670,
+    "keepORdelete": true
+  },
+  {
+    "words": "very",
+    "id": 671,
+    "keepORdelete": true
+  },
+  {
+    "words": "simple.",
+    "id": 672,
+    "keepORdelete": true
+  },
+  {
+    "words": "It",
+    "id": 673,
+    "keepORdelete": true
+  },
+  {
+    "words": "doesn't",
+    "id": 674,
+    "keepORdelete": true
+  },
+  {
+    "words": "need",
+    "id": 675,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 676,
+    "keepORdelete": true
+  },
+  {
+    "words": "be",
+    "id": 677,
+    "keepORdelete": true
+  },
+  {
+    "words": "complex.",
+    "id": 678,
+    "keepORdelete": true
+  },
+  {
+    "words": "And",
+    "id": 679,
+    "keepORdelete": true
+  },
+  {
+    "words": "there",
+    "id": 680,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 681,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 682,
+    "keepORdelete": true
+  },
+  {
+    "words": "last",
+    "id": 683,
+    "keepORdelete": true
+  },
+  {
+    "words": "demo.",
+    "id": 684,
+    "keepORdelete": true
+  },
+  {
+    "words": "Devin",
+    "id": 685,
+    "keepORdelete": true
+  },
+  {
+    "words": "Upwork's",
+    "id": 686,
+    "keepORdelete": true
+  },
+  {
+    "words": "site",
+    "id": 687,
+    "keepORdelete": true
+  },
+  {
+    "words": "hustle.",
+    "id": 688,
+    "keepORdelete": true
+  },
+  {
+    "words": "Also",
+    "id": 689,
+    "keepORdelete": true
+  },
+  {
+    "words": "there",
+    "id": 690,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 691,
+    "keepORdelete": true
+  },
+  {
+    "words": "a",
+    "id": 692,
+    "keepORdelete": true
+  },
+  {
+    "words": "funny",
+    "id": 693,
+    "keepORdelete": true
+  },
+  {
+    "words": "thing.",
+    "id": 694,
+    "keepORdelete": true
+  },
+  {
+    "words": "That",
+    "id": 695,
+    "keepORdelete": true
+  },
+  {
+    "words": "they",
+    "id": 696,
+    "keepORdelete": true
+  },
+  {
+    "words": "have",
+    "id": 697,
+    "keepORdelete": true
+  },
+  {
+    "words": "on",
+    "id": 698,
+    "keepORdelete": true
+  },
+  {
+    "words": "their",
+    "id": 699,
+    "keepORdelete": true
+  },
+  {
+    "words": "website",
+    "id": 700,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 701,
+    "keepORdelete": true
+  },
+  {
+    "words": "Devin",
+    "id": 702,
+    "keepORdelete": true
+  },
+  {
+    "words": "Upwork's",
+    "id": 703,
+    "keepORdelete": true
+  },
+  {
+    "words": "site",
+    "id": 704,
+    "keepORdelete": true
+  },
+  {
+    "words": "hustle.",
+    "id": 705,
+    "keepORdelete": true
+  },
+  {
+    "words": "Making",
+    "id": 706,
+    "keepORdelete": true
+  },
+  {
+    "words": "their",
+    "id": 707,
+    "keepORdelete": true
+  },
+  {
+    "words": "money",
+    "id": 708,
+    "keepORdelete": true
+  },
+  {
+    "words": "worth",
+    "id": 709,
+    "keepORdelete": true
+  },
+  {
+    "words": "with",
+    "id": 710,
+    "keepORdelete": true
+  },
+  {
+    "words": "Devin",
+    "id": 711,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 712,
+    "keepORdelete": true
+  },
+  {
+    "words": "just",
+    "id": 713,
+    "keepORdelete": true
+  },
+  {
+    "words": "making",
+    "id": 714,
+    "keepORdelete": true
+  },
+  {
+    "words": "some",
+    "id": 715,
+    "keepORdelete": true
+  },
+  {
+    "words": "very",
+    "id": 716,
+    "keepORdelete": true
+  },
+  {
+    "words": "easy",
+    "id": 717,
+    "keepORdelete": true
+  },
+  {
+    "words": "stuff",
+    "id": 718,
+    "keepORdelete": true
+  },
+  {
+    "words": "on",
+    "id": 719,
+    "keepORdelete": true
+  },
+  {
+    "words": "Upwork.",
+    "id": 720,
+    "keepORdelete": true
+  },
+  {
+    "words": "That's",
+    "id": 721,
+    "keepORdelete": true
+  },
+  {
+    "words": "kind",
+    "id": 722,
+    "keepORdelete": true
+  },
+  {
+    "words": "of",
+    "id": 723,
+    "keepORdelete": true
+  },
+  {
+    "words": "funny.",
+    "id": 724,
+    "keepORdelete": true
+  },
+  {
+    "words": "You",
+    "id": 725,
+    "keepORdelete": true
+  },
+  {
+    "words": "should",
+    "id": 726,
+    "keepORdelete": true
+  },
+  {
+    "words": "guys",
+    "id": 727,
+    "keepORdelete": true
+  },
+  {
+    "words": "check",
+    "id": 728,
+    "keepORdelete": true
+  },
+  {
+    "words": "it",
+    "id": 729,
+    "keepORdelete": true
+  },
+  {
+    "words": "out.",
+    "id": 730,
+    "keepORdelete": true
+  },
+  {
+    "words": "Also",
+    "id": 731,
+    "keepORdelete": true
+  },
+  {
+    "words": "there",
+    "id": 732,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 733,
+    "keepORdelete": true
+  },
+  {
+    "words": "a",
+    "id": 734,
+    "keepORdelete": true
+  },
+  {
+    "words": "benchmark.",
+    "id": 735,
+    "keepORdelete": true
+  },
+  {
+    "words": "SVE",
+    "id": 736,
+    "keepORdelete": true
+  },
+  {
+    "words": "performance.",
+    "id": 737,
+    "keepORdelete": true
+  },
+  {
+    "words": "14%.",
+    "id": 738,
+    "keepORdelete": true
+  },
+  {
+    "words": "Not",
+    "id": 739,
+    "keepORdelete": true
+  },
+  {
+    "words": "good.",
+    "id": 740,
+    "keepORdelete": true
+  },
+  {
+    "words": "Still.",
+    "id": 741,
+    "keepORdelete": true
+  },
+  {
+    "words": "86%",
+    "id": 742,
+    "keepORdelete": true
+  },
+  {
+    "words": "of",
+    "id": 743,
+    "keepORdelete": true
+  },
+  {
+    "words": "work",
+    "id": 744,
+    "keepORdelete": true
+  },
+  {
+    "words": "on",
+    "id": 745,
+    "keepORdelete": true
+  },
+  {
+    "words": "github",
+    "id": 746,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 747,
+    "keepORdelete": true
+  },
+  {
+    "words": "not",
+    "id": 748,
+    "keepORdelete": true
+  },
+  {
+    "words": "done",
+    "id": 749,
+    "keepORdelete": true
+  },
+  {
+    "words": "by",
+    "id": 750,
+    "keepORdelete": true
+  },
+  {
+    "words": "Devin.",
+    "id": 751,
+    "keepORdelete": true
+  },
+  {
+    "words": "And",
+    "id": 752,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 753,
+    "keepORdelete": true
+  },
+  {
+    "words": "SVE",
+    "id": 754,
+    "keepORdelete": true
+  },
+  {
+    "words": "bench",
+    "id": 755,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 756,
+    "keepORdelete": true
+  },
+  {
+    "words": "specifically",
+    "id": 757,
+    "keepORdelete": true
+  },
+  {
+    "words": "made",
+    "id": 758,
+    "keepORdelete": true
+  },
+  {
+    "words": "for",
+    "id": 759,
+    "keepORdelete": true
+  },
+  {
+    "words": "AI.",
+    "id": 760,
+    "keepORdelete": true
+  },
+  {
+    "words": "So",
+    "id": 761,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 762,
+    "keepORdelete": true
+  },
+  {
+    "words": "can",
+    "id": 763,
+    "keepORdelete": true
+  },
+  {
+    "words": "imagine",
+    "id": 764,
+    "keepORdelete": true
+  },
+  {
+    "words": "it's",
+    "id": 765,
+    "keepORdelete": true
+  },
+  {
+    "words": "even",
+    "id": 766,
+    "keepORdelete": true
+  },
+  {
+    "words": "less.",
+    "id": 767,
+    "keepORdelete": true
+  },
+  {
+    "words": "And",
+    "id": 768,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 769,
+    "keepORdelete": true
+  },
+  {
+    "words": "may",
+    "id": 770,
+    "keepORdelete": true
+  },
+  {
+    "words": "say",
+    "id": 771,
+    "keepORdelete": true
+  },
+  {
+    "words": "it",
+    "id": 772,
+    "keepORdelete": true
+  },
+  {
+    "words": "will",
+    "id": 773,
+    "keepORdelete": true
+  },
+  {
+    "words": "increase.",
+    "id": 774,
+    "keepORdelete": true
+  },
+  {
+    "words": "It",
+    "id": 775,
+    "keepORdelete": true
+  },
+  {
+    "words": "doesn't",
+    "id": 776,
+    "keepORdelete": true
+  },
+  {
+    "words": "need",
+    "id": 777,
+    "keepORdelete": true
+  },
+  {
+    "words": "to.",
+    "id": 778,
+    "keepORdelete": true
+  },
+  {
+    "words": "But",
+    "id": 779,
+    "keepORdelete": true
+  },
+  {
+    "words": "of",
+    "id": 780,
+    "keepORdelete": true
+  },
+  {
+    "words": "course",
+    "id": 781,
+    "keepORdelete": true
+  },
+  {
+    "words": "it",
+    "id": 782,
+    "keepORdelete": true
+  },
+  {
+    "words": "will.",
+    "id": 783,
+    "keepORdelete": true
+  },
+  {
+    "words": "But",
+    "id": 784,
+    "keepORdelete": true
+  },
+  {
+    "words": "what",
+    "id": 785,
+    "keepORdelete": true
+  },
+  {
+    "words": "I",
+    "id": 786,
+    "keepORdelete": true
+  },
+  {
+    "words": "mean",
+    "id": 787,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 788,
+    "keepORdelete": true
+  },
+  {
+    "words": "that",
+    "id": 789,
+    "keepORdelete": true
+  },
+  {
+    "words": "it",
+    "id": 790,
+    "keepORdelete": true
+  },
+  {
+    "words": "doesn't",
+    "id": 791,
+    "keepORdelete": true
+  },
+  {
+    "words": "need",
+    "id": 792,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 793,
+    "keepORdelete": true
+  },
+  {
+    "words": "increase",
+    "id": 794,
+    "keepORdelete": true
+  },
+  {
+    "words": "by",
+    "id": 795,
+    "keepORdelete": true
+  },
+  {
+    "words": "a",
+    "id": 796,
+    "keepORdelete": true
+  },
+  {
+    "words": "large",
+    "id": 797,
+    "keepORdelete": true
+  },
+  {
+    "words": "margin.",
+    "id": 798,
+    "keepORdelete": true
+  },
+  {
+    "words": "So",
+    "id": 799,
+    "keepORdelete": true
+  },
+  {
+    "words": "there",
+    "id": 800,
+    "keepORdelete": true
+  },
+  {
+    "words": "is",
+    "id": 801,
+    "keepORdelete": true
+  },
+  {
+    "words": "that.",
+    "id": 802,
+    "keepORdelete": true
+  },
+  {
+    "words": "In",
+    "id": 803,
+    "keepORdelete": true
+  },
+  {
+    "words": "20",
+    "id": 804,
+    "keepORdelete": true
+  },
+  {
+    "words": "years",
+    "id": 805,
+    "keepORdelete": true
+  },
+  {
+    "words": "maybe",
+    "id": 806,
+    "keepORdelete": true
+  },
+  {
+    "words": "Devin",
+    "id": 807,
+    "keepORdelete": true
+  },
+  {
+    "words": "will",
+    "id": 808,
+    "keepORdelete": true
+  },
+  {
+    "words": "be",
+    "id": 809,
+    "keepORdelete": true
+  },
+  {
+    "words": "something.",
+    "id": 810,
+    "keepORdelete": true
+  },
+  {
+    "words": "Or",
+    "id": 811,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 812,
+    "keepORdelete": true
+  },
+  {
+    "words": "AI",
+    "id": 813,
+    "keepORdelete": true
+  },
+  {
+    "words": "industry",
+    "id": 814,
+    "keepORdelete": true
+  },
+  {
+    "words": "will",
+    "id": 815,
+    "keepORdelete": true
+  },
+  {
+    "words": "somehow",
+    "id": 816,
+    "keepORdelete": true
+  },
+  {
+    "words": "come",
+    "id": 817,
+    "keepORdelete": true
+  },
+  {
+    "words": "up",
+    "id": 818,
+    "keepORdelete": true
+  },
+  {
+    "words": "how",
+    "id": 819,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 820,
+    "keepORdelete": true
+  },
+  {
+    "words": "make",
+    "id": 821,
+    "keepORdelete": true
+  },
+  {
+    "words": "very",
+    "id": 822,
+    "keepORdelete": true
+  },
+  {
+    "words": "good",
+    "id": 823,
+    "keepORdelete": true
+  },
+  {
+    "words": "coding",
+    "id": 824,
+    "keepORdelete": true
+  },
+  {
+    "words": "AI",
+    "id": 825,
+    "keepORdelete": true
+  },
+  {
+    "words": "agents.",
+    "id": 826,
+    "keepORdelete": true
+  },
+  {
+    "words": "But",
+    "id": 827,
+    "keepORdelete": true
+  },
+  {
+    "words": "we",
+    "id": 828,
+    "keepORdelete": true
+  },
+  {
+    "words": "will",
+    "id": 829,
+    "keepORdelete": true
+  },
+  {
+    "words": "see",
+    "id": 830,
+    "keepORdelete": true
+  },
+  {
+    "words": "in",
+    "id": 831,
+    "keepORdelete": true
+  },
+  {
+    "words": "20",
+    "id": 832,
+    "keepORdelete": true
+  },
+  {
+    "words": "years",
+    "id": 833,
+    "keepORdelete": true
+  },
+  {
+    "words": "guys.",
+    "id": 834,
+    "keepORdelete": true
+  },
+  {
+    "words": "Because",
+    "id": 835,
+    "keepORdelete": true
+  },
+  {
+    "words": "it",
+    "id": 836,
+    "keepORdelete": true
+  },
+  {
+    "words": "takes",
+    "id": 837,
+    "keepORdelete": true
+  },
+  {
+    "words": "time",
+    "id": 838,
+    "keepORdelete": true
+  },
+  {
+    "words": "to",
+    "id": 839,
+    "keepORdelete": true
+  },
+  {
+    "words": "adopt",
+    "id": 840,
+    "keepORdelete": true
+  },
+  {
+    "words": "these",
+    "id": 841,
+    "keepORdelete": true
+  },
+  {
+    "words": "technologies",
+    "id": 842,
+    "keepORdelete": true
+  },
+  {
+    "words": "and",
+    "id": 843,
+    "keepORdelete": true
+  },
+  {
+    "words": "also",
+    "id": 844,
+    "keepORdelete": true
+  },
+  {
+    "words": "they",
+    "id": 845,
+    "keepORdelete": true
+  },
+  {
+    "words": "are",
+    "id": 846,
+    "keepORdelete": true
+  },
+  {
+    "words": "not",
+    "id": 847,
+    "keepORdelete": true
+  },
+  {
+    "words": "so",
+    "id": 848,
+    "keepORdelete": true
+  },
+  {
+    "words": "great.",
+    "id": 849,
+    "keepORdelete": true
+  },
+  {
+    "words": "I",
+    "id": 850,
+    "keepORdelete": true
+  },
+  {
+    "words": "hope",
+    "id": 851,
+    "keepORdelete": true
+  },
+  {
+    "words": "you",
+    "id": 852,
+    "keepORdelete": true
+  },
+  {
+    "words": "guys",
+    "id": 853,
+    "keepORdelete": true
+  },
+  {
+    "words": "enjoyed",
+    "id": 854,
+    "keepORdelete": true
+  },
+  {
+    "words": "the",
+    "id": 855,
+    "keepORdelete": true
+  },
+  {
+    "words": "video.",
+    "id": 856,
+    "keepORdelete": true
+  },
+  {
+    "words": "Bye",
+    "id": 857,
+    "keepORdelete": true
+  },
+  {
+    "words": "bye.",
+    "id": 858,
+    "keepORdelete": true
+  }
+]

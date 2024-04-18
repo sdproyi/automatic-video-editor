@@ -1,0 +1,4203 @@
+{
+  "task": "transcribe",
+  "language": "english",
+  "duration": 535.2899780273438,
+  "text": "hello hello guys there is a thing called Devin AI do you know hello guys there is a thing called Devin AI it should replace our job and yes it will replace no hello guys hello guys today I heard not today fuck me hello hello guys I heard there is AI tool called Devin which should replace us so we should trust them and yeah we should trust everybody who is online right now if you have an experience you already know that Devin is not going to replace you and those who are saying it will those don't have really much of experience in programming and that's the truth to demonstrate it actually I have gone on the website to prove how bad is actually Devin it only good at creating very small demos which take unnecessary amount of time for a developer no it can only build demos which take a lot of time compared to what you actually need but so let's go to the website so here we are on the website the first video is about creating guess what so they're pointing to a website which supposed to help you to create a thing and it actually doesn't just tell you it so if you see this article then you can see what they have created it's actually pretty interesting but it's not that hard it's not that hard when you have already the scripts on github and all you need is just the image which you can very easily create using so here we are on the github page how to create the AI images which is actually cool and all but it looks like you have already have the code so question is what takes 45 minutes to create this video because if you don't didn't know this video took 45 minutes to make for them for the AI my bad I cannot imagine how can you even get the box while you are doing this code also in the video it uses called Python below and if I just search that up go to copilot then it will give me step-by-step how to do it so this is a basic usage of below but if I ask for example to other text which we saw it was a black background with white text I'm gonna ask for a big white text into middle no you stupid copilot is a stupid too it's trying to literally generate the image you've got to be sometimes more specific I should use the pillow there we go 800 by 600 pixels black background text hello world classic which font we should use 40 size where the position should be and text white so in theory this took 20 seconds to make then copying it from git was combining the code can take you five minutes if not less and heck I don't even do Python I do JavaScript TypeScript and I found it actually this very easy so if you think and the other demos are same same and if you think that Devin will replace no and also about the other demos they are something like this too they are not very hard to make and if they are a bit difficult to make it's probably because if you find something difficult to make on day no and there are also other demos on the website of course for example the game of life which being like which be made like a bajillion times so it's not new also about the bug fixes it was trained on it was tested by the SVE also about the bug fixes it was trained it was tested on the different github problems real world apparently but the fact is it's a special we made for AI those questions are very specific there is a funny one AI trains AI I mean AI can be very simple it doesn't need to be also there is a funny thing that they have on their website is Devin Upwork site hustle making their money worth with Devin is just making some very easy stuff on Upwork that's kind of funny you should guys check it out also there is a benchmark SVE performance 14% not not good still 86% of work on github is not done by Devin and SVE bench is specifically made for AI so you can imagine it's even less and you may say it will increase it doesn't need to but yeah of course it will but what I mean is that it doesn't need to increase by a large margin so there is that in 20 years maybe Devin will be something or the AI industry will somehow came up how to make very good coding AI agents but we will see in 20 years guys because it takes time to adopt these technologies and also they are not so great I hope you guys enjoyed the video bye bye",
+  "words": [
+    {
+      "word": "hello",
+      "start": 8.279999732971191,
+      "end": 9.220000267028809
+    },
+    {
+      "word": "hello",
+      "start": 9.220000267028809,
+      "end": 9.9399995803833
+    },
+    {
+      "word": "guys",
+      "start": 9.9399995803833,
+      "end": 10.399999618530273
+    },
+    {
+      "word": "there",
+      "start": 10.399999618530273,
+      "end": 12.100000381469727
+    },
+    {
+      "word": "is",
+      "start": 12.100000381469727,
+      "end": 12.239999771118164
+    },
+    {
+      "word": "a",
+      "start": 12.239999771118164,
+      "end": 12.460000038146973
+    },
+    {
+      "word": "thing",
+      "start": 12.460000038146973,
+      "end": 12.739999771118164
+    },
+    {
+      "word": "called",
+      "start": 12.739999771118164,
+      "end": 13.539999961853027
+    },
+    {
+      "word": "Devin",
+      "start": 13.539999961853027,
+      "end": 14.020000457763672
+    },
+    {
+      "word": "AI",
+      "start": 14.020000457763672,
+      "end": 14.65999984741211
+    },
+    {
+      "word": "do",
+      "start": 14.65999984741211,
+      "end": 15.899999618530273
+    },
+    {
+      "word": "you",
+      "start": 15.899999618530273,
+      "end": 15.960000038146973
+    },
+    {
+      "word": "know",
+      "start": 15.960000038146973,
+      "end": 17.5
+    },
+    {
+      "word": "hello",
+      "start": 17.5,
+      "end": 18.600000381469727
+    },
+    {
+      "word": "guys",
+      "start": 18.600000381469727,
+      "end": 18.940000534057617
+    },
+    {
+      "word": "there",
+      "start": 18.940000534057617,
+      "end": 19.719999313354492
+    },
+    {
+      "word": "is",
+      "start": 19.719999313354492,
+      "end": 19.81999969482422
+    },
+    {
+      "word": "a",
+      "start": 19.81999969482422,
+      "end": 19.959999084472656
+    },
+    {
+      "word": "thing",
+      "start": 19.959999084472656,
+      "end": 20.219999313354492
+    },
+    {
+      "word": "called",
+      "start": 20.219999313354492,
+      "end": 20.5
+    },
+    {
+      "word": "Devin",
+      "start": 20.5,
+      "end": 21.200000762939453
+    },
+    {
+      "word": "AI",
+      "start": 21.200000762939453,
+      "end": 22
+    },
+    {
+      "word": "it",
+      "start": 22,
+      "end": 22.6200008392334
+    },
+    {
+      "word": "should",
+      "start": 22.6200008392334,
+      "end": 22.940000534057617
+    },
+    {
+      "word": "replace",
+      "start": 22.940000534057617,
+      "end": 23.579999923706055
+    },
+    {
+      "word": "our",
+      "start": 23.579999923706055,
+      "end": 23.959999084472656
+    },
+    {
+      "word": "job",
+      "start": 23.959999084472656,
+      "end": 24.260000228881836
+    },
+    {
+      "word": "and",
+      "start": 24.260000228881836,
+      "end": 24.959999084472656
+    },
+    {
+      "word": "yes",
+      "start": 24.959999084472656,
+      "end": 25.200000762939453
+    },
+    {
+      "word": "it",
+      "start": 25.200000762939453,
+      "end": 25.3799991607666
+    },
+    {
+      "word": "will",
+      "start": 25.3799991607666,
+      "end": 25.639999389648438
+    },
+    {
+      "word": "replace",
+      "start": 25.639999389648438,
+      "end": 26.18000030517578
+    },
+    {
+      "word": "no",
+      "start": 26.31999969482422,
+      "end": 27.31999969482422
+    },
+    {
+      "word": "hello",
+      "start": 27.31999969482422,
+      "end": 28.079999923706055
+    },
+    {
+      "word": "guys",
+      "start": 28.079999923706055,
+      "end": 28.959999084472656
+    },
+    {
+      "word": "hello",
+      "start": 28.959999084472656,
+      "end": 32.119998931884766
+    },
+    {
+      "word": "guys",
+      "start": 32.119998931884766,
+      "end": 32.540000915527344
+    },
+    {
+      "word": "today",
+      "start": 32.540000915527344,
+      "end": 33.34000015258789
+    },
+    {
+      "word": "I",
+      "start": 33.34000015258789,
+      "end": 33.79999923706055
+    },
+    {
+      "word": "heard",
+      "start": 33.79999923706055,
+      "end": 33.91999816894531
+    },
+    {
+      "word": "not",
+      "start": 33.91999816894531,
+      "end": 34.880001068115234
+    },
+    {
+      "word": "today",
+      "start": 34.880001068115234,
+      "end": 35.380001068115234
+    },
+    {
+      "word": "fuck",
+      "start": 35.380001068115234,
+      "end": 35.68000030517578
+    },
+    {
+      "word": "me",
+      "start": 35.68000030517578,
+      "end": 36.439998626708984
+    },
+    {
+      "word": "hello",
+      "start": 36.439998626708984,
+      "end": 37.34000015258789
+    },
+    {
+      "word": "hello",
+      "start": 37.34000015258789,
+      "end": 38.279998779296875
+    },
+    {
+      "word": "guys",
+      "start": 38.279998779296875,
+      "end": 38.619998931884766
+    },
+    {
+      "word": "I",
+      "start": 38.619998931884766,
+      "end": 39.099998474121094
+    },
+    {
+      "word": "heard",
+      "start": 39.099998474121094,
+      "end": 39.400001525878906
+    },
+    {
+      "word": "there",
+      "start": 39.400001525878906,
+      "end": 39.81999969482422
+    },
+    {
+      "word": "is",
+      "start": 39.81999969482422,
+      "end": 39.939998626708984
+    },
+    {
+      "word": "AI",
+      "start": 39.939998626708984,
+      "end": 40.47999954223633
+    },
+    {
+      "word": "tool",
+      "start": 40.47999954223633,
+      "end": 41.119998931884766
+    },
+    {
+      "word": "called",
+      "start": 41.119998931884766,
+      "end": 41.7599983215332
+    },
+    {
+      "word": "Devin",
+      "start": 41.7599983215332,
+      "end": 42.380001068115234
+    },
+    {
+      "word": "which",
+      "start": 42.380001068115234,
+      "end": 43.439998626708984
+    },
+    {
+      "word": "should",
+      "start": 43.439998626708984,
+      "end": 44
+    },
+    {
+      "word": "replace",
+      "start": 44,
+      "end": 44.459999084472656
+    },
+    {
+      "word": "us",
+      "start": 44.459999084472656,
+      "end": 45.36000061035156
+    },
+    {
+      "word": "so",
+      "start": 45.36000061035156,
+      "end": 46.7599983215332
+    },
+    {
+      "word": "we",
+      "start": 46.7599983215332,
+      "end": 47.2599983215332
+    },
+    {
+      "word": "should",
+      "start": 47.2599983215332,
+      "end": 47.459999084472656
+    },
+    {
+      "word": "trust",
+      "start": 47.459999084472656,
+      "end": 47.81999969482422
+    },
+    {
+      "word": "them",
+      "start": 47.81999969482422,
+      "end": 48.2400016784668
+    },
+    {
+      "word": "and",
+      "start": 48.2400016784668,
+      "end": 48.900001525878906
+    },
+    {
+      "word": "yeah",
+      "start": 48.900001525878906,
+      "end": 51.13999938964844
+    },
+    {
+      "word": "we",
+      "start": 51.13999938964844,
+      "end": 51.279998779296875
+    },
+    {
+      "word": "should",
+      "start": 51.279998779296875,
+      "end": 51.41999816894531
+    },
+    {
+      "word": "trust",
+      "start": 51.41999816894531,
+      "end": 51.70000076293945
+    },
+    {
+      "word": "everybody",
+      "start": 51.70000076293945,
+      "end": 52.08000183105469
+    },
+    {
+      "word": "who",
+      "start": 52.08000183105469,
+      "end": 52.380001068115234
+    },
+    {
+      "word": "is",
+      "start": 52.380001068115234,
+      "end": 52.58000183105469
+    },
+    {
+      "word": "online",
+      "start": 52.58000183105469,
+      "end": 53.2400016784668
+    },
+    {
+      "word": "right",
+      "start": 53.2400016784668,
+      "end": 54.20000076293945
+    },
+    {
+      "word": "now",
+      "start": 54.20000076293945,
+      "end": 55.900001525878906
+    },
+    {
+      "word": "if",
+      "start": 55.900001525878906,
+      "end": 56.060001373291016
+    },
+    {
+      "word": "you",
+      "start": 56.060001373291016,
+      "end": 56.15999984741211
+    },
+    {
+      "word": "have",
+      "start": 56.15999984741211,
+      "end": 56.34000015258789
+    },
+    {
+      "word": "an",
+      "start": 56.34000015258789,
+      "end": 56.439998626708984
+    },
+    {
+      "word": "experience",
+      "start": 56.439998626708984,
+      "end": 57.2400016784668
+    },
+    {
+      "word": "you",
+      "start": 57.2400016784668,
+      "end": 57.52000045776367
+    },
+    {
+      "word": "already",
+      "start": 57.52000045776367,
+      "end": 58.02000045776367
+    },
+    {
+      "word": "know",
+      "start": 58.02000045776367,
+      "end": 58.880001068115234
+    },
+    {
+      "word": "that",
+      "start": 58.880001068115234,
+      "end": 60.2599983215332
+    },
+    {
+      "word": "Devin",
+      "start": 60.2599983215332,
+      "end": 60.279998779296875
+    },
+    {
+      "word": "is",
+      "start": 60.279998779296875,
+      "end": 60.540000915527344
+    },
+    {
+      "word": "not",
+      "start": 60.540000915527344,
+      "end": 60.7599983215332
+    },
+    {
+      "word": "going",
+      "start": 60.7599983215332,
+      "end": 60.880001068115234
+    },
+    {
+      "word": "to",
+      "start": 60.880001068115234,
+      "end": 61.599998474121094
+    },
+    {
+      "word": "replace",
+      "start": 61.599998474121094,
+      "end": 61.599998474121094
+    },
+    {
+      "word": "you",
+      "start": 61.599998474121094,
+      "end": 62
+    },
+    {
+      "word": "and",
+      "start": 62,
+      "end": 63.20000076293945
+    },
+    {
+      "word": "those",
+      "start": 63.20000076293945,
+      "end": 63.97999954223633
+    },
+    {
+      "word": "who",
+      "start": 63.97999954223633,
+      "end": 64.30000305175781
+    },
+    {
+      "word": "are",
+      "start": 64.30000305175781,
+      "end": 64.30000305175781
+    },
+    {
+      "word": "saying",
+      "start": 64.30000305175781,
+      "end": 64.5199966430664
+    },
+    {
+      "word": "it",
+      "start": 64.5199966430664,
+      "end": 64.76000213623047
+    },
+    {
+      "word": "will",
+      "start": 64.76000213623047,
+      "end": 65.12000274658203
+    },
+    {
+      "word": "those",
+      "start": 65.12000274658203,
+      "end": 65.66000366210938
+    },
+    {
+      "word": "don't",
+      "start": 65.66000366210938,
+      "end": 65.9000015258789
+    },
+    {
+      "word": "have",
+      "start": 65.9000015258789,
+      "end": 66.05999755859375
+    },
+    {
+      "word": "really",
+      "start": 66.05999755859375,
+      "end": 66.4800033569336
+    },
+    {
+      "word": "much",
+      "start": 66.4800033569336,
+      "end": 67.22000122070312
+    },
+    {
+      "word": "of",
+      "start": 67.22000122070312,
+      "end": 67.5
+    },
+    {
+      "word": "experience",
+      "start": 67.5,
+      "end": 68.0999984741211
+    },
+    {
+      "word": "in",
+      "start": 68.0999984741211,
+      "end": 68.45999908447266
+    },
+    {
+      "word": "programming",
+      "start": 68.45999908447266,
+      "end": 68.73999786376953
+    },
+    {
+      "word": "and",
+      "start": 68.73999786376953,
+      "end": 69.94000244140625
+    },
+    {
+      "word": "that's",
+      "start": 69.94000244140625,
+      "end": 70.31999969482422
+    },
+    {
+      "word": "the",
+      "start": 70.31999969482422,
+      "end": 70.44000244140625
+    },
+    {
+      "word": "truth",
+      "start": 70.44000244140625,
+      "end": 71.16000366210938
+    },
+    {
+      "word": "to",
+      "start": 71.16000366210938,
+      "end": 72.0199966430664
+    },
+    {
+      "word": "demonstrate",
+      "start": 72.0199966430664,
+      "end": 72.63999938964844
+    },
+    {
+      "word": "it",
+      "start": 72.63999938964844,
+      "end": 73.26000213623047
+    },
+    {
+      "word": "actually",
+      "start": 73.26000213623047,
+      "end": 73.62000274658203
+    },
+    {
+      "word": "I",
+      "start": 73.62000274658203,
+      "end": 73.87999725341797
+    },
+    {
+      "word": "have",
+      "start": 73.87999725341797,
+      "end": 73.94000244140625
+    },
+    {
+      "word": "gone",
+      "start": 73.94000244140625,
+      "end": 74.55999755859375
+    },
+    {
+      "word": "on",
+      "start": 74.55999755859375,
+      "end": 75
+    },
+    {
+      "word": "the",
+      "start": 75,
+      "end": 75.22000122070312
+    },
+    {
+      "word": "website",
+      "start": 75.22000122070312,
+      "end": 75.86000061035156
+    },
+    {
+      "word": "to",
+      "start": 75.86000061035156,
+      "end": 76.72000122070312
+    },
+    {
+      "word": "prove",
+      "start": 76.72000122070312,
+      "end": 77.19999694824219
+    },
+    {
+      "word": "how",
+      "start": 77.19999694824219,
+      "end": 78.81999969482422
+    },
+    {
+      "word": "bad",
+      "start": 78.81999969482422,
+      "end": 79.23999786376953
+    },
+    {
+      "word": "is",
+      "start": 79.23999786376953,
+      "end": 79.94000244140625
+    },
+    {
+      "word": "actually",
+      "start": 79.94000244140625,
+      "end": 80.33999633789062
+    },
+    {
+      "word": "Devin",
+      "start": 80.33999633789062,
+      "end": 80.66000366210938
+    },
+    {
+      "word": "it",
+      "start": 80.66000366210938,
+      "end": 81.0199966430664
+    },
+    {
+      "word": "only",
+      "start": 81.0199966430664,
+      "end": 81.30000305175781
+    },
+    {
+      "word": "good",
+      "start": 81.30000305175781,
+      "end": 81.94000244140625
+    },
+    {
+      "word": "at",
+      "start": 81.94000244140625,
+      "end": 82.23999786376953
+    },
+    {
+      "word": "creating",
+      "start": 82.23999786376953,
+      "end": 82.58000183105469
+    },
+    {
+      "word": "very",
+      "start": 82.58000183105469,
+      "end": 83.41999816894531
+    },
+    {
+      "word": "small",
+      "start": 83.41999816894531,
+      "end": 84.29000091552734
+    },
+    {
+      "word": "demos",
+      "start": 84.29000091552734,
+      "end": 84.68000030517578
+    },
+    {
+      "word": "which",
+      "start": 84.68000030517578,
+      "end": 85.16000366210938
+    },
+    {
+      "word": "take",
+      "start": 85.16000366210938,
+      "end": 86.12000274658203
+    },
+    {
+      "word": "unnecessary",
+      "start": 86.12000274658203,
+      "end": 87.4800033569336
+    },
+    {
+      "word": "amount",
+      "start": 87.4800033569336,
+      "end": 87.9800033569336
+    },
+    {
+      "word": "of",
+      "start": 87.9800033569336,
+      "end": 88.5
+    },
+    {
+      "word": "time",
+      "start": 88.5,
+      "end": 88.5999984741211
+    },
+    {
+      "word": "for",
+      "start": 88.5999984741211,
+      "end": 89.30000305175781
+    },
+    {
+      "word": "a",
+      "start": 89.30000305175781,
+      "end": 89.94000244140625
+    },
+    {
+      "word": "developer",
+      "start": 89.94000244140625,
+      "end": 89.94000244140625
+    },
+    {
+      "word": "no",
+      "start": 89.94000244140625,
+      "end": 91.19999694824219
+    },
+    {
+      "word": "it",
+      "start": 91.19999694824219,
+      "end": 92.37999725341797
+    },
+    {
+      "word": "can",
+      "start": 92.37999725341797,
+      "end": 92.58000183105469
+    },
+    {
+      "word": "only",
+      "start": 92.58000183105469,
+      "end": 92.86000061035156
+    },
+    {
+      "word": "build",
+      "start": 92.86000061035156,
+      "end": 93.16000366210938
+    },
+    {
+      "word": "demos",
+      "start": 93.16000366210938,
+      "end": 93.72000122070312
+    },
+    {
+      "word": "which",
+      "start": 93.72000122070312,
+      "end": 94.18000030517578
+    },
+    {
+      "word": "take",
+      "start": 94.18000030517578,
+      "end": 94.9000015258789
+    },
+    {
+      "word": "a",
+      "start": 94.9000015258789,
+      "end": 95.94000244140625
+    },
+    {
+      "word": "lot",
+      "start": 95.94000244140625,
+      "end": 95.95999908447266
+    },
+    {
+      "word": "of",
+      "start": 95.95999908447266,
+      "end": 96.37999725341797
+    },
+    {
+      "word": "time",
+      "start": 96.37999725341797,
+      "end": 96.62000274658203
+    },
+    {
+      "word": "compared",
+      "start": 96.62000274658203,
+      "end": 97
+    },
+    {
+      "word": "to",
+      "start": 97,
+      "end": 97.54000091552734
+    },
+    {
+      "word": "what",
+      "start": 97.54000091552734,
+      "end": 98.13999938964844
+    },
+    {
+      "word": "you",
+      "start": 98.13999938964844,
+      "end": 98.26000213623047
+    },
+    {
+      "word": "actually",
+      "start": 98.26000213623047,
+      "end": 98.62000274658203
+    },
+    {
+      "word": "need",
+      "start": 98.62000274658203,
+      "end": 99.5999984741211
+    },
+    {
+      "word": "but",
+      "start": 106.36000061035156,
+      "end": 107.0199966430664
+    },
+    {
+      "word": "so",
+      "start": 107.0199966430664,
+      "end": 106.08000183105469
+    },
+    {
+      "word": "let's",
+      "start": 106.08000183105469,
+      "end": 107.68000030517578
+    },
+    {
+      "word": "go",
+      "start": 107.68000030517578,
+      "end": 108.0199966430664
+    },
+    {
+      "word": "to",
+      "start": 108.0199966430664,
+      "end": 108.31999969482422
+    },
+    {
+      "word": "the",
+      "start": 108.31999969482422,
+      "end": 108.41999816894531
+    },
+    {
+      "word": "website",
+      "start": 108.41999816894531,
+      "end": 109
+    },
+    {
+      "word": "so",
+      "start": 109,
+      "end": 113.27999877929688
+    },
+    {
+      "word": "here",
+      "start": 113.27999877929688,
+      "end": 113.58000183105469
+    },
+    {
+      "word": "we",
+      "start": 113.58000183105469,
+      "end": 113.72000122070312
+    },
+    {
+      "word": "are",
+      "start": 113.72000122070312,
+      "end": 113.87999725341797
+    },
+    {
+      "word": "on",
+      "start": 113.87999725341797,
+      "end": 114.0199966430664
+    },
+    {
+      "word": "the",
+      "start": 114.0199966430664,
+      "end": 114.22000122070312
+    },
+    {
+      "word": "website",
+      "start": 114.22000122070312,
+      "end": 115.04000091552734
+    },
+    {
+      "word": "the",
+      "start": 115.04000091552734,
+      "end": 118.68000030517578
+    },
+    {
+      "word": "first",
+      "start": 118.68000030517578,
+      "end": 118.95999908447266
+    },
+    {
+      "word": "video",
+      "start": 118.95999908447266,
+      "end": 119.27999877929688
+    },
+    {
+      "word": "is",
+      "start": 119.27999877929688,
+      "end": 120.37999725341797
+    },
+    {
+      "word": "about",
+      "start": 121.83999633789062,
+      "end": 123.31999969482422
+    },
+    {
+      "word": "creating",
+      "start": 123.31999969482422,
+      "end": 123.5999984741211
+    },
+    {
+      "word": "guess",
+      "start": 123.5999984741211,
+      "end": 124.80000305175781
+    },
+    {
+      "word": "what",
+      "start": 124.80000305175781,
+      "end": 126.66000366210938
+    },
+    {
+      "word": "so",
+      "start": 126.66000366210938,
+      "end": 129.77999877929688
+    },
+    {
+      "word": "they're",
+      "start": 129.77999877929688,
+      "end": 130.5800018310547
+    },
+    {
+      "word": "pointing",
+      "start": 130.5800018310547,
+      "end": 130.8000030517578
+    },
+    {
+      "word": "to",
+      "start": 130.8000030517578,
+      "end": 131.02000427246094
+    },
+    {
+      "word": "a",
+      "start": 131.02000427246094,
+      "end": 131.22000122070312
+    },
+    {
+      "word": "website",
+      "start": 131.22000122070312,
+      "end": 131.8800048828125
+    },
+    {
+      "word": "which",
+      "start": 131.8800048828125,
+      "end": 133.75999450683594
+    },
+    {
+      "word": "supposed",
+      "start": 133.75999450683594,
+      "end": 134.97999572753906
+    },
+    {
+      "word": "to",
+      "start": 134.97999572753906,
+      "end": 135.9199981689453
+    },
+    {
+      "word": "help",
+      "start": 135.9199981689453,
+      "end": 137.25999450683594
+    },
+    {
+      "word": "you",
+      "start": 137.25999450683594,
+      "end": 137.47999572753906
+    },
+    {
+      "word": "to",
+      "start": 137.47999572753906,
+      "end": 137.67999267578125
+    },
+    {
+      "word": "create",
+      "start": 137.67999267578125,
+      "end": 138.05999755859375
+    },
+    {
+      "word": "a",
+      "start": 138.05999755859375,
+      "end": 138.5399932861328
+    },
+    {
+      "word": "thing",
+      "start": 138.5399932861328,
+      "end": 138.86000061035156
+    },
+    {
+      "word": "and",
+      "start": 138.86000061035156,
+      "end": 140.13999938964844
+    },
+    {
+      "word": "it",
+      "start": 140.13999938964844,
+      "end": 140.8000030517578
+    },
+    {
+      "word": "actually",
+      "start": 140.8000030517578,
+      "end": 141.1199951171875
+    },
+    {
+      "word": "doesn't",
+      "start": 141.1199951171875,
+      "end": 142.27999877929688
+    },
+    {
+      "word": "just",
+      "start": 142.27999877929688,
+      "end": 143.02000427246094
+    },
+    {
+      "word": "tell",
+      "start": 143.02000427246094,
+      "end": 143.3800048828125
+    },
+    {
+      "word": "you",
+      "start": 143.3800048828125,
+      "end": 143.8000030517578
+    },
+    {
+      "word": "it",
+      "start": 143.8000030517578,
+      "end": 150.36000061035156
+    },
+    {
+      "word": "so",
+      "start": 151.32000732421875,
+      "end": 152.0800018310547
+    },
+    {
+      "word": "if",
+      "start": 152.0800018310547,
+      "end": 152.3000030517578
+    },
+    {
+      "word": "you",
+      "start": 152.3000030517578,
+      "end": 152.47999572753906
+    },
+    {
+      "word": "see",
+      "start": 152.47999572753906,
+      "end": 152.66000366210938
+    },
+    {
+      "word": "this",
+      "start": 152.66000366210938,
+      "end": 153.10000610351562
+    },
+    {
+      "word": "article",
+      "start": 153.10000610351562,
+      "end": 153.60000610351562
+    },
+    {
+      "word": "then",
+      "start": 153.60000610351562,
+      "end": 154.8000030517578
+    },
+    {
+      "word": "you",
+      "start": 154.8000030517578,
+      "end": 154.9600067138672
+    },
+    {
+      "word": "can",
+      "start": 154.9600067138672,
+      "end": 155.39999389648438
+    },
+    {
+      "word": "see",
+      "start": 155.39999389648438,
+      "end": 156.1199951171875
+    },
+    {
+      "word": "what",
+      "start": 156.1199951171875,
+      "end": 157.3800048828125
+    },
+    {
+      "word": "they",
+      "start": 157.3800048828125,
+      "end": 157.60000610351562
+    },
+    {
+      "word": "have",
+      "start": 157.60000610351562,
+      "end": 157.9600067138672
+    },
+    {
+      "word": "created",
+      "start": 157.9600067138672,
+      "end": 158.4600067138672
+    },
+    {
+      "word": "it's",
+      "start": 158.4600067138672,
+      "end": 158.86000061035156
+    },
+    {
+      "word": "actually",
+      "start": 158.86000061035156,
+      "end": 159.16000366210938
+    },
+    {
+      "word": "pretty",
+      "start": 159.16000366210938,
+      "end": 159.6199951171875
+    },
+    {
+      "word": "interesting",
+      "start": 159.6199951171875,
+      "end": 160.67999267578125
+    },
+    {
+      "word": "but",
+      "start": 160.67999267578125,
+      "end": 162.3000030517578
+    },
+    {
+      "word": "it's",
+      "start": 162.3000030517578,
+      "end": 162.6199951171875
+    },
+    {
+      "word": "not",
+      "start": 162.6199951171875,
+      "end": 162.77999877929688
+    },
+    {
+      "word": "that",
+      "start": 162.77999877929688,
+      "end": 163.39999389648438
+    },
+    {
+      "word": "hard",
+      "start": 163.39999389648438,
+      "end": 163.63999938964844
+    },
+    {
+      "word": "it's",
+      "start": 163.63999938964844,
+      "end": 164.97999572753906
+    },
+    {
+      "word": "not",
+      "start": 164.97999572753906,
+      "end": 165.1199951171875
+    },
+    {
+      "word": "that",
+      "start": 165.1199951171875,
+      "end": 165.74000549316406
+    },
+    {
+      "word": "hard",
+      "start": 165.74000549316406,
+      "end": 165.82000732421875
+    },
+    {
+      "word": "when",
+      "start": 165.82000732421875,
+      "end": 166.33999633789062
+    },
+    {
+      "word": "you",
+      "start": 166.33999633789062,
+      "end": 166.52000427246094
+    },
+    {
+      "word": "have",
+      "start": 166.52000427246094,
+      "end": 166.82000732421875
+    },
+    {
+      "word": "already",
+      "start": 166.82000732421875,
+      "end": 168.16000366210938
+    },
+    {
+      "word": "the",
+      "start": 168.16000366210938,
+      "end": 169.0399932861328
+    },
+    {
+      "word": "scripts",
+      "start": 169.0399932861328,
+      "end": 169.0399932861328
+    },
+    {
+      "word": "on",
+      "start": 169.0399932861328,
+      "end": 169.89999389648438
+    },
+    {
+      "word": "github",
+      "start": 169.89999389648438,
+      "end": 170.1999969482422
+    },
+    {
+      "word": "and",
+      "start": 170.1999969482422,
+      "end": 171.60000610351562
+    },
+    {
+      "word": "all",
+      "start": 171.60000610351562,
+      "end": 171.83999633789062
+    },
+    {
+      "word": "you",
+      "start": 171.83999633789062,
+      "end": 172
+    },
+    {
+      "word": "need",
+      "start": 172,
+      "end": 172.13999938964844
+    },
+    {
+      "word": "is",
+      "start": 172.13999938964844,
+      "end": 172.36000061035156
+    },
+    {
+      "word": "just",
+      "start": 172.36000061035156,
+      "end": 172.67999267578125
+    },
+    {
+      "word": "the",
+      "start": 172.67999267578125,
+      "end": 173.3000030517578
+    },
+    {
+      "word": "image",
+      "start": 173.3000030517578,
+      "end": 173.3000030517578
+    },
+    {
+      "word": "which",
+      "start": 173.3000030517578,
+      "end": 174.39999389648438
+    },
+    {
+      "word": "you",
+      "start": 174.39999389648438,
+      "end": 174.55999755859375
+    },
+    {
+      "word": "can",
+      "start": 174.55999755859375,
+      "end": 174.89999389648438
+    },
+    {
+      "word": "very",
+      "start": 174.89999389648438,
+      "end": 175.3800048828125
+    },
+    {
+      "word": "easily",
+      "start": 175.3800048828125,
+      "end": 175.8000030517578
+    },
+    {
+      "word": "create",
+      "start": 175.8000030517578,
+      "end": 176.55999755859375
+    },
+    {
+      "word": "using",
+      "start": 176.55999755859375,
+      "end": 178.9199981689453
+    },
+    {
+      "word": "so",
+      "start": 178.9199981689453,
+      "end": 181.16000366210938
+    },
+    {
+      "word": "here",
+      "start": 181.16000366210938,
+      "end": 181.83999633789062
+    },
+    {
+      "word": "we",
+      "start": 181.83999633789062,
+      "end": 182.0800018310547
+    },
+    {
+      "word": "are",
+      "start": 182.0800018310547,
+      "end": 182.1999969482422
+    },
+    {
+      "word": "on",
+      "start": 182.1999969482422,
+      "end": 182.33999633789062
+    },
+    {
+      "word": "the",
+      "start": 182.33999633789062,
+      "end": 182.5
+    },
+    {
+      "word": "github",
+      "start": 182.5,
+      "end": 182.75999450683594
+    },
+    {
+      "word": "page",
+      "start": 182.75999450683594,
+      "end": 183.3000030517578
+    },
+    {
+      "word": "how",
+      "start": 183.3000030517578,
+      "end": 184.32000732421875
+    },
+    {
+      "word": "to",
+      "start": 184.32000732421875,
+      "end": 184.4600067138672
+    },
+    {
+      "word": "create",
+      "start": 184.4600067138672,
+      "end": 184.82000732421875
+    },
+    {
+      "word": "the",
+      "start": 184.82000732421875,
+      "end": 185.16000366210938
+    },
+    {
+      "word": "AI",
+      "start": 185.16000366210938,
+      "end": 185.6199951171875
+    },
+    {
+      "word": "images",
+      "start": 185.6199951171875,
+      "end": 186.25999450683594
+    },
+    {
+      "word": "which",
+      "start": 186.25999450683594,
+      "end": 188.16000366210938
+    },
+    {
+      "word": "is",
+      "start": 188.16000366210938,
+      "end": 188.32000732421875
+    },
+    {
+      "word": "actually",
+      "start": 188.32000732421875,
+      "end": 188.75999450683594
+    },
+    {
+      "word": "cool",
+      "start": 188.75999450683594,
+      "end": 189.63999938964844
+    },
+    {
+      "word": "and",
+      "start": 189.63999938964844,
+      "end": 189.8800048828125
+    },
+    {
+      "word": "all",
+      "start": 189.8800048828125,
+      "end": 190.52000427246094
+    },
+    {
+      "word": "but",
+      "start": 190.52000427246094,
+      "end": 191.83999633789062
+    },
+    {
+      "word": "it",
+      "start": 191.83999633789062,
+      "end": 193.3800048828125
+    },
+    {
+      "word": "looks",
+      "start": 193.3800048828125,
+      "end": 193.6199951171875
+    },
+    {
+      "word": "like",
+      "start": 193.6199951171875,
+      "end": 194.10000610351562
+    },
+    {
+      "word": "you",
+      "start": 194.10000610351562,
+      "end": 194.86000061035156
+    },
+    {
+      "word": "have",
+      "start": 194.86000061035156,
+      "end": 195.0800018310547
+    },
+    {
+      "word": "already",
+      "start": 195.0800018310547,
+      "end": 195.5399932861328
+    },
+    {
+      "word": "have",
+      "start": 195.5399932861328,
+      "end": 196.1199951171875
+    },
+    {
+      "word": "the",
+      "start": 196.1199951171875,
+      "end": 196.3800048828125
+    },
+    {
+      "word": "code",
+      "start": 196.3800048828125,
+      "end": 196.74000549316406
+    },
+    {
+      "word": "so",
+      "start": 196.74000549316406,
+      "end": 197.5399932861328
+    },
+    {
+      "word": "question",
+      "start": 197.5399932861328,
+      "end": 198.82000732421875
+    },
+    {
+      "word": "is",
+      "start": 198.82000732421875,
+      "end": 199.0800018310547
+    },
+    {
+      "word": "what",
+      "start": 199.0800018310547,
+      "end": 199.36000061035156
+    },
+    {
+      "word": "takes",
+      "start": 199.36000061035156,
+      "end": 199.74000549316406
+    },
+    {
+      "word": "45",
+      "start": 199.74000549316406,
+      "end": 201.5800018310547
+    },
+    {
+      "word": "minutes",
+      "start": 201.5800018310547,
+      "end": 202.0399932861328
+    },
+    {
+      "word": "to",
+      "start": 202.0399932861328,
+      "end": 202.5800018310547
+    },
+    {
+      "word": "create",
+      "start": 202.5800018310547,
+      "end": 202.83999633789062
+    },
+    {
+      "word": "this",
+      "start": 202.83999633789062,
+      "end": 203.1199951171875
+    },
+    {
+      "word": "video",
+      "start": 203.1199951171875,
+      "end": 203.47999572753906
+    },
+    {
+      "word": "because",
+      "start": 203.47999572753906,
+      "end": 204.83999633789062
+    },
+    {
+      "word": "if",
+      "start": 204.83999633789062,
+      "end": 205.0800018310547
+    },
+    {
+      "word": "you",
+      "start": 205.0800018310547,
+      "end": 205.17999267578125
+    },
+    {
+      "word": "don't",
+      "start": 205.17999267578125,
+      "end": 205.6199951171875
+    },
+    {
+      "word": "didn't",
+      "start": 205.6199951171875,
+      "end": 205.94000244140625
+    },
+    {
+      "word": "know",
+      "start": 205.94000244140625,
+      "end": 206.39999389648438
+    },
+    {
+      "word": "this",
+      "start": 206.39999389648438,
+      "end": 207.02000427246094
+    },
+    {
+      "word": "video",
+      "start": 207.02000427246094,
+      "end": 207.3000030517578
+    },
+    {
+      "word": "took",
+      "start": 207.3000030517578,
+      "end": 207.72000122070312
+    },
+    {
+      "word": "45",
+      "start": 207.72000122070312,
+      "end": 208.4199981689453
+    },
+    {
+      "word": "minutes",
+      "start": 208.4199981689453,
+      "end": 208.86000061035156
+    },
+    {
+      "word": "to",
+      "start": 208.86000061035156,
+      "end": 210.10000610351562
+    },
+    {
+      "word": "make",
+      "start": 210.10000610351562,
+      "end": 210.3800048828125
+    },
+    {
+      "word": "for",
+      "start": 210.3800048828125,
+      "end": 210.67999267578125
+    },
+    {
+      "word": "them",
+      "start": 210.67999267578125,
+      "end": 211.32000732421875
+    },
+    {
+      "word": "for",
+      "start": 211.32000732421875,
+      "end": 212.13999938964844
+    },
+    {
+      "word": "the",
+      "start": 212.13999938964844,
+      "end": 212.32000732421875
+    },
+    {
+      "word": "AI",
+      "start": 212.32000732421875,
+      "end": 212.72000122070312
+    },
+    {
+      "word": "my",
+      "start": 212.72000122070312,
+      "end": 213.6999969482422
+    },
+    {
+      "word": "bad",
+      "start": 213.6999969482422,
+      "end": 214.17999267578125
+    },
+    {
+      "word": "I",
+      "start": 214.17999267578125,
+      "end": 215.32000732421875
+    },
+    {
+      "word": "cannot",
+      "start": 215.32000732421875,
+      "end": 215.67999267578125
+    },
+    {
+      "word": "imagine",
+      "start": 215.67999267578125,
+      "end": 216.52000427246094
+    },
+    {
+      "word": "how",
+      "start": 216.52000427246094,
+      "end": 216.97999572753906
+    },
+    {
+      "word": "can",
+      "start": 216.97999572753906,
+      "end": 217.1199951171875
+    },
+    {
+      "word": "you",
+      "start": 217.1199951171875,
+      "end": 217.24000549316406
+    },
+    {
+      "word": "even",
+      "start": 217.24000549316406,
+      "end": 217.44000244140625
+    },
+    {
+      "word": "get",
+      "start": 217.44000244140625,
+      "end": 217.63999938964844
+    },
+    {
+      "word": "the",
+      "start": 217.63999938964844,
+      "end": 218.25999450683594
+    },
+    {
+      "word": "box",
+      "start": 218.25999450683594,
+      "end": 218.32000732421875
+    },
+    {
+      "word": "while",
+      "start": 218.32000732421875,
+      "end": 219.67999267578125
+    },
+    {
+      "word": "you",
+      "start": 219.67999267578125,
+      "end": 219.8000030517578
+    },
+    {
+      "word": "are",
+      "start": 219.8000030517578,
+      "end": 220
+    },
+    {
+      "word": "doing",
+      "start": 220,
+      "end": 220.1999969482422
+    },
+    {
+      "word": "this",
+      "start": 220.1999969482422,
+      "end": 220.63999938964844
+    },
+    {
+      "word": "code",
+      "start": 220.63999938964844,
+      "end": 221.33999633789062
+    },
+    {
+      "word": "also",
+      "start": 221.33999633789062,
+      "end": 222.24000549316406
+    },
+    {
+      "word": "in",
+      "start": 222.24000549316406,
+      "end": 222.8800048828125
+    },
+    {
+      "word": "the",
+      "start": 222.8800048828125,
+      "end": 223.10000610351562
+    },
+    {
+      "word": "video",
+      "start": 223.10000610351562,
+      "end": 223.5
+    },
+    {
+      "word": "it",
+      "start": 223.5,
+      "end": 224.86000061035156
+    },
+    {
+      "word": "uses",
+      "start": 224.86000061035156,
+      "end": 225.67999267578125
+    },
+    {
+      "word": "called",
+      "start": 225.67999267578125,
+      "end": 227.24000549316406
+    },
+    {
+      "word": "Python",
+      "start": 227.24000549316406,
+      "end": 227.89999389648438
+    },
+    {
+      "word": "below",
+      "start": 227.89999389648438,
+      "end": 228.66000366210938
+    },
+    {
+      "word": "and",
+      "start": 228.66000366210938,
+      "end": 229.8800048828125
+    },
+    {
+      "word": "if",
+      "start": 229.8800048828125,
+      "end": 230.05999755859375
+    },
+    {
+      "word": "I",
+      "start": 230.05999755859375,
+      "end": 230.16000366210938
+    },
+    {
+      "word": "just",
+      "start": 230.16000366210938,
+      "end": 230.4199981689453
+    },
+    {
+      "word": "search",
+      "start": 230.4199981689453,
+      "end": 230.67999267578125
+    },
+    {
+      "word": "that",
+      "start": 230.67999267578125,
+      "end": 230.94000244140625
+    },
+    {
+      "word": "up",
+      "start": 232.5,
+      "end": 233.33999633789062
+    },
+    {
+      "word": "go",
+      "start": 233.33999633789062,
+      "end": 232.72000122070312
+    },
+    {
+      "word": "to",
+      "start": 232.72000122070312,
+      "end": 234.17999267578125
+    },
+    {
+      "word": "copilot",
+      "start": 234.17999267578125,
+      "end": 234.83999633789062
+    },
+    {
+      "word": "then",
+      "start": 234.83999633789062,
+      "end": 236.89999389648438
+    },
+    {
+      "word": "it",
+      "start": 236.89999389648438,
+      "end": 237.0399932861328
+    },
+    {
+      "word": "will",
+      "start": 237.0399932861328,
+      "end": 237.24000549316406
+    },
+    {
+      "word": "give",
+      "start": 237.24000549316406,
+      "end": 237.44000244140625
+    },
+    {
+      "word": "me",
+      "start": 237.44000244140625,
+      "end": 237.77999877929688
+    },
+    {
+      "word": "step",
+      "start": 237.77999877929688,
+      "end": 237.94000244140625
+    },
+    {
+      "word": "by",
+      "start": 237.94000244140625,
+      "end": 238.16000366210938
+    },
+    {
+      "word": "step",
+      "start": 238.16000366210938,
+      "end": 238.33999633789062
+    },
+    {
+      "word": "how",
+      "start": 238.33999633789062,
+      "end": 238.8000030517578
+    },
+    {
+      "word": "to",
+      "start": 238.8000030517578,
+      "end": 238.97999572753906
+    },
+    {
+      "word": "do",
+      "start": 238.97999572753906,
+      "end": 239.1199951171875
+    },
+    {
+      "word": "it",
+      "start": 239.1199951171875,
+      "end": 240.1199951171875
+    },
+    {
+      "word": "so",
+      "start": 240.1199951171875,
+      "end": 243.5399932861328
+    },
+    {
+      "word": "this",
+      "start": 243.5399932861328,
+      "end": 243.83999633789062
+    },
+    {
+      "word": "is",
+      "start": 243.83999633789062,
+      "end": 244.10000610351562
+    },
+    {
+      "word": "a",
+      "start": 244.10000610351562,
+      "end": 244.10000610351562
+    },
+    {
+      "word": "basic",
+      "start": 244.10000610351562,
+      "end": 244.6199951171875
+    },
+    {
+      "word": "usage",
+      "start": 244.6199951171875,
+      "end": 245.1999969482422
+    },
+    {
+      "word": "of",
+      "start": 245.1999969482422,
+      "end": 245.74000549316406
+    },
+    {
+      "word": "below",
+      "start": 245.74000549316406,
+      "end": 246.0800018310547
+    },
+    {
+      "word": "but",
+      "start": 246.0800018310547,
+      "end": 247.32000732421875
+    },
+    {
+      "word": "if",
+      "start": 247.32000732421875,
+      "end": 248.0399932861328
+    },
+    {
+      "word": "I",
+      "start": 248.0399932861328,
+      "end": 248.3000030517578
+    },
+    {
+      "word": "ask",
+      "start": 248.3000030517578,
+      "end": 248.94000244140625
+    },
+    {
+      "word": "for",
+      "start": 248.94000244140625,
+      "end": 249.86000061035156
+    },
+    {
+      "word": "example",
+      "start": 249.86000061035156,
+      "end": 250.4199981689453
+    },
+    {
+      "word": "to",
+      "start": 250.4199981689453,
+      "end": 251.8800048828125
+    },
+    {
+      "word": "other",
+      "start": 251.8800048828125,
+      "end": 252.22000122070312
+    },
+    {
+      "word": "text",
+      "start": 252.22000122070312,
+      "end": 252.94000244140625
+    },
+    {
+      "word": "which",
+      "start": 252.94000244140625,
+      "end": 254.27999877929688
+    },
+    {
+      "word": "we",
+      "start": 254.27999877929688,
+      "end": 254.60000610351562
+    },
+    {
+      "word": "saw",
+      "start": 254.60000610351562,
+      "end": 254.8800048828125
+    },
+    {
+      "word": "it",
+      "start": 254.8800048828125,
+      "end": 255.16000366210938
+    },
+    {
+      "word": "was",
+      "start": 255.16000366210938,
+      "end": 255.4199981689453
+    },
+    {
+      "word": "a",
+      "start": 255.4199981689453,
+      "end": 255.9199981689453
+    },
+    {
+      "word": "black",
+      "start": 255.9199981689453,
+      "end": 257.2799987792969
+    },
+    {
+      "word": "background",
+      "start": 257.2799987792969,
+      "end": 258.0199890136719
+    },
+    {
+      "word": "with",
+      "start": 258.0199890136719,
+      "end": 258.29998779296875
+    },
+    {
+      "word": "white",
+      "start": 258.29998779296875,
+      "end": 258.6400146484375
+    },
+    {
+      "word": "text",
+      "start": 258.6400146484375,
+      "end": 259.17999267578125
+    },
+    {
+      "word": "I'm",
+      "start": 259.17999267578125,
+      "end": 260.760009765625
+    },
+    {
+      "word": "gonna",
+      "start": 260.760009765625,
+      "end": 260.760009765625
+    },
+    {
+      "word": "ask",
+      "start": 260.760009765625,
+      "end": 261
+    },
+    {
+      "word": "for",
+      "start": 261,
+      "end": 261.1600036621094
+    },
+    {
+      "word": "a",
+      "start": 261.1600036621094,
+      "end": 261.260009765625
+    },
+    {
+      "word": "big",
+      "start": 261.260009765625,
+      "end": 261.5
+    },
+    {
+      "word": "white",
+      "start": 261.5,
+      "end": 261.79998779296875
+    },
+    {
+      "word": "text",
+      "start": 261.79998779296875,
+      "end": 262.79998779296875
+    },
+    {
+      "word": "into",
+      "start": 262.79998779296875,
+      "end": 264.0400085449219
+    },
+    {
+      "word": "middle",
+      "start": 264.0400085449219,
+      "end": 266.260009765625
+    },
+    {
+      "word": "no",
+      "start": 266.260009765625,
+      "end": 268.79998779296875
+    },
+    {
+      "word": "you",
+      "start": 268.79998779296875,
+      "end": 269.2200012207031
+    },
+    {
+      "word": "stupid",
+      "start": 269.2200012207031,
+      "end": 271.3800048828125
+    },
+    {
+      "word": "copilot",
+      "start": 271.3800048828125,
+      "end": 272.94000244140625
+    },
+    {
+      "word": "is",
+      "start": 272.94000244140625,
+      "end": 273.29998779296875
+    },
+    {
+      "word": "a",
+      "start": 273.29998779296875,
+      "end": 273.739990234375
+    },
+    {
+      "word": "stupid",
+      "start": 273.739990234375,
+      "end": 274.0799865722656
+    },
+    {
+      "word": "too",
+      "start": 274.0799865722656,
+      "end": 274.8399963378906
+    },
+    {
+      "word": "it's",
+      "start": 274.8399963378906,
+      "end": 276.1400146484375
+    },
+    {
+      "word": "trying",
+      "start": 276.1400146484375,
+      "end": 276.3399963378906
+    },
+    {
+      "word": "to",
+      "start": 276.3399963378906,
+      "end": 277.0400085449219
+    },
+    {
+      "word": "literally",
+      "start": 277.0400085449219,
+      "end": 277.3599853515625
+    },
+    {
+      "word": "generate",
+      "start": 277.3599853515625,
+      "end": 277.6600036621094
+    },
+    {
+      "word": "the",
+      "start": 277.6600036621094,
+      "end": 278.0199890136719
+    },
+    {
+      "word": "image",
+      "start": 278.0199890136719,
+      "end": 278.260009765625
+    },
+    {
+      "word": "you've",
+      "start": 278.260009765625,
+      "end": 283.5799865722656
+    },
+    {
+      "word": "got",
+      "start": 283.5799865722656,
+      "end": 283.5799865722656
+    },
+    {
+      "word": "to",
+      "start": 283.5799865722656,
+      "end": 283.739990234375
+    },
+    {
+      "word": "be",
+      "start": 283.739990234375,
+      "end": 283.8399963378906
+    },
+    {
+      "word": "sometimes",
+      "start": 283.8399963378906,
+      "end": 284.29998779296875
+    },
+    {
+      "word": "more",
+      "start": 284.29998779296875,
+      "end": 285.5799865722656
+    },
+    {
+      "word": "specific",
+      "start": 285.5799865722656,
+      "end": 286.2200012207031
+    },
+    {
+      "word": "I",
+      "start": 286.2200012207031,
+      "end": 287.2799987792969
+    },
+    {
+      "word": "should",
+      "start": 287.2799987792969,
+      "end": 287.5400085449219
+    },
+    {
+      "word": "use",
+      "start": 287.5400085449219,
+      "end": 287.9200134277344
+    },
+    {
+      "word": "the",
+      "start": 287.9200134277344,
+      "end": 289.0400085449219
+    },
+    {
+      "word": "pillow",
+      "start": 289.0400085449219,
+      "end": 289.7200012207031
+    },
+    {
+      "word": "there",
+      "start": 289.7200012207031,
+      "end": 291.239990234375
+    },
+    {
+      "word": "we",
+      "start": 291.239990234375,
+      "end": 291.3800048828125
+    },
+    {
+      "word": "go",
+      "start": 291.3800048828125,
+      "end": 291.7200012207031
+    },
+    {
+      "word": "800",
+      "start": 291.7200012207031,
+      "end": 292.32000732421875
+    },
+    {
+      "word": "by",
+      "start": 292.32000732421875,
+      "end": 292.739990234375
+    },
+    {
+      "word": "600",
+      "start": 292.739990234375,
+      "end": 293.3599853515625
+    },
+    {
+      "word": "pixels",
+      "start": 293.3599853515625,
+      "end": 294.0199890136719
+    },
+    {
+      "word": "black",
+      "start": 294.0199890136719,
+      "end": 295.67999267578125
+    },
+    {
+      "word": "background",
+      "start": 295.67999267578125,
+      "end": 296.3599853515625
+    },
+    {
+      "word": "text",
+      "start": 296.3599853515625,
+      "end": 297.4200134277344
+    },
+    {
+      "word": "hello",
+      "start": 297.4200134277344,
+      "end": 297.7799987792969
+    },
+    {
+      "word": "world",
+      "start": 297.7799987792969,
+      "end": 298.1600036621094
+    },
+    {
+      "word": "classic",
+      "start": 298.1600036621094,
+      "end": 298.9599914550781
+    },
+    {
+      "word": "which",
+      "start": 299.29998779296875,
+      "end": 300.1600036621094
+    },
+    {
+      "word": "font",
+      "start": 300.1600036621094,
+      "end": 300.739990234375
+    },
+    {
+      "word": "we",
+      "start": 300.739990234375,
+      "end": 301.1199951171875
+    },
+    {
+      "word": "should",
+      "start": 301.1199951171875,
+      "end": 301.3800048828125
+    },
+    {
+      "word": "use",
+      "start": 301.3800048828125,
+      "end": 301.9599914550781
+    },
+    {
+      "word": "40",
+      "start": 301.9599914550781,
+      "end": 303.4200134277344
+    },
+    {
+      "word": "size",
+      "start": 303.4200134277344,
+      "end": 304.5
+    },
+    {
+      "word": "where",
+      "start": 304.5,
+      "end": 305.32000732421875
+    },
+    {
+      "word": "the",
+      "start": 305.32000732421875,
+      "end": 305.5
+    },
+    {
+      "word": "position",
+      "start": 305.5,
+      "end": 305.79998779296875
+    },
+    {
+      "word": "should",
+      "start": 305.79998779296875,
+      "end": 306.17999267578125
+    },
+    {
+      "word": "be",
+      "start": 306.17999267578125,
+      "end": 306.94000244140625
+    },
+    {
+      "word": "and",
+      "start": 306.94000244140625,
+      "end": 308
+    },
+    {
+      "word": "text",
+      "start": 308,
+      "end": 308.29998779296875
+    },
+    {
+      "word": "white",
+      "start": 308.29998779296875,
+      "end": 308.6600036621094
+    },
+    {
+      "word": "so",
+      "start": 308.6600036621094,
+      "end": 310.6400146484375
+    },
+    {
+      "word": "in",
+      "start": 310.6400146484375,
+      "end": 310.9800109863281
+    },
+    {
+      "word": "theory",
+      "start": 310.9800109863281,
+      "end": 311.2200012207031
+    },
+    {
+      "word": "this",
+      "start": 311.2200012207031,
+      "end": 311.5799865722656
+    },
+    {
+      "word": "took",
+      "start": 311.5799865722656,
+      "end": 312.0400085449219
+    },
+    {
+      "word": "20",
+      "start": 312.0400085449219,
+      "end": 313.8999938964844
+    },
+    {
+      "word": "seconds",
+      "start": 313.8999938964844,
+      "end": 314.3599853515625
+    },
+    {
+      "word": "to",
+      "start": 314.3599853515625,
+      "end": 314.94000244140625
+    },
+    {
+      "word": "make",
+      "start": 314.94000244140625,
+      "end": 315.2799987792969
+    },
+    {
+      "word": "then",
+      "start": 315.2799987792969,
+      "end": 316.4599914550781
+    },
+    {
+      "word": "copying",
+      "start": 316.4599914550781,
+      "end": 317.239990234375
+    },
+    {
+      "word": "it",
+      "start": 317.239990234375,
+      "end": 318.6199951171875
+    },
+    {
+      "word": "from",
+      "start": 318.6199951171875,
+      "end": 319.05999755859375
+    },
+    {
+      "word": "git",
+      "start": 319.05999755859375,
+      "end": 319.7799987792969
+    },
+    {
+      "word": "was",
+      "start": 319.7799987792969,
+      "end": 320.32000732421875
+    },
+    {
+      "word": "combining",
+      "start": 320.32000732421875,
+      "end": 320.67999267578125
+    },
+    {
+      "word": "the",
+      "start": 320.67999267578125,
+      "end": 321
+    },
+    {
+      "word": "code",
+      "start": 321,
+      "end": 321.239990234375
+    },
+    {
+      "word": "can",
+      "start": 321.239990234375,
+      "end": 321.9599914550781
+    },
+    {
+      "word": "take",
+      "start": 321.9599914550781,
+      "end": 322.239990234375
+    },
+    {
+      "word": "you",
+      "start": 322.239990234375,
+      "end": 322.6600036621094
+    },
+    {
+      "word": "five",
+      "start": 322.6600036621094,
+      "end": 323.1000061035156
+    },
+    {
+      "word": "minutes",
+      "start": 323.1000061035156,
+      "end": 323.5
+    },
+    {
+      "word": "if",
+      "start": 323.5,
+      "end": 323.94000244140625
+    },
+    {
+      "word": "not",
+      "start": 323.94000244140625,
+      "end": 324.2200012207031
+    },
+    {
+      "word": "less",
+      "start": 324.2200012207031,
+      "end": 324.6199951171875
+    },
+    {
+      "word": "and",
+      "start": 324.6199951171875,
+      "end": 326.6199951171875
+    },
+    {
+      "word": "heck",
+      "start": 326.6199951171875,
+      "end": 326.9200134277344
+    },
+    {
+      "word": "I",
+      "start": 326.9200134277344,
+      "end": 327.1600036621094
+    },
+    {
+      "word": "don't",
+      "start": 327.1600036621094,
+      "end": 327.32000732421875
+    },
+    {
+      "word": "even",
+      "start": 327.32000732421875,
+      "end": 327.4800109863281
+    },
+    {
+      "word": "do",
+      "start": 327.4800109863281,
+      "end": 328
+    },
+    {
+      "word": "Python",
+      "start": 328,
+      "end": 328.17999267578125
+    },
+    {
+      "word": "I",
+      "start": 328.17999267578125,
+      "end": 328.3999938964844
+    },
+    {
+      "word": "do",
+      "start": 328.3999938964844,
+      "end": 328.5199890136719
+    },
+    {
+      "word": "JavaScript",
+      "start": 328.5199890136719,
+      "end": 329.2200012207031
+    },
+    {
+      "word": "TypeScript",
+      "start": 329.2200012207031,
+      "end": 330.67999267578125
+    },
+    {
+      "word": "and",
+      "start": 330.67999267578125,
+      "end": 331.6400146484375
+    },
+    {
+      "word": "I",
+      "start": 331.6400146484375,
+      "end": 332.6400146484375
+    },
+    {
+      "word": "found",
+      "start": 332.6400146484375,
+      "end": 332.8599853515625
+    },
+    {
+      "word": "it",
+      "start": 332.8599853515625,
+      "end": 333.0199890136719
+    },
+    {
+      "word": "actually",
+      "start": 333.0199890136719,
+      "end": 333.2799987792969
+    },
+    {
+      "word": "this",
+      "start": 333.2799987792969,
+      "end": 333.55999755859375
+    },
+    {
+      "word": "very",
+      "start": 333.55999755859375,
+      "end": 333.79998779296875
+    },
+    {
+      "word": "easy",
+      "start": 333.79998779296875,
+      "end": 334.6600036621094
+    },
+    {
+      "word": "so",
+      "start": 334.6600036621094,
+      "end": 337
+    },
+    {
+      "word": "if",
+      "start": 337,
+      "end": 338.3800048828125
+    },
+    {
+      "word": "you",
+      "start": 338.3800048828125,
+      "end": 338.6600036621094
+    },
+    {
+      "word": "think",
+      "start": 338.6600036621094,
+      "end": 339.44000244140625
+    },
+    {
+      "word": "and",
+      "start": 339.44000244140625,
+      "end": 340.0199890136719
+    },
+    {
+      "word": "the",
+      "start": 340.0199890136719,
+      "end": 341.1000061035156
+    },
+    {
+      "word": "other",
+      "start": 341.1000061035156,
+      "end": 341.5400085449219
+    },
+    {
+      "word": "demos",
+      "start": 341.5400085449219,
+      "end": 341.8999938964844
+    },
+    {
+      "word": "are",
+      "start": 341.8999938964844,
+      "end": 342.3599853515625
+    },
+    {
+      "word": "same",
+      "start": 342.3599853515625,
+      "end": 343.8599853515625
+    },
+    {
+      "word": "same",
+      "start": 343.8599853515625,
+      "end": 344.67999267578125
+    },
+    {
+      "word": "and",
+      "start": 344.67999267578125,
+      "end": 347.05999755859375
+    },
+    {
+      "word": "if",
+      "start": 347.05999755859375,
+      "end": 347.2200012207031
+    },
+    {
+      "word": "you",
+      "start": 347.2200012207031,
+      "end": 347.44000244140625
+    },
+    {
+      "word": "think",
+      "start": 347.44000244140625,
+      "end": 347.8399963378906
+    },
+    {
+      "word": "that",
+      "start": 347.8399963378906,
+      "end": 348.2799987792969
+    },
+    {
+      "word": "Devin",
+      "start": 348.2799987792969,
+      "end": 349.3800048828125
+    },
+    {
+      "word": "will",
+      "start": 349.3800048828125,
+      "end": 349.70001220703125
+    },
+    {
+      "word": "replace",
+      "start": 349.70001220703125,
+      "end": 350.2200012207031
+    },
+    {
+      "word": "no",
+      "start": 350.2200012207031,
+      "end": 351.3399963378906
+    },
+    {
+      "word": "and",
+      "start": 351.3399963378906,
+      "end": 352.6600036621094
+    },
+    {
+      "word": "also",
+      "start": 352.6600036621094,
+      "end": 353.0799865722656
+    },
+    {
+      "word": "about",
+      "start": 353.0799865722656,
+      "end": 353.3399963378906
+    },
+    {
+      "word": "the",
+      "start": 353.3399963378906,
+      "end": 353.4599914550781
+    },
+    {
+      "word": "other",
+      "start": 353.4599914550781,
+      "end": 353.739990234375
+    },
+    {
+      "word": "demos",
+      "start": 353.739990234375,
+      "end": 354.17999267578125
+    },
+    {
+      "word": "they",
+      "start": 354.17999267578125,
+      "end": 354.79998779296875
+    },
+    {
+      "word": "are",
+      "start": 354.79998779296875,
+      "end": 355.1600036621094
+    },
+    {
+      "word": "something",
+      "start": 355.1600036621094,
+      "end": 356.20001220703125
+    },
+    {
+      "word": "like",
+      "start": 356.20001220703125,
+      "end": 356.3599853515625
+    },
+    {
+      "word": "this",
+      "start": 356.3599853515625,
+      "end": 356.7799987792969
+    },
+    {
+      "word": "too",
+      "start": 356.7799987792969,
+      "end": 357.260009765625
+    },
+    {
+      "word": "they",
+      "start": 357.260009765625,
+      "end": 357.7799987792969
+    },
+    {
+      "word": "are",
+      "start": 357.7799987792969,
+      "end": 357.8599853515625
+    },
+    {
+      "word": "not",
+      "start": 357.8599853515625,
+      "end": 357.9599914550781
+    },
+    {
+      "word": "very",
+      "start": 357.9599914550781,
+      "end": 358.239990234375
+    },
+    {
+      "word": "hard",
+      "start": 358.239990234375,
+      "end": 358.5799865722656
+    },
+    {
+      "word": "to",
+      "start": 358.5799865722656,
+      "end": 358.79998779296875
+    },
+    {
+      "word": "make",
+      "start": 358.79998779296875,
+      "end": 359.1199951171875
+    },
+    {
+      "word": "and",
+      "start": 359.1199951171875,
+      "end": 360.0400085449219
+    },
+    {
+      "word": "if",
+      "start": 360.0400085449219,
+      "end": 360.82000732421875
+    },
+    {
+      "word": "they",
+      "start": 360.82000732421875,
+      "end": 360.9800109863281
+    },
+    {
+      "word": "are",
+      "start": 360.9800109863281,
+      "end": 361.05999755859375
+    },
+    {
+      "word": "a",
+      "start": 361.05999755859375,
+      "end": 361.3999938964844
+    },
+    {
+      "word": "bit",
+      "start": 361.3999938964844,
+      "end": 361.3999938964844
+    },
+    {
+      "word": "difficult",
+      "start": 361.3999938964844,
+      "end": 361.6400146484375
+    },
+    {
+      "word": "to",
+      "start": 361.6400146484375,
+      "end": 361.94000244140625
+    },
+    {
+      "word": "make",
+      "start": 361.94000244140625,
+      "end": 362.17999267578125
+    },
+    {
+      "word": "it's",
+      "start": 362.17999267578125,
+      "end": 362.79998779296875
+    },
+    {
+      "word": "probably",
+      "start": 362.79998779296875,
+      "end": 363.1199951171875
+    },
+    {
+      "word": "because",
+      "start": 363.1199951171875,
+      "end": 363.8999938964844
+    },
+    {
+      "word": "if",
+      "start": 363.8999938964844,
+      "end": 367.8999938964844
+    },
+    {
+      "word": "you",
+      "start": 367.8999938964844,
+      "end": 368.05999755859375
+    },
+    {
+      "word": "find",
+      "start": 368.05999755859375,
+      "end": 368.3599853515625
+    },
+    {
+      "word": "something",
+      "start": 368.3599853515625,
+      "end": 369.2200012207031
+    },
+    {
+      "word": "difficult",
+      "start": 369.2200012207031,
+      "end": 369.7799987792969
+    },
+    {
+      "word": "to",
+      "start": 369.7799987792969,
+      "end": 369.9800109863281
+    },
+    {
+      "word": "make",
+      "start": 369.9800109863281,
+      "end": 370.1199951171875
+    },
+    {
+      "word": "on",
+      "start": 370.1199951171875,
+      "end": 370.32000732421875
+    },
+    {
+      "word": "day",
+      "start": 370.32000732421875,
+      "end": 370.5400085449219
+    },
+    {
+      "word": "no",
+      "start": 370.5400085449219,
+      "end": 372.239990234375
+    },
+    {
+      "word": "and",
+      "start": 372.239990234375,
+      "end": 373.6199951171875
+    },
+    {
+      "word": "there",
+      "start": 373.6199951171875,
+      "end": 373.8399963378906
+    },
+    {
+      "word": "are",
+      "start": 373.8399963378906,
+      "end": 373.9200134277344
+    },
+    {
+      "word": "also",
+      "start": 373.9200134277344,
+      "end": 374.70001220703125
+    },
+    {
+      "word": "other",
+      "start": 374.70001220703125,
+      "end": 375.1000061035156
+    },
+    {
+      "word": "demos",
+      "start": 375.1000061035156,
+      "end": 375.3399963378906
+    },
+    {
+      "word": "on",
+      "start": 375.3399963378906,
+      "end": 375.55999755859375
+    },
+    {
+      "word": "the",
+      "start": 375.55999755859375,
+      "end": 375.70001220703125
+    },
+    {
+      "word": "website",
+      "start": 375.70001220703125,
+      "end": 376.0400085449219
+    },
+    {
+      "word": "of",
+      "start": 376.0400085449219,
+      "end": 376.44000244140625
+    },
+    {
+      "word": "course",
+      "start": 376.44000244140625,
+      "end": 376.8800048828125
+    },
+    {
+      "word": "for",
+      "start": 376.8800048828125,
+      "end": 377.8999938964844
+    },
+    {
+      "word": "example",
+      "start": 377.8999938964844,
+      "end": 378.4200134277344
+    },
+    {
+      "word": "the",
+      "start": 378.4200134277344,
+      "end": 381.0799865722656
+    },
+    {
+      "word": "game",
+      "start": 381.0799865722656,
+      "end": 381.29998779296875
+    },
+    {
+      "word": "of",
+      "start": 381.29998779296875,
+      "end": 381.6400146484375
+    },
+    {
+      "word": "life",
+      "start": 381.6400146484375,
+      "end": 382.1000061035156
+    },
+    {
+      "word": "which",
+      "start": 382.1000061035156,
+      "end": 383
+    },
+    {
+      "word": "being",
+      "start": 383,
+      "end": 383.260009765625
+    },
+    {
+      "word": "like",
+      "start": 383.260009765625,
+      "end": 384.05999755859375
+    },
+    {
+      "word": "which",
+      "start": 384.05999755859375,
+      "end": 385.3599853515625
+    },
+    {
+      "word": "be",
+      "start": 385.3599853515625,
+      "end": 385.55999755859375
+    },
+    {
+      "word": "made",
+      "start": 385.55999755859375,
+      "end": 385.7799987792969
+    },
+    {
+      "word": "like",
+      "start": 385.7799987792969,
+      "end": 386.2799987792969
+    },
+    {
+      "word": "a",
+      "start": 386.2799987792969,
+      "end": 386.4800109863281
+    },
+    {
+      "word": "bajillion",
+      "start": 386.4800109863281,
+      "end": 386.5199890136719
+    },
+    {
+      "word": "times",
+      "start": 386.5199890136719,
+      "end": 387.2200012207031
+    },
+    {
+      "word": "so",
+      "start": 387.2200012207031,
+      "end": 388.0799865722656
+    },
+    {
+      "word": "it's",
+      "start": 388.0799865722656,
+      "end": 388.3399963378906
+    },
+    {
+      "word": "not",
+      "start": 388.3399963378906,
+      "end": 388.79998779296875
+    },
+    {
+      "word": "new",
+      "start": 388.79998779296875,
+      "end": 389.79998779296875
+    },
+    {
+      "word": "also",
+      "start": 389.79998779296875,
+      "end": 391.1199951171875
+    },
+    {
+      "word": "about",
+      "start": 391.1199951171875,
+      "end": 391.3599853515625
+    },
+    {
+      "word": "the",
+      "start": 391.3599853515625,
+      "end": 391.6400146484375
+    },
+    {
+      "word": "bug",
+      "start": 391.6400146484375,
+      "end": 391.7799987792969
+    },
+    {
+      "word": "fixes",
+      "start": 391.7799987792969,
+      "end": 392.20001220703125
+    },
+    {
+      "word": "it",
+      "start": 392.20001220703125,
+      "end": 395.1400146484375
+    },
+    {
+      "word": "was",
+      "start": 395.1400146484375,
+      "end": 395.4800109863281
+    },
+    {
+      "word": "trained",
+      "start": 395.4800109863281,
+      "end": 396.4200134277344
+    },
+    {
+      "word": "on",
+      "start": 396.4200134277344,
+      "end": 397.32000732421875
+    },
+    {
+      "word": "it",
+      "start": 397.32000732421875,
+      "end": 398.05999755859375
+    },
+    {
+      "word": "was",
+      "start": 398.05999755859375,
+      "end": 398.3599853515625
+    },
+    {
+      "word": "tested",
+      "start": 398.3599853515625,
+      "end": 398.6199951171875
+    },
+    {
+      "word": "by",
+      "start": 398.6199951171875,
+      "end": 398.8800048828125
+    },
+    {
+      "word": "the",
+      "start": 398.8800048828125,
+      "end": 399.17999267578125
+    },
+    {
+      "word": "SVE",
+      "start": 399.17999267578125,
+      "end": 399.6600036621094
+    },
+    {
+      "word": "also",
+      "start": 399.6600036621094,
+      "end": 400.94000244140625
+    },
+    {
+      "word": "about",
+      "start": 400.94000244140625,
+      "end": 401.1000061035156
+    },
+    {
+      "word": "the",
+      "start": 401.1000061035156,
+      "end": 401.29998779296875
+    },
+    {
+      "word": "bug",
+      "start": 401.29998779296875,
+      "end": 401.5400085449219
+    },
+    {
+      "word": "fixes",
+      "start": 401.5400085449219,
+      "end": 401.79998779296875
+    },
+    {
+      "word": "it",
+      "start": 401.79998779296875,
+      "end": 402.3399963378906
+    },
+    {
+      "word": "was",
+      "start": 402.3399963378906,
+      "end": 402.6600036621094
+    },
+    {
+      "word": "trained",
+      "start": 402.6600036621094,
+      "end": 403.44000244140625
+    },
+    {
+      "word": "it",
+      "start": 403.44000244140625,
+      "end": 403.9200134277344
+    },
+    {
+      "word": "was",
+      "start": 403.9200134277344,
+      "end": 404.1600036621094
+    },
+    {
+      "word": "tested",
+      "start": 404.1600036621094,
+      "end": 404.4200134277344
+    },
+    {
+      "word": "on",
+      "start": 404.4200134277344,
+      "end": 405.6199951171875
+    },
+    {
+      "word": "the",
+      "start": 405.6199951171875,
+      "end": 406.0799865722656
+    },
+    {
+      "word": "different",
+      "start": 406.0799865722656,
+      "end": 406.9800109863281
+    },
+    {
+      "word": "github",
+      "start": 406.9800109863281,
+      "end": 408.6000061035156
+    },
+    {
+      "word": "problems",
+      "start": 408.6000061035156,
+      "end": 409.2799987792969
+    },
+    {
+      "word": "real",
+      "start": 409.2799987792969,
+      "end": 409.8399963378906
+    },
+    {
+      "word": "world",
+      "start": 409.8399963378906,
+      "end": 410.3399963378906
+    },
+    {
+      "word": "apparently",
+      "start": 410.3399963378906,
+      "end": 410.8800048828125
+    },
+    {
+      "word": "but",
+      "start": 410.8800048828125,
+      "end": 411.32000732421875
+    },
+    {
+      "word": "the",
+      "start": 411.32000732421875,
+      "end": 413.0400085449219
+    },
+    {
+      "word": "fact",
+      "start": 413.0400085449219,
+      "end": 413.2799987792969
+    },
+    {
+      "word": "is",
+      "start": 413.2799987792969,
+      "end": 413.6000061035156
+    },
+    {
+      "word": "it's",
+      "start": 413.6000061035156,
+      "end": 414.8999938964844
+    },
+    {
+      "word": "a",
+      "start": 414.8999938964844,
+      "end": 415.1400146484375
+    },
+    {
+      "word": "special",
+      "start": 415.1400146484375,
+      "end": 416
+    },
+    {
+      "word": "we",
+      "start": 416,
+      "end": 416.6000061035156
+    },
+    {
+      "word": "made",
+      "start": 416.6000061035156,
+      "end": 416.6400146484375
+    },
+    {
+      "word": "for",
+      "start": 416.6400146484375,
+      "end": 417.0400085449219
+    },
+    {
+      "word": "AI",
+      "start": 417.0400085449219,
+      "end": 417.5199890136719
+    },
+    {
+      "word": "those",
+      "start": 417.5199890136719,
+      "end": 418.8999938964844
+    },
+    {
+      "word": "questions",
+      "start": 418.8999938964844,
+      "end": 419.6199951171875
+    },
+    {
+      "word": "are",
+      "start": 419.6199951171875,
+      "end": 419.8800048828125
+    },
+    {
+      "word": "very",
+      "start": 419.8800048828125,
+      "end": 420.20001220703125
+    },
+    {
+      "word": "specific",
+      "start": 420.20001220703125,
+      "end": 420.8999938964844
+    },
+    {
+      "word": "there",
+      "start": 420.8999938964844,
+      "end": 422.9800109863281
+    },
+    {
+      "word": "is",
+      "start": 422.9800109863281,
+      "end": 423.0199890136719
+    },
+    {
+      "word": "a",
+      "start": 423.0199890136719,
+      "end": 423.2200012207031
+    },
+    {
+      "word": "funny",
+      "start": 423.2200012207031,
+      "end": 423.3999938964844
+    },
+    {
+      "word": "one",
+      "start": 423.3999938964844,
+      "end": 423.7799987792969
+    },
+    {
+      "word": "AI",
+      "start": 423.7799987792969,
+      "end": 424.0799865722656
+    },
+    {
+      "word": "trains",
+      "start": 424.0799865722656,
+      "end": 424.29998779296875
+    },
+    {
+      "word": "AI",
+      "start": 424.29998779296875,
+      "end": 424.67999267578125
+    },
+    {
+      "word": "I",
+      "start": 424.67999267578125,
+      "end": 425.9200134277344
+    },
+    {
+      "word": "mean",
+      "start": 425.9200134277344,
+      "end": 426.4800109863281
+    },
+    {
+      "word": "AI",
+      "start": 426.4800109863281,
+      "end": 427.8399963378906
+    },
+    {
+      "word": "can",
+      "start": 427.8399963378906,
+      "end": 428.0400085449219
+    },
+    {
+      "word": "be",
+      "start": 428.0400085449219,
+      "end": 428.20001220703125
+    },
+    {
+      "word": "very",
+      "start": 428.20001220703125,
+      "end": 428.5400085449219
+    },
+    {
+      "word": "simple",
+      "start": 428.5400085449219,
+      "end": 428.8800048828125
+    },
+    {
+      "word": "it",
+      "start": 428.8800048828125,
+      "end": 430.1600036621094
+    },
+    {
+      "word": "doesn't",
+      "start": 430.1600036621094,
+      "end": 430.29998779296875
+    },
+    {
+      "word": "need",
+      "start": 430.29998779296875,
+      "end": 430.4599914550781
+    },
+    {
+      "word": "to",
+      "start": 430.4599914550781,
+      "end": 430.5199890136719
+    },
+    {
+      "word": "be",
+      "start": 430.5199890136719,
+      "end": 443.0199890136719
+    },
+    {
+      "word": "also",
+      "start": 443.6600036621094,
+      "end": 444.4200134277344
+    },
+    {
+      "word": "there",
+      "start": 444.4200134277344,
+      "end": 444.5799865722656
+    },
+    {
+      "word": "is",
+      "start": 444.5799865722656,
+      "end": 444.67999267578125
+    },
+    {
+      "word": "a",
+      "start": 444.67999267578125,
+      "end": 444.8800048828125
+    },
+    {
+      "word": "funny",
+      "start": 444.8800048828125,
+      "end": 445.0799865722656
+    },
+    {
+      "word": "thing",
+      "start": 445.0799865722656,
+      "end": 445.4599914550781
+    },
+    {
+      "word": "that",
+      "start": 445.4599914550781,
+      "end": 445.739990234375
+    },
+    {
+      "word": "they",
+      "start": 445.739990234375,
+      "end": 446.239990234375
+    },
+    {
+      "word": "have",
+      "start": 446.239990234375,
+      "end": 446.3999938964844
+    },
+    {
+      "word": "on",
+      "start": 446.3999938964844,
+      "end": 446.5199890136719
+    },
+    {
+      "word": "their",
+      "start": 446.5199890136719,
+      "end": 446.6400146484375
+    },
+    {
+      "word": "website",
+      "start": 446.6400146484375,
+      "end": 447.20001220703125
+    },
+    {
+      "word": "is",
+      "start": 447.20001220703125,
+      "end": 448.3800048828125
+    },
+    {
+      "word": "Devin",
+      "start": 448.3800048828125,
+      "end": 450.70001220703125
+    },
+    {
+      "word": "Upwork",
+      "start": 450.70001220703125,
+      "end": 451.5
+    },
+    {
+      "word": "site",
+      "start": 451.5,
+      "end": 451.94000244140625
+    },
+    {
+      "word": "hustle",
+      "start": 451.94000244140625,
+      "end": 452.4599914550781
+    },
+    {
+      "word": "making",
+      "start": 452.4599914550781,
+      "end": 453.6199951171875
+    },
+    {
+      "word": "their",
+      "start": 453.6199951171875,
+      "end": 454.739990234375
+    },
+    {
+      "word": "money",
+      "start": 454.739990234375,
+      "end": 455
+    },
+    {
+      "word": "worth",
+      "start": 455,
+      "end": 455.4800109863281
+    },
+    {
+      "word": "with",
+      "start": 455.4800109863281,
+      "end": 456.1199951171875
+    },
+    {
+      "word": "Devin",
+      "start": 456.1199951171875,
+      "end": 456.4200134277344
+    },
+    {
+      "word": "is",
+      "start": 456.4200134277344,
+      "end": 456.760009765625
+    },
+    {
+      "word": "just",
+      "start": 456.760009765625,
+      "end": 457.29998779296875
+    },
+    {
+      "word": "making",
+      "start": 457.29998779296875,
+      "end": 458.5799865722656
+    },
+    {
+      "word": "some",
+      "start": 458.5799865722656,
+      "end": 458.8800048828125
+    },
+    {
+      "word": "very",
+      "start": 458.8800048828125,
+      "end": 459.260009765625
+    },
+    {
+      "word": "easy",
+      "start": 459.260009765625,
+      "end": 459.4599914550781
+    },
+    {
+      "word": "stuff",
+      "start": 459.4599914550781,
+      "end": 459.79998779296875
+    },
+    {
+      "word": "on",
+      "start": 459.79998779296875,
+      "end": 460.239990234375
+    },
+    {
+      "word": "Upwork",
+      "start": 460.239990234375,
+      "end": 460.8800048828125
+    },
+    {
+      "word": "that's",
+      "start": 460.8800048828125,
+      "end": 462.1199951171875
+    },
+    {
+      "word": "kind",
+      "start": 462.1199951171875,
+      "end": 462.2799987792969
+    },
+    {
+      "word": "of",
+      "start": 462.2799987792969,
+      "end": 462.67999267578125
+    },
+    {
+      "word": "funny",
+      "start": 462.67999267578125,
+      "end": 462.67999267578125
+    },
+    {
+      "word": "you",
+      "start": 462.67999267578125,
+      "end": 463.70001220703125
+    },
+    {
+      "word": "should",
+      "start": 463.70001220703125,
+      "end": 463.82000732421875
+    },
+    {
+      "word": "guys",
+      "start": 463.82000732421875,
+      "end": 464.0199890136719
+    },
+    {
+      "word": "check",
+      "start": 464.0199890136719,
+      "end": 464.260009765625
+    },
+    {
+      "word": "it",
+      "start": 464.260009765625,
+      "end": 464.44000244140625
+    },
+    {
+      "word": "out",
+      "start": 464.44000244140625,
+      "end": 465.5400085449219
+    },
+    {
+      "word": "also",
+      "start": 465.5400085449219,
+      "end": 466.4599914550781
+    },
+    {
+      "word": "there",
+      "start": 466.4599914550781,
+      "end": 466.6400146484375
+    },
+    {
+      "word": "is",
+      "start": 466.6400146484375,
+      "end": 466.760009765625
+    },
+    {
+      "word": "a",
+      "start": 467.05999755859375,
+      "end": 468.3800048828125
+    },
+    {
+      "word": "benchmark",
+      "start": 468.3800048828125,
+      "end": 468
+    },
+    {
+      "word": "SVE",
+      "start": 468,
+      "end": 469.70001220703125
+    },
+    {
+      "word": "performance",
+      "start": 469.70001220703125,
+      "end": 470.82000732421875
+    },
+    {
+      "word": "14",
+      "start": 470.82000732421875,
+      "end": 471.8599853515625
+    },
+    {
+      "word": "",
+      "start": 471.8599853515625,
+      "end": 472.5799865722656
+    },
+    {
+      "word": "not",
+      "start": 472.5799865722656,
+      "end": 473.82000732421875
+    },
+    {
+      "word": "not",
+      "start": 473.82000732421875,
+      "end": 474.4599914550781
+    },
+    {
+      "word": "good",
+      "start": 474.4599914550781,
+      "end": 475.2799987792969
+    },
+    {
+      "word": "still",
+      "start": 475.2799987792969,
+      "end": 476.44000244140625
+    },
+    {
+      "word": "86",
+      "start": 476.44000244140625,
+      "end": 477.94000244140625
+    },
+    {
+      "word": "",
+      "start": 477.94000244140625,
+      "end": 478.4599914550781
+    },
+    {
+      "word": "of",
+      "start": 478.4599914550781,
+      "end": 479.0199890136719
+    },
+    {
+      "word": "work",
+      "start": 479.0199890136719,
+      "end": 481.2200012207031
+    },
+    {
+      "word": "on",
+      "start": 481.2200012207031,
+      "end": 482
+    },
+    {
+      "word": "github",
+      "start": 482,
+      "end": 482
+    },
+    {
+      "word": "is",
+      "start": 482,
+      "end": 482.29998779296875
+    },
+    {
+      "word": "not",
+      "start": 482.29998779296875,
+      "end": 483.6199951171875
+    },
+    {
+      "word": "done",
+      "start": 483.6199951171875,
+      "end": 484.1600036621094
+    },
+    {
+      "word": "by",
+      "start": 484.1600036621094,
+      "end": 484.8399963378906
+    },
+    {
+      "word": "Devin",
+      "start": 484.8399963378906,
+      "end": 484.8399963378906
+    },
+    {
+      "word": "and",
+      "start": 484.8399963378906,
+      "end": 485.94000244140625
+    },
+    {
+      "word": "SVE",
+      "start": 485.94000244140625,
+      "end": 486.6000061035156
+    },
+    {
+      "word": "bench",
+      "start": 486.6000061035156,
+      "end": 487.1400146484375
+    },
+    {
+      "word": "is",
+      "start": 487.1400146484375,
+      "end": 487.79998779296875
+    },
+    {
+      "word": "specifically",
+      "start": 487.79998779296875,
+      "end": 488.32000732421875
+    },
+    {
+      "word": "made",
+      "start": 488.32000732421875,
+      "end": 488.6199951171875
+    },
+    {
+      "word": "for",
+      "start": 488.6199951171875,
+      "end": 489.0199890136719
+    },
+    {
+      "word": "AI",
+      "start": 489.0199890136719,
+      "end": 489.29998779296875
+    },
+    {
+      "word": "so",
+      "start": 489.29998779296875,
+      "end": 490.239990234375
+    },
+    {
+      "word": "you",
+      "start": 490.239990234375,
+      "end": 490.94000244140625
+    },
+    {
+      "word": "can",
+      "start": 490.94000244140625,
+      "end": 491.17999267578125
+    },
+    {
+      "word": "imagine",
+      "start": 491.17999267578125,
+      "end": 491.5400085449219
+    },
+    {
+      "word": "it's",
+      "start": 491.5400085449219,
+      "end": 491.9599914550781
+    },
+    {
+      "word": "even",
+      "start": 491.9599914550781,
+      "end": 492.3399963378906
+    },
+    {
+      "word": "less",
+      "start": 492.3399963378906,
+      "end": 492.739990234375
+    },
+    {
+      "word": "and",
+      "start": 493.1199951171875,
+      "end": 493.760009765625
+    },
+    {
+      "word": "you",
+      "start": 493.760009765625,
+      "end": 493.8800048828125
+    },
+    {
+      "word": "may",
+      "start": 493.8800048828125,
+      "end": 494.1400146484375
+    },
+    {
+      "word": "say",
+      "start": 494.1400146484375,
+      "end": 494.44000244140625
+    },
+    {
+      "word": "it",
+      "start": 494.44000244140625,
+      "end": 494.70001220703125
+    },
+    {
+      "word": "will",
+      "start": 494.70001220703125,
+      "end": 494.9800109863281
+    },
+    {
+      "word": "increase",
+      "start": 494.9800109863281,
+      "end": 495.55999755859375
+    },
+    {
+      "word": "it",
+      "start": 495.55999755859375,
+      "end": 496.739990234375
+    },
+    {
+      "word": "doesn't",
+      "start": 496.739990234375,
+      "end": 497
+    },
+    {
+      "word": "need",
+      "start": 497,
+      "end": 497.3399963378906
+    },
+    {
+      "word": "to",
+      "start": 497.3399963378906,
+      "end": 497.5199890136719
+    },
+    {
+      "word": "but",
+      "start": 497.5199890136719,
+      "end": 498.1000061035156
+    },
+    {
+      "word": "yeah",
+      "start": 498.1000061035156,
+      "end": 498.7200012207031
+    },
+    {
+      "word": "of",
+      "start": 498.7200012207031,
+      "end": 498.8800048828125
+    },
+    {
+      "word": "course",
+      "start": 498.8800048828125,
+      "end": 499.3800048828125
+    },
+    {
+      "word": "it",
+      "start": 499.3800048828125,
+      "end": 499.6199951171875
+    },
+    {
+      "word": "will",
+      "start": 499.6199951171875,
+      "end": 500.44000244140625
+    },
+    {
+      "word": "but",
+      "start": 500.44000244140625,
+      "end": 501.5199890136719
+    },
+    {
+      "word": "what",
+      "start": 501.5199890136719,
+      "end": 501.67999267578125
+    },
+    {
+      "word": "I",
+      "start": 501.67999267578125,
+      "end": 501.8800048828125
+    },
+    {
+      "word": "mean",
+      "start": 501.8800048828125,
+      "end": 502.05999755859375
+    },
+    {
+      "word": "is",
+      "start": 502.05999755859375,
+      "end": 502.260009765625
+    },
+    {
+      "word": "that",
+      "start": 502.260009765625,
+      "end": 502.4599914550781
+    },
+    {
+      "word": "it",
+      "start": 502.4599914550781,
+      "end": 502.6400146484375
+    },
+    {
+      "word": "doesn't",
+      "start": 502.6400146484375,
+      "end": 502.8599853515625
+    },
+    {
+      "word": "need",
+      "start": 502.8599853515625,
+      "end": 503.05999755859375
+    },
+    {
+      "word": "to",
+      "start": 503.05999755859375,
+      "end": 503.29998779296875
+    },
+    {
+      "word": "increase",
+      "start": 503.29998779296875,
+      "end": 503.5199890136719
+    },
+    {
+      "word": "by",
+      "start": 503.5199890136719,
+      "end": 503.739990234375
+    },
+    {
+      "word": "a",
+      "start": 503.739990234375,
+      "end": 504.3800048828125
+    },
+    {
+      "word": "large",
+      "start": 504.3800048828125,
+      "end": 504.3800048828125
+    },
+    {
+      "word": "margin",
+      "start": 504.3800048828125,
+      "end": 504.82000732421875
+    },
+    {
+      "word": "so",
+      "start": 504.82000732421875,
+      "end": 505.3999938964844
+    },
+    {
+      "word": "there",
+      "start": 505.3999938964844,
+      "end": 505.6199951171875
+    },
+    {
+      "word": "is",
+      "start": 505.6199951171875,
+      "end": 505.67999267578125
+    },
+    {
+      "word": "that",
+      "start": 505.67999267578125,
+      "end": 506.5799865722656
+    },
+    {
+      "word": "in",
+      "start": 506.5799865722656,
+      "end": 507.7200012207031
+    },
+    {
+      "word": "20",
+      "start": 507.7200012207031,
+      "end": 508.2200012207031
+    },
+    {
+      "word": "years",
+      "start": 508.2200012207031,
+      "end": 508.7799987792969
+    },
+    {
+      "word": "maybe",
+      "start": 508.7799987792969,
+      "end": 510.05999755859375
+    },
+    {
+      "word": "Devin",
+      "start": 510.05999755859375,
+      "end": 510.5
+    },
+    {
+      "word": "will",
+      "start": 510.5,
+      "end": 510.79998779296875
+    },
+    {
+      "word": "be",
+      "start": 510.79998779296875,
+      "end": 511.1199951171875
+    },
+    {
+      "word": "something",
+      "start": 511.1199951171875,
+      "end": 511.760009765625
+    },
+    {
+      "word": "or",
+      "start": 511.760009765625,
+      "end": 513.02001953125
+    },
+    {
+      "word": "the",
+      "start": 513.02001953125,
+      "end": 513.4600219726562
+    },
+    {
+      "word": "AI",
+      "start": 513.4600219726562,
+      "end": 513.7999877929688
+    },
+    {
+      "word": "industry",
+      "start": 513.7999877929688,
+      "end": 514.2000122070312
+    },
+    {
+      "word": "will",
+      "start": 514.2000122070312,
+      "end": 514.5599975585938
+    },
+    {
+      "word": "somehow",
+      "start": 514.5599975585938,
+      "end": 515.0999755859375
+    },
+    {
+      "word": "came",
+      "start": 515.0999755859375,
+      "end": 515.4600219726562
+    },
+    {
+      "word": "up",
+      "start": 515.4600219726562,
+      "end": 515.6599731445312
+    },
+    {
+      "word": "how",
+      "start": 515.6599731445312,
+      "end": 515.8400268554688
+    },
+    {
+      "word": "to",
+      "start": 515.8400268554688,
+      "end": 515.97998046875
+    },
+    {
+      "word": "make",
+      "start": 515.97998046875,
+      "end": 516.7999877929688
+    },
+    {
+      "word": "very",
+      "start": 516.7999877929688,
+      "end": 517.280029296875
+    },
+    {
+      "word": "good",
+      "start": 517.280029296875,
+      "end": 518.3200073242188
+    },
+    {
+      "word": "coding",
+      "start": 518.3200073242188,
+      "end": 519.0999755859375
+    },
+    {
+      "word": "AI",
+      "start": 519.0999755859375,
+      "end": 520.239990234375
+    },
+    {
+      "word": "agents",
+      "start": 520.239990234375,
+      "end": 520.8400268554688
+    },
+    {
+      "word": "but",
+      "start": 520.8400268554688,
+      "end": 522.0599975585938
+    },
+    {
+      "word": "we",
+      "start": 522.0599975585938,
+      "end": 522.2999877929688
+    },
+    {
+      "word": "will",
+      "start": 522.2999877929688,
+      "end": 522.4400024414062
+    },
+    {
+      "word": "see",
+      "start": 522.4400024414062,
+      "end": 522.5800170898438
+    },
+    {
+      "word": "in",
+      "start": 522.5800170898438,
+      "end": 522.7000122070312
+    },
+    {
+      "word": "20",
+      "start": 522.7000122070312,
+      "end": 522.97998046875
+    },
+    {
+      "word": "years",
+      "start": 522.97998046875,
+      "end": 523.219970703125
+    },
+    {
+      "word": "guys",
+      "start": 523.219970703125,
+      "end": 523.6799926757812
+    },
+    {
+      "word": "because",
+      "start": 523.6799926757812,
+      "end": 524.219970703125
+    },
+    {
+      "word": "it",
+      "start": 524.219970703125,
+      "end": 524.9199829101562
+    },
+    {
+      "word": "takes",
+      "start": 524.9199829101562,
+      "end": 525.0800170898438
+    },
+    {
+      "word": "time",
+      "start": 525.0800170898438,
+      "end": 525.3800048828125
+    },
+    {
+      "word": "to",
+      "start": 525.3800048828125,
+      "end": 525.9600219726562
+    },
+    {
+      "word": "adopt",
+      "start": 525.9600219726562,
+      "end": 525.9600219726562
+    },
+    {
+      "word": "these",
+      "start": 525.9600219726562,
+      "end": 526.5800170898438
+    },
+    {
+      "word": "technologies",
+      "start": 526.5800170898438,
+      "end": 527.0800170898438
+    },
+    {
+      "word": "and",
+      "start": 527.0800170898438,
+      "end": 528.239990234375
+    },
+    {
+      "word": "also",
+      "start": 528.239990234375,
+      "end": 528.5999755859375
+    },
+    {
+      "word": "they",
+      "start": 528.5999755859375,
+      "end": 528.7999877929688
+    },
+    {
+      "word": "are",
+      "start": 528.7999877929688,
+      "end": 528.7999877929688
+    },
+    {
+      "word": "not",
+      "start": 528.7999877929688,
+      "end": 529
+    },
+    {
+      "word": "so",
+      "start": 529,
+      "end": 529.3400268554688
+    },
+    {
+      "word": "great",
+      "start": 529.3400268554688,
+      "end": 529.6799926757812
+    },
+    {
+      "word": "I",
+      "start": 529.6799926757812,
+      "end": 531.6599731445312
+    },
+    {
+      "word": "hope",
+      "start": 531.6599731445312,
+      "end": 531.780029296875
+    },
+    {
+      "word": "you",
+      "start": 531.780029296875,
+      "end": 531.9199829101562
+    },
+    {
+      "word": "guys",
+      "start": 531.9199829101562,
+      "end": 532.1400146484375
+    },
+    {
+      "word": "enjoyed",
+      "start": 532.1400146484375,
+      "end": 532.2999877929688
+    },
+    {
+      "word": "the",
+      "start": 532.2999877929688,
+      "end": 532.7999877929688
+    },
+    {
+      "word": "video",
+      "start": 532.7999877929688,
+      "end": 532.9400024414062
+    },
+    {
+      "word": "bye",
+      "start": 532.9400024414062,
+      "end": 533.5599975585938
+    },
+    {
+      "word": "bye",
+      "start": 533.5599975585938,
+      "end": 534.2000122070312
+    }
+  ]
+}

@@ -4,6 +4,9 @@
 removed-unwanted-words/
 output.mp4
 outputWantedWordsVideo.mp4
+transcription-unwantedWords.json
+transcription-refined.json
+transcription-refined.json
 
 logs
 _.log

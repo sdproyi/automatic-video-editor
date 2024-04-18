@@ -7,6 +7,7 @@ outputWantedWordsVideo.mp4
 transcription-unwantedWords.json
 transcription-refined.json
 transcription.json
+audio.mp3
 
 logs
 _.log

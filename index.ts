@@ -123,35 +123,54 @@ async function removeUnwantedWords() {
 	// stepsTrim = stepsTrim.slice(0, -1);
 
 	// await $`ffmpeg -hide_banner -i ${videoRequirements.output} -filter_complex "${{raw:stepsTrim}},${{raw:concatInputs}} concat=n=${videos}:v=1:a=1[outv][outa]" -map "[outv]" -map "[outa]" -c:v libopenh264 -preset slow -c:a mp3 -vsync 1 -y ${removedUnwantedWords}/fastAf.mp4`;
+	const filteredWords = unwantedWords.filter((word) => word.keepORdelete);
+	const wordIds = filteredWords.map((word) => word.id);
+	function findConsecutiveArraysMinMax(
+		wordIds: number[],
+	): { array: number[]; smallest: number; biggest: number }[] {
+		const consecutiveArrays = [];
+		let currentArray = [];
 
-	let allvideostarts = "";
-	for (let i = 0; i < unwantedWords.length; i++) {
-		if (unwantedWords[i].keepORdelete === true) {
-			allvideostarts += ` -i ${videoRequirements.output} -ss ${unwantedWords[i].start} -to ${unwantedWords[i].end} -y -c:v mpeg4 -preset ultrafast -c:a copy ${removedUnwantedWords}/${i}.mp4 `;
+		for (let i = 0; i < wordIds.length - 1; i++) {
+			currentArray.push(wordIds[i]);
+
+			if (wordIds[i] + 1 !== wordIds[i + 1]) {
+				consecutiveArrays.push({
+					array: currentArray,
+					smallest: Math.min(...currentArray),
+					biggest: Math.max(...currentArray),
+				});
+				currentArray = [];
+			}
 		}
+		if (currentArray.length > 0) {
+			currentArray.push(wordIds[wordIds.length - 1]);
+			consecutiveArrays.push({
+				array: currentArray,
+				smallest: Math.min(...currentArray),
+				biggest: Math.max(...currentArray),
+			});
+		}
+
+		return consecutiveArrays;
 	}
-	(await $`ffmpeg -hide_banner -hwaccel_output_format vulkan -threads 8 ${{raw: allvideostarts}}`).stderr
-	async function createVideoFromCuttedParts() {
-		const deleteFiles: string[] = [];
-		const files: string[] = [];
 
-		for (const file of glob.scanSync(editedUnwantedWords)) {
-			files.push(`\n file '${editedUnwantedWords}/${file}'`);
-			deleteFiles.push(`${editedUnwantedWords}/${file}`);
-		}
-		// console.log(deleteFiles);
-		console.log(files);
-		for (const file of files) {
-			console.log(`${chalk.yellow("Concated:")} ${file}`);
-		}
-
-		await Bun.write(cuttedOutUnwantedWordsVideoList, files);
-		await $`ffmpeg -hide_banner -f concat -safe 0  -i ${cuttedOutUnwantedWordsVideoList} -y -c copy ${videoRequirements.outputWantedWordsVideo} && echo "Video creation successful!" || echo "Error creating video.`;
+	const consecutiveArraysMinMax = findConsecutiveArraysMinMax(wordIds);
+	const compressedJson = [];
+	for (const value of consecutiveArraysMinMax.entries()) {
+		compressedJson.push({
+			id: value[0],
+			start: unwantedWords[value[1].smallest].start,
+			end: unwantedWords[value[1].biggest].end,
+		});
 	}
-	// createVideoFromCuttedParts();
+
+	for (let i = 0; i < compressedJson.length; i++) {
+		await $`ffmpeg -hide_banner -hwaccel_output_format vulkan -threads 8 -i ${videoRequirements.output} -ss ${compressedJson[i].start} -to ${compressedJson[i].end} -y -c:v libopenh264 -preset slow -c:a copy ${removedUnwantedWords}/${i}.mp4 `.stdin
+	}
 }
 // deleteUnusedParts()
-removeUnwantedWords();
+// removeUnwantedWords();
 async function deleteUnusedParts() {
 	const deleteFiles: string[] = [];
 	const files: string[] = [];
@@ -168,3 +187,22 @@ async function deleteUnusedParts() {
 		console.log(`${chalk.red("Deleted:")} ${i}`);
 	}
 }
+
+async function createVideoFromCuttedParts() {
+	const deleteFiles: string[] = [];
+	const files: string[] = [];
+
+	for (const file of glob.scanSync(editedUnwantedWords)) {
+		files.push(`\n file '${editedUnwantedWords}/${file}'`);
+		deleteFiles.push(`${editedUnwantedWords}/${file}`);
+	}
+	// console.log(deleteFiles);
+	console.log(files);
+	for (const file of files) {
+		console.log(`${chalk.yellow("Concated:")} ${file}`);
+	}
+
+	await Bun.write(cuttedOutUnwantedWordsVideoList, files);
+	await $`ffmpeg -hide_banner -f concat -safe 0  -i ${cuttedOutUnwantedWordsVideoList} -y -c copy ${videoRequirements.outputWantedWordsVideo} && echo "Video creation successful!" || echo "Error creating video.`;
+}
+createVideoFromCuttedParts();

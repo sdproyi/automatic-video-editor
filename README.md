@@ -1,6 +1,6 @@
 # *Automatic Video Cutter*
 
-<a href="https://www.buymeacoffee.com/username" target="_blank" title="buymeacoffee">
+<a href="https://www.buymeacoffee.com/Sdpro" target="_blank" title="buymeacoffee">
   <img src="https://iili.io/JoQ1MeS.md.png"  alt="buymeacoffee-blue-badge" style="width: 200px;">
 </a>
 

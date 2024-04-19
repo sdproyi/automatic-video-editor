@@ -1,5 +1,7 @@
 # automatic-video-cutter
 
+![Static Badge](https://www.buymeacoffee.com/Sdpro)
+
 To install dependencies:
 
 ```bash

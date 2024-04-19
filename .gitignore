@@ -1,12 +1,12 @@
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore
 
 # Logs
-vidoes/removed-unwanted-words/*
-videos/silece-removed/*
-videos/output.mp4
-videos/outputWantedWordsVideo.mp4
-config/text/*
-config/json/*
+videos/removed-unwanted-words/*.mp4
+videos/silece-removed/*.mp4
+videos/*.mp4
+config/text/*.txt
+config/json/*.json
+audio/*.mp3
 
 
 logs

@@ -1,6 +1,6 @@
-import transcription from "./audio.mp3.words.json";
+import transcription from "../config/json/audio.mp3.words.json";
 const whisper: string =
-	"whisper_timestamped audio.mp3 --language en --output_format json --output_dir something.json --efficient --threads 8 --model medium.en";
+	"whisper_timestamped audio.mp3 --language en --output_format json --output_dir ./config/json/ --efficient --threads 8 --model medium.en";
 const json = [];
 for (let i = 0; i < transcription.segments.length; i++) {
 	for (let j = 0; j < transcription.segments[i].words.length; j++) {
@@ -22,17 +22,11 @@ for (let i = 0; i < json.length; i++) {
 	json[i].id = i;
 }
 
-// for (let i = 0; i < transcription.segments.length; i++) {
-// 	json.push({
-// 		word: transcription.segments[i].text,
-// 		id: i,
-// 		keepORdelete: true,
-// 		start: transcription.segments[i].start,
-// 		end: transcription.segments[i].end,
-// 	});
-// }
-await Bun.write("transcription-refined.json", JSON.stringify(json, null, 2));
-import transcription_refined from "./transcription-refined.json";
+await Bun.write(
+	"./config/json/transcription-refined.json",
+	JSON.stringify(json, null, 2),
+);
+import transcription_refined from "../config/json/transcription-refined.json";
 
 const ids = [
 	0, 1, 2, 4, 3, 5, 6, 7, 8, 9, 10, 11, 31, 12, 13, 14, 15, 17, 18, 16, 19, 20,
@@ -74,11 +68,11 @@ for (const value of transcription_refined.entries()) {
 }
 
 await Bun.write(
-	"transcription-unwantedWords.json",
+	"./config/json/transcription-unwantedWords.json",
 	JSON.stringify(newJsonDelete, null, 2),
 );
 
-import unwantedWords from "./transcription-unwantedWords.json";
+import unwantedWords from "../config/json/transcription-unwantedWords.json";
 
 const filteredWords = unwantedWords.filter((word) => word.keepORdelete);
 const wordIds = filteredWords.map((word) => word.id);
@@ -121,7 +115,3 @@ for (const value of consecutiveArraysMinMax.entries()) {
 		end: unwantedWords[value[1].biggest].end,
 	});
 }
-console.log(compressedJson);
-
-// console.log(idStarts);
-// await Bun.write("compressedJson.json", JSON.stringify(compressedJson, null, 2));

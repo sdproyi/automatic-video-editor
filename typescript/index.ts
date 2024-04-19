@@ -6,27 +6,20 @@ import { getSilentParts } from "@remotion/renderer";
 import fs from "node:fs";
 import chalk from "chalk";
 
-const editedVideo: string =
-	"/home/sdpro/automatic-video-editor/silence-removed/silence-removed";
-const removedUnwantedWords: string =
-	"/home/sdpro/automatic-video-editor/removed-unwanted-words";
-interface VideoRequirements {
-	uneditedVideo: string;
-	output: string;
-	outputWantedWords: string;
-	audioInput: string;
-	silencePadding: number;
-	outputWantedWordsVideo: string;
-}
+const editedVideo: string = import.meta.resolve("../videos/silence-removed");
+const removedUnwantedWords: string = import.meta.resolve(
+	"../videos/removed-unwanted-words",
+);
 
 const videoRequirements: VideoRequirements = {
-	uneditedVideo: "/home/sdpro/automatic-video-editor/unedited.mp4",
-	output: "/home/sdpro/automatic-video-editor/output.mp4",
-	outputWantedWords: "output-wanted-words.mp4",
-	audioInput: "audio.mp3",
+	uneditedVideo: import.meta.resolve("../videos/unedited.mp4"),
+	output: import.meta.resolve("../videos/output.mp4"),
+	outputWantedWords: "../videos/output-wanted-words.mp4",
+	audioInput: "../audio/audio.mp3",
 	silencePadding: 0.3,
-	outputWantedWordsVideo: "outputWantedWordsVideo.mp4",
+	outputWantedWordsVideo: "../videos/outputWantedWordsVideo.mp4",
 };
+
 const glob: Glob = new Glob("*");
 const cuttedOutUnwantedWordsVideoList: string =
 	"/home/sdpro/automatic-video-editor/inputs-unwanted.txt";
@@ -34,15 +27,12 @@ const cuttedOutSilenceVideoList: string =
 	"/home/sdpro/automatic-video-editor/inputs-silence.txt";
 const editedVideoParts: string = "./silence-removed/";
 const editedUnwantedWords: string = "./removed-unwanted-words";
-import unwantedWords from "./transcription-unwantedWords.json";
+import unwantedWords from "../config/json/transcription-unwantedWords.json";
 
 const openai = new OpenAI({
 	apiKey: Bun.env.OPENAI_API_KEY,
 });
 
-// removeSileceFromVideo(videoRequirements.uneditedVideo);
-// createTranscriptionFromVideoAudio(videoRequirements.audioInput);
-// removeUnwantedWords();
 async function removeSileceFromVideo(uneditedVideo: string) {
 	const { audibleParts, durationInSeconds } = await getSilentParts({
 		src: uneditedVideo,
@@ -123,11 +113,10 @@ async function removeUnwantedWords() {
 	// stepsTrim = stepsTrim.slice(0, -1);
 
 	// await $`ffmpeg -hide_banner -i ${videoRequirements.output} -filter_complex "${{raw:stepsTrim}},${{raw:concatInputs}} concat=n=${videos}:v=1:a=1[outv][outa]" -map "[outv]" -map "[outa]" -c:v libopenh264 -preset slow -c:a mp3 -vsync 1 -y ${removedUnwantedWords}/fastAf.mp4`;
+	
 	const filteredWords = unwantedWords.filter((word) => word.keepORdelete);
 	const wordIds = filteredWords.map((word) => word.id);
-	function findConsecutiveArraysMinMax(
-		wordIds: number[],
-	): { array: number[]; smallest: number; biggest: number }[] {
+	function findConsecutiveArraysMinMax(wordIds: number[]): TimeCalculator {
 		const consecutiveArrays = [];
 		let currentArray = [];
 
@@ -155,7 +144,8 @@ async function removeUnwantedWords() {
 		return consecutiveArrays;
 	}
 
-	const consecutiveArraysMinMax = findConsecutiveArraysMinMax(wordIds);
+	const consecutiveArraysMinMax:TimeCalculator = findConsecutiveArraysMinMax(wordIds);
+
 	const compressedJson = [];
 	for (const value of consecutiveArraysMinMax.entries()) {
 		compressedJson.push({
@@ -166,11 +156,12 @@ async function removeUnwantedWords() {
 	}
 
 	for (let i = 0; i < compressedJson.length; i++) {
-		await $`ffmpeg -hide_banner -hwaccel_output_format vulkan -threads 8 -i ${videoRequirements.output} -ss ${compressedJson[i].start} -to ${compressedJson[i].end} -y -c:v libopenh264 -preset slow -c:a copy ${removedUnwantedWords}/${i}.mp4 `.stdin
+		await $`ffmpeg -hide_banner -hwaccel_output_format vulkan -threads 8 -i ${videoRequirements.output} -ss ${compressedJson[i].start} -to ${compressedJson[i].end} -y -c:v libopenh264 -preset slow -c:a copy ${removedUnwantedWords}/${i}.mp4 `
+			.stdin;
 	}
 }
 // deleteUnusedParts()
-// removeUnwantedWords();
+removeUnwantedWords();
 async function deleteUnusedParts() {
 	const deleteFiles: string[] = [];
 	const files: string[] = [];
@@ -205,4 +196,4 @@ async function createVideoFromCuttedParts() {
 	await Bun.write(cuttedOutUnwantedWordsVideoList, files);
 	await $`ffmpeg -hide_banner -f concat -safe 0  -i ${cuttedOutUnwantedWordsVideoList} -y -c copy ${videoRequirements.outputWantedWordsVideo} && echo "Video creation successful!" || echo "Error creating video.`;
 }
-createVideoFromCuttedParts();
+// createVideoFromCuttedParts();

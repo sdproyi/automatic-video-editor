@@ -1,8 +1,11 @@
 # **Automatic Video Cutter**
+is a tool which provides **automatic silence remove**, Semi-auto **word remover** using Whisper
 
 <a href="https://www.buymeacoffee.com/Sdpro" target="_blank" title="buymeacoffee">
-  <img src="https://iili.io/JoQ1MeS.md.png"  alt="buymeacoffee-blue-badge" style="width: 25%;">
+  <img src="https://iili.io/JoQ1MeS.md.png"  alt="buymeacoffee-blue-badge" style="width:200px;">
 </a>
+
+<br/>
 
 
 # install project dependencies: <a id="install-project"></a>
@@ -18,7 +21,7 @@ Windows
 powershell -c "irm bun.sh/install.ps1 | iex"
 ```
 
-<mark style="background-color: transparent; color: yellow;">**After installation**</mark>:
+**After installation**:
 
 ```bash
 bun install

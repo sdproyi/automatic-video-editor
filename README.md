@@ -18,7 +18,7 @@ Windows
 powershell -c "irm bun.sh/install.ps1 | iex"
 ```
 
-### After installation
+<mark style="background-color: transparent; color: yellow;">**After installation**</mark>:
 
 ```bash
 bun install
@@ -32,7 +32,7 @@ bun install
 ```bash
 pip3 install whisper-timestamped
 ```
-### [original documentation + project](https://github.com/linto-ai/whisper-timestamped?tab=readme-ov-file#installation)
+### whisper-timestamped [original documentation + project](https://github.com/linto-ai/whisper-timestamped?tab=readme-ov-file#installation)
 ---
 
 # Usage:
@@ -48,5 +48,4 @@ To run the project:
 bun typescript/index.ts
 ```
 
-[ioweugiou](#install-project)
 

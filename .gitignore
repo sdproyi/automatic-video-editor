@@ -7,7 +7,7 @@ videos/*.mp4
 config/text/*.txt
 config/json/*.json
 audio/*.mp3
-
+config/output/*.mp4
 
 logs
 _.log

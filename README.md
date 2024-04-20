@@ -5,7 +5,7 @@
 </a>
 
 
-# install project dependencies:
+# install project dependencies: <a id="install-project"></a>
 
 ### Bun ( JavaScript runtime ) v1.1.4:
 
@@ -48,5 +48,5 @@ To run the project:
 bun typescript/index.ts
 ```
 
-[ioweugiou](#install-project-dependencies:)
+[ioweugiou](#install-project)
 

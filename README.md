@@ -1,18 +1,52 @@
 # **Automatic Video Cutter**
 
 <a href="https://www.buymeacoffee.com/Sdpro" target="_blank" title="buymeacoffee">
-  <img src="https://iili.io/JoQ1MeS.md.png"  alt="buymeacoffee-blue-badge" style="width: 50%;">
+  <img src="https://iili.io/JoQ1MeS.md.png"  alt="buymeacoffee-blue-badge" style="width: 25%;">
 </a>
 
 
-To install dependencies:
+# install project dependencies:
 
+### Bun ( JavaScript runtime ) v1.1.4:
 
+MacOS & Linux
+```bash
+curl -fsSL https://bun.sh/install | bash
+```
+Windows
+```bash
+powershell -c "irm bun.sh/install.ps1 | iex"
+```
+
+### After installation
 
 ```bash
 bun install
 ```
+### Whisper_timestamped
 
-***
+`python3` (version higher or equal to 3.7, at least 3.9 is recommended)
 
-This project was created using `bun init` in bun v1.1.2. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+[Download Python](https://www.python.org/downloads/) if haven't yet
+
+```bash
+pip3 install whisper-timestamped
+```
+### [original documentation + project](https://github.com/linto-ai/whisper-timestamped?tab=readme-ov-file#installation)
+---
+
+# Usage:
+
+
+### Change your [Project settings](./config/projectSettings.ts) as you wish.
+
+<br>
+
+To run the project:
+
+```bash
+bun typescript/index.ts
+```
+
+[ioweugiou](#install-project-dependencies:)
+

@@ -8,7 +8,7 @@ const projectSettings: ProjectSettings = {
 	},
 	SpeechToText: {
 		use: true,
-		language: "en", // not required (AI will automatically detect it)
+		language: "English", // not required (AI will automatically detects it)
 	},
 	RemoveWords: [] // to get these numbers run `bun start` go to `http://localhost:3000/` then click on the words and click on the button
 };

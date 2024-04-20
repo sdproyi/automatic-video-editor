@@ -1,7 +1,18 @@
 import { For, type Component } from "solid-js";
-import transcription from "../transcription-refined.json";
-import { createSignal } from "solid-js";
-import { writeClipboard, copyToClipboard} from "@solid-primitives/clipboard";
+import transcription from "../config/json/transcription-unwantedWords.json";
+import { createSignal, createEffect } from "solid-js";
+import { writeClipboard, copyToClipboard } from "@solid-primitives/clipboard";
+import {
+	createFileSystem,
+	makeVirtualFileSystem,
+} from "@solid-primitives/filesystem";
+
+const vfs = makeVirtualFileSystem({});
+const fs = createFileSystem(vfs);
+
+createEffect(() => {
+	fs.writeFile("/yfeuibyf.js", "disybidsyb");
+});
 
 const App: Component = () => {
 	const storage = window.localStorage;
@@ -39,6 +50,7 @@ const App: Component = () => {
 									JSON.stringify(setIdArray([...updatedArray, value.id])),
 								);
 								console.log("localStorage:", storage.getItem("ids"));
+								fs;
 							}
 						}}
 					>
@@ -47,10 +59,13 @@ const App: Component = () => {
 				)}
 			</For>
 			<br />
-			<input class="w-full h-7 bg-gray-400 rounded-xl" type="button" use:copyToClipboard />
+			<input
+				class="w-full h-7 bg-gray-400 rounded-xl"
+				type="button"
+				use:copyToClipboard
+			/>
 		</div>
 	);
-
 };
 
 export default App;

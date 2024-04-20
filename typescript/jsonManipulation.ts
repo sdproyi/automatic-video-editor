@@ -1,15 +1,22 @@
 import transcription from "../config/json/audio.mp3.words.json";
-const whisper: string =
-	"whisper_timestamped audio.mp3 --language en --output_format json --output_dir ./config/json/ --efficient --threads 8 --model medium.en";
+import projectSettings from "../config/projectSettings";
+import { $ } from "bun";
+
+await $`whisper_timestamped ./audio/audio.mp3 ${
+	projectSettings.SpeechToText.use &&
+	` --language  ${projectSettings.SpeechToText.language}`
+}  --output_format json --output_dir ./config/json/ --efficient --threads 8 --model medium.en`;
+
 const json = [];
-for (let i = 0; i < transcription.segments.length; i++) {
-	for (let j = 0; j < transcription.segments[i].words.length; j++) {
+
+for (const segment of transcription.segments) {
+	for (const word of segment.words) {
 		json.push({
-			word: transcription.segments[i].words[j].text,
+			word: word.text,
 			id: 0,
 			keepORdelete: true,
-			start: transcription.segments[i].words[j].start,
-			end: transcription.segments[i].words[j].end,
+			start: word.start,
+			end: word.end,
 		});
 	}
 }
@@ -17,16 +24,6 @@ for (let i = 0; i < transcription.segments.length; i++) {
 for (let i = 0; i < json.length; i++) {
 	json[i].id = i;
 }
-
-for (let i = 0; i < json.length; i++) {
-	json[i].id = i;
-}
-
-await Bun.write(
-	"./config/json/transcription-refined.json",
-	JSON.stringify(json, null, 2),
-);
-import transcription_refined from "../config/json/transcription-refined.json";
 
 const ids = [
 	0, 1, 2, 4, 3, 5, 6, 7, 8, 9, 10, 11, 31, 12, 13, 14, 15, 17, 18, 16, 19, 20,
@@ -45,6 +42,13 @@ for (let i = 0; i < transcription_refined.length; i++) {
 		);
 	}
 }
+
+await Bun.write(
+	"./config/json/transcription-refined.json",
+	JSON.stringify(json, null, 2),
+);
+import transcription_refined from "../config/json/transcription-refined.json";
+
 
 const newJsonDelete = [];
 for (const value of transcription_refined.entries()) {

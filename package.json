@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "@solid-primitives/clipboard": "^1.5.10",
+    "@solid-primitives/filesystem": "^1.2.2",
     "@supabase/supabase-js": "^2.42.3",
     "@types/bun": "^1.0.12",
     "solid-js": "^1.8.11"

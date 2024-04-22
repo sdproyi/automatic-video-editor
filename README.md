@@ -5,8 +5,7 @@ is a tool which provides **automatic silence remove**, Semi-auto **word remover*
   <img src="https://iili.io/JoQ1MeS.md.png"  alt="buymeacoffee-blue-badge" style="width:200px;">
 </a>
 
-<br/>
-
+---
 
 # install project dependencies: <a id="install-project"></a>
 
@@ -36,7 +35,11 @@ bun install
 pip3 install whisper-timestamped
 ```
 ### whisper-timestamped [original documentation + project](https://github.com/linto-ai/whisper-timestamped?tab=readme-ov-file#installation)
----
+### FFmpeg
+
+[Downloand Ffmpeg](https://ffmpeg.org/download.html)
+
+--- 
 
 # Usage:
 
@@ -47,8 +50,21 @@ pip3 install whisper-timestamped
 
 To run the project:
 
+find the Automatic Video Cutter and open it in the terminal
+
 ```bash
 bun typescript/index.ts
 ```
+after that, start the webpage (to remove words from video)
 
+```bash
+bun start
+```
 
+to open the webpage: http://localhost:3000/
+
+click on th **button** to copy the words and paste them to [Project settings](./config/projectSettings.ts) 
+
+```js
+RemoveWords: [ ] // your numbers goes here
+```

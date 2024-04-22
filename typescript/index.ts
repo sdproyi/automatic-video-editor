@@ -7,67 +7,55 @@ import { videoRequirements } from "./types/types";
 import { removeSileceFromVideo } from "./removeSilence";
 import projectSettings from "../config/projectSettings";
 
-const removedUnwantedWords: string = import.meta.resolve(
-	"../videos/removed-unwanted-words",
-);
+const removedUnwantedWords: string = "./videos/removed-unwanted-words";
 
-const glob: Glob = new Glob("*");
-const cuttedOutUnwantedWordsVideoList: string = import.meta.resolve(
-	"../config/text/inputs-unwanted.txt",
-);
+const glob: Glob = new Glob("*.mp4");
+const cuttedOutUnwantedWordsVideoList: string =
+	"./config/text/inputs-unwanted.txt";
 
-const editedUnwantedWords: string = "./removed-unwanted-words";
+const editedUnwantedWords: string = "./videos/removed-unwanted-words";
+const editedUnwantedWordsFFMPEG: string = "videos/removed-unwanted-words";
 import unwantedWords from "../config/json/transcription-unwantedWords.json";
 
 const openai = new OpenAI({
 	apiKey: Bun.env.OPENAI_API_KEY,
 });
-
-// projectSettings.CutOutSilence.use &&
-// 	removeSileceFromVideo(videoRequirements.uneditedVideo, projectSettings.CutOutSilence.padding ?? 0)
-
-async function createTranscriptionFromVideoAudio(audioInput: string) {
-	await $`ffmpeg -i ${videoRequirements.output} -y ${audioInput}`;
-
-	const transcription = await openai.audio.transcriptions.create({
-		file: fs.createReadStream(audioInput),
-		model: "whisper-1",
-		response_format: "verbose_json",
-		timestamp_granularities: ["segment"],
-	});
-
-	await Bun.write("transcription.json", JSON.stringify(transcription, null, 2));
+const findVideo = [];
+for await (const file of glob.scan("./videos/")) {
+	findVideo.push(file);
+}
+const inputVideo = [];
+for await (const file of glob.scan("./config/video/input/")) {
+	inputVideo.push(file);
+}
+if (inputVideo.length > 1) {
+	console.error('".config/video/input has 2 or more files"');
+} else {
+	if (
+		findVideo.find((x) => x === "silenceRemoved.mp4") === "silenceRemoved.mp4"
+	) {
+		// await $`ffmpeg -i ./videos/silenceRemoved.mp4  ./audio/audio.wav`
+		await removeUnwantedWords();
+		await createVideoFromCuttedParts();
+	} else {
+		if (findVideo.find((x) => x === "unedited.mp4") === "unedited.mp4") {
+			projectSettings.CutOutSilence.use &&
+				removeSileceFromVideo(
+					import.meta.resolve("../videos/unedited.mp4"),
+					projectSettings.CutOutSilence.padding ?? 0,
+				);
+		} else {
+			await $`ffmpeg -v info -i ./config/video/input/unedited.mp4 -r 30 -c:v mpeg4 -b:v 5M -c:a copy ./videos/unedited.mp4`;
+			projectSettings.CutOutSilence.use &&
+				removeSileceFromVideo(
+					import.meta.resolve("../videos/unedited.mp4"),
+					projectSettings.CutOutSilence.padding ?? 0,
+				);
+		}
+	}
 }
 
 async function removeUnwantedWords() {
-	// let videos = 0;
-	// let stepsTrim = "";
-	// let concatInputs = "";
-
-	// for (let i = 0; i < unwantedWords.length; i++) {
-	// 	if (unwantedWords[i].keepORdelete === true) {
-	// 		stepsTrim += `[0:v]trim=0:${
-	// 			unwantedWords[i].start
-	// 		},setpts=PTS[v${i}];[0:a]atrim=0:${
-	// 			unwantedWords[i].start
-	// 		},asetpts=PTS-STARTPTS[a${i}];[0:v]trim=${unwantedWords[i].start}:${
-	// 			unwantedWords[i].end
-	// 		},setpts=PTS[v${unwantedWords.length + i + 1}];[0:a]atrim=${
-	// 			unwantedWords[i].start
-	// 		}:${unwantedWords[i].end},asetpts=PTS-STARTPTS[a${
-	// 			unwantedWords.length + i + 1
-	// 		}];`;
-
-	// 		concatInputs += `[v${i}][a${i}][v${unwantedWords.length + i + 1}][a${
-	// 			unwantedWords.length + i + 1
-	// 		}]`;
-	// 		videos += 2;
-	// 	}
-	// }
-	// stepsTrim = stepsTrim.slice(0, -1);
-
-	// await $`ffmpeg -hide_banner -i ${videoRequirements.output} -filter_complex "${{raw:stepsTrim}},${{raw:concatInputs}} concat=n=${videos}:v=1:a=1[outv][outa]" -map "[outv]" -map "[outa]" -c:v libopenh264 -preset slow -c:a mp3 -vsync 1 -y ${removedUnwantedWords}/fastAf.mp4`;
-
 	const filteredWords = unwantedWords.filter((word) => word.keepORdelete);
 	const wordIds = filteredWords.map((word) => word.id);
 	function findConsecutiveArraysMinMax(wordIds: number[]): TimeCalculator {
@@ -111,10 +99,16 @@ async function removeUnwantedWords() {
 	}
 
 	for (let i = 0; i < compressedJson.length; i++) {
-		await $ `ffmpeg -hide_banner  -hwaccel_output_format cuda -threads 8 -i ${videoRequirements.output} -ss ${compressedJson[i].start} -to ${compressedJson[i].end} -y -c:v libopenh264 -preset slow -c:a copy ${removedUnwantedWords}/${i}.mp4 `.stdin
+		console.log(i,compressedJson[i].start, compressedJson[i].end);
+		await $`ffmpeg -hide_banner -nostdin -v info  -i ${videoRequirements.silenceRemovedVideo} -ss ${compressedJson[i].start} -to ${compressedJson[i].end} -y -c:v copy -c:a copy  ${removedUnwantedWords}/${i}.mp4 `;
+
+		console.log(`ffmpeg -hide_banner -nostdin -v info  -i ${videoRequirements.silenceRemovedVideo} -ss ${compressedJson[i].start} -to ${compressedJson[i].end} -y -c:v copy -c:a copy  ${removedUnwantedWords}/${i}.mp4 `)
+
+		// -c:v ${projectSettings.FfmpegSettings.VideoCodec} -c:a copy
+		// codec test passed:
+		// mpeg4 3~s/1s, mpeg2video 2.5s/1s,-c:v copy
 	}
 }
-removeUnwantedWords()
 async function deleteUnusedParts() {
 	const deleteFiles: string[] = [];
 	const files: string[] = [];
@@ -137,8 +131,8 @@ async function createVideoFromCuttedParts() {
 	const files: string[] = [];
 
 	for (const file of glob.scanSync(editedUnwantedWords)) {
-		files.push(`\n file '${editedUnwantedWords}/${file}'`);
-		deleteFiles.push(`${editedUnwantedWords}/${file}`);
+		files.push(`\n file '../../${editedUnwantedWordsFFMPEG}/${file}'`);
+		deleteFiles.push(`${editedUnwantedWordsFFMPEG}/${file}`);
 	}
 	// console.log(deleteFiles);
 	console.log(files);
@@ -147,5 +141,6 @@ async function createVideoFromCuttedParts() {
 	}
 
 	await Bun.write(cuttedOutUnwantedWordsVideoList, files);
-	await $`ffmpeg -hide_banner -f concat -safe 0  -i ${cuttedOutUnwantedWordsVideoList} -y -c copy ${videoRequirements.outputWantedWordsVideo} && echo "Video creation successful!" || echo "Error creating video.`;
+
+	await $`ffmpeg -hide_banner -f concat -safe 0  -i ${cuttedOutUnwantedWordsVideoList} -y -c copy ${videoRequirements.outputWantedWordsVideo}`;
 }

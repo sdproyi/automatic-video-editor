@@ -1,6 +1,6 @@
 type VideoRequirements = {
 	uneditedVideo: string;
-	output: string;
+	silenceRemovedVideo: string;
 	outputWantedWords: string;
 	audioInput: string;
 	silencePadding: number;
@@ -18,8 +18,11 @@ type ProjectSettings = {
 	SpeechToText: {
 		use: boolean;
 		language?: LanguageCode | LanguageName;
+		removeWords: number[];
 	};
-	RemoveWords?: number[]
+	FfmpegSettings: {
+		VideoCodec: string
+	};
 };
 
 type LanguageCode =

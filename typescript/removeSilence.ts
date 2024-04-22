@@ -4,51 +4,52 @@ import { unlink } from "node:fs/promises";
 import { videoRequirements } from "./types/types";
 import { getSilentParts } from "@remotion/renderer";
 
-const cuttedOutSilenceVideoList: string = import.meta.resolve(
-	"../config/text/inputs-silence.txt",
-);
-
-const editedVideo: string = import.meta.resolve("../videos/silence-removed");
-const editedVideoParts: string = "../videos/silence-removed/";
+const cuttedOutSilenceVideoList: string = "./config/text/inputs-silence.txt";
 const glob: Glob = new Glob("*");
+const editedVideo: string = import.meta.resolve("../videos/silence-removed/");
+const editedVideoParts: string = "./videos/silence-removed/";
+
 export async function removeSileceFromVideo(
 	uneditedVideo: string,
 	padding: number,
 ) {
 	const { audibleParts, durationInSeconds } = await getSilentParts({
 		src: uneditedVideo,
-		noiseThresholdInDecibels: -30,
+		noiseThresholdInDecibels: -20,
 		minDurationInSeconds: 1,
 	});
+	// console.log(audibleParts);
 
-	for (let i = 0; i < audibleParts.length; i++) {
-		await $`ffmpeg -hide_banner -loglevel error -i ${uneditedVideo} -ss ${
-			audibleParts[i].startInSeconds - padding
-		} -to ${
-			audibleParts[i].endInSeconds + padding * 2
-		} -y -c copy ${editedVideo}${i}.mp4`;
-		console.log(`${chalk.blue("created:") + editedVideo + i}.mp4`);
+	async function createVideoCuts() {
+		for (let i = 0; i < audibleParts.length; i++) {
+			await $`ffmpeg -hide_banner -nostdin -v info -i ${uneditedVideo} -ss ${
+				audibleParts[i].startInSeconds - padding
+			} -to ${
+				audibleParts[i].endInSeconds + padding * 2
+			} -y -c:v copy -c:a copy ${editedVideo}${i}.mp4`;
+			console.log(`${chalk.blue("created:") + editedVideo + i}.mp4`);
+		}
 	}
 	async function createVideoFromCuttedParts() {
 		const deleteFiles: string[] = [];
 		const files: string[] = [];
 		for (const file of glob.scanSync(editedVideoParts)) {
-			files.push(`\n file '${editedVideoParts}${file}'`);
+			files.push(`\n file '../.${editedVideoParts}${file}'`);
 			deleteFiles.push(`${editedVideoParts}${file}`);
+			// console.log(files);
 		}
 
 		await Bun.write(cuttedOutSilenceVideoList, files);
-		await $`ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i inputs.txt -y -c copy ${videoRequirements.output}`;
-		for (const file of files) {
-			console.log(`${chalk.yellow("Concated:")} ${file}`);
-		}
+		await $`ffmpeg -hide_banner -f concat -safe 0 -i ${cuttedOutSilenceVideoList} -y -c copy ${videoRequirements.silenceRemovedVideo}`;
 		async function deleteUnusedParts() {
 			for (const i of deleteFiles) {
 				await unlink(i);
 				console.log(`${chalk.red("Deleted:")} ${i}`);
 			}
 		}
-		deleteUnusedParts();
 	}
-	createVideoFromCuttedParts();
+
+	await createVideoCuts();
+
+	await createVideoFromCuttedParts();
 }

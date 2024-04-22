@@ -2,12 +2,13 @@
 
 # Logs
 videos/removed-unwanted-words/*.mp4
-videos/silece-removed/*.mp4
 videos/*.mp4
 config/text/*.txt
 config/json/*.json
-audio/*.mp3
-config/output/*.mp4
+audio/*
+config/video/input/*.mp4
+config/video/output/*.mp4
+videos/silence-removed/*.mp4
 
 logs
 _.log
@@ -185,3 +186,4 @@ audio.mp3.words.json
 transcription-refined.json
 inputs-unwanted.txt
 bun.lockb
+

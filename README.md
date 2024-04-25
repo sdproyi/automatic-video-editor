@@ -1,5 +1,5 @@
 # **Automatic Video Cutter**
-is a tool which provides **automatic silence remove**, Semi-auto **word remover** using Whisper
+is a tool which provides **automatic silence remove**, aautomatic **word detection** using Whisper + visual word deletion from video
 
 <a href="https://www.buymeacoffee.com/Sdpro" target="_blank" title="buymeacoffee">
   <img src="https://iili.io/JoQ1MeS.md.png"  alt="buymeacoffee-blue-badge" style="width:200px;">

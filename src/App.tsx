@@ -28,7 +28,7 @@ const App: Component = () => {
 						class={`${
 							idArray().includes(value.id) ? "bg-red-500" : "text-black"
 						} px-1`}
-						onClick={() => {
+						onMouseDown={() => {
 							const updatedArray = idArray(); // Get the current array state
 
 							if (updatedArray.includes(value.id)) {

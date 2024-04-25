@@ -2,7 +2,7 @@ import { Glob, $ } from "bun";
 import { removeSileceFromVideo } from "./removeSilence";
 import projectSettings from "../config/projectSettings";
 import audio from "../config/json/audio.wav.words.json";
-import { removeUnwantedWords, createVideoFromCuttedParts } from "./removeUnwatnedWords";
+
 const audioWordsJson = audio;
 const glob: Glob = new Glob("*.mp4");
 
@@ -12,8 +12,10 @@ const inputVideo: string[] = [];
 for await (const file of glob.scan("./videos/")) {
 	findVideo.push(file);
 }
+let inputFileName = ""
 for await (const file of glob.scan("./config/video/input/")) {
 	inputVideo.push(file);
+	inputFileName = file
 }
 
 const outputVideo: string[] = [];
@@ -70,8 +72,8 @@ async function stateManager() {
 stateManager();
 
 async function removeSilence() {
-	if (!findVideo.includes("unedited.mp4")) {
-		await $`ffmpeg -v info -i ./config/video/input/unedited.mp4 -r 30 -c:v mpeg4 -b:v 5M -c:a copy ./videos/unedited.mp4`;
+	if (!findVideo.includes(inputFileName)) {
+		await $`ffmpeg -v info -i ./config/video/input/"${inputFileName}" -r 30 -c:v mpeg4 -b:v 5M -c:a copy ./videos/unedited.mp4`;
 		await removeSileceFromVideo(
 			import.meta.resolve("../videos/unedited.mp4"),
 			projectSettings.CutOutSilence.padding ?? 0,

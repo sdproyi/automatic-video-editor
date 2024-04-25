@@ -8,7 +8,7 @@ const projectSettings: ProjectSettings = {
 	SpeechToText: {
 		use: true,
 		language: "English", // not required (AI will automatically detects it)
-		AImodel: "medium.en", // remove the .en if the video is not in english
+		AImodel: "small.en", // remove the .en if the video is not in english
 		removeWords: [], // to get these numbers run `bun start` go to `http://localhost:3000/` then click on the words and click on the button and paste it here
 	},
 	// for advanced users

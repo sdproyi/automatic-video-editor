@@ -18,7 +18,6 @@ export async function removeSileceFromVideo(
 		noiseThresholdInDecibels: -20,
 		minDurationInSeconds: 1,
 	});
-	// console.log(audibleParts);
 
 	async function createVideoCuts() {
 		for (let i = 0; i < audibleParts.length; i++) {
@@ -41,12 +40,6 @@ export async function removeSileceFromVideo(
 
 		await Bun.write(cuttedOutSilenceVideoList, files);
 		await $`ffmpeg -hide_banner -f concat -safe 0 -i ${cuttedOutSilenceVideoList} -y -c copy ${videoRequirements.silenceRemovedVideo}`;
-		async function deleteUnusedParts() {
-			for (const i of deleteFiles) {
-				await unlink(i);
-				console.log(`${chalk.red("Deleted:")} ${i}`);
-			}
-		}
 	}
 
 	await createVideoCuts();

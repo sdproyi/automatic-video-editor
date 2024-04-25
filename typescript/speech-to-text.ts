@@ -5,7 +5,7 @@ const openai = new OpenAI({
   apiKey: Bun.env.OPENAI_API_KEY,
 });
 
-async function main() {
+export async function openAI() {
   const transcription = await openai.audio.transcriptions.create({
     file: fs.createReadStream("audio.mp3"),
     model: "whisper-1",
@@ -15,4 +15,4 @@ async function main() {
 
   await Bun.write("transcription.json", JSON.stringify(transcription, null, 2));
 }
-main();
+openAI();

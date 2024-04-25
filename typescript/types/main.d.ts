@@ -1,7 +1,7 @@
 type VideoRequirements = {
 	uneditedVideo: string;
 	silenceRemovedVideo: string;
-	outputWantedWords: string;
+	silenceRemovedVideoToOutPut:string
 	audioInput: string;
 	silencePadding: number;
 	outputWantedWordsVideo: string;
@@ -13,11 +13,11 @@ type TimeCalculator = {
 }[];
 
 type ProjectSettings = {
-	ExportedVideoName: string;
 	CutOutSilence: { use: boolean; padding?: number };
 	SpeechToText: {
 		use: boolean;
 		language?: LanguageCode | LanguageName;
+		AImodel: string
 		removeWords: number[];
 	};
 	FfmpegSettings: {

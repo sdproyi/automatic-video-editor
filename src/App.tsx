@@ -7,12 +7,6 @@ import {
 	makeVirtualFileSystem,
 } from "@solid-primitives/filesystem";
 
-const vfs = makeVirtualFileSystem({});
-const fs = createFileSystem(vfs);
-
-createEffect(() => {
-	fs.writeFile("/yfeuibyf.js", "disybidsyb");
-});
 
 const App: Component = () => {
 	const storage = window.localStorage;
@@ -28,7 +22,7 @@ const App: Component = () => {
 						class={`${
 							idArray().includes(value.id) ? "bg-red-500" : "text-black"
 						} px-1`}
-						onMouseDown={() => {
+						onClick={() => {
 							const updatedArray = idArray(); // Get the current array state
 
 							if (updatedArray.includes(value.id)) {
@@ -50,7 +44,6 @@ const App: Component = () => {
 									JSON.stringify(setIdArray([...updatedArray, value.id])),
 								);
 								console.log("localStorage:", storage.getItem("ids"));
-								fs;
 							}
 						}}
 					>

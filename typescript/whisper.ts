@@ -18,11 +18,7 @@ async function whisper() {
 		await $`ffmpeg -i ./videos/silenceRemoved.mp4 -y ./audio/audio.wav`;
 	}
 
-	// Call whisper_timestamped only if no words need removal
-	if (projectSettings.SpeechToText.removeWords.length === 0) {
-		await $`whisper_timestamped "./audio/audio.wav" --language ${projectSettings.SpeechToText.language} --output_format json --output_dir "./config/json/" --efficient --threads 8 --model ${projectSettings.SpeechToText.AImodel}`;
-	}
-
+	await $`whisper_timestamped "./audio/audio.wav" --language ${projectSettings.SpeechToText.language} --output_format json --output_dir "./config/json/" --efficient --threads 8 --model ${projectSettings.SpeechToText.AImodel}`;
 	await refineWhisperWords();
 	await transcriptionRefined();
 

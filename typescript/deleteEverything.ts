@@ -37,4 +37,3 @@ export async function deleteUnusedParts() {
 		console.log(`${chalk.red("Deleted:")} ${i}`);
 	}
 }
-deleteUnusedParts()

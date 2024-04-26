@@ -15,7 +15,7 @@ export async function removeSileceFromVideo(
 ) {
 	const { audibleParts, durationInSeconds } = await getSilentParts({
 		src: uneditedVideo,
-		noiseThresholdInDecibels: -30,
+		noiseThresholdInDecibels: -20,
 		minDurationInSeconds: 1,
 	});
 
